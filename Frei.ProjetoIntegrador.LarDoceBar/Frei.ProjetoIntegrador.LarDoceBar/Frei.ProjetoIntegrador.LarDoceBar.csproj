@@ -106,7 +106,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DB\" />
     <Folder Include="Modulos\Cardapio\" />
     <Folder Include="Modulos\ControleDeCliente\" />
     <Folder Include="Modulos\ControleDeCompra\" />
@@ -117,6 +116,9 @@
     <Folder Include="Modulos\ControleDeVenda\" />
     <Folder Include="Modulos\FluxoDeCaixa\" />
     <Folder Include="Modulos\FolhaDePagamento\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB\ScriptDeEstrutura.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,158 @@
+﻿DROP DATABASE IF EXISTS LarDoceBarDB;
+CREATE DATABASE LarDoceBarDB;
+USE LarDoceBarDB;
+
+CREATE TABLE `tb_Clientes` (
+	`id_Cliente` int NOT NULL AUTO_INCREMENT,
+	`nm_Nome` varchar(50) NOT NULL,
+	`ds_Tipo` varchar(25) NOT NULL,
+	`ds_Situacao` bool NOT NULL,
+	`num_Telefone` varchar(20),
+	`num_Celular` varchar(20),
+	`ds_Email` varchar(45) NOT NULL UNIQUE,
+	`dt_Cadastro` DATE NOT NULL,
+	PRIMARY KEY (`id_Cliente`)
+);
+
+CREATE TABLE `tb_Usuario` (
+	`id_Usuario` int NOT NULL AUTO_INCREMENT,
+	`nm_Usuario` varchar(100) NOT NULL UNIQUE,
+	`ds_Senha` varchar(16) NOT NULL,
+	`bt_Perm_ADM` bool NOT NULL,
+	`bt_Perm_PedComp` bool NOT NULL,
+	`bt_Perm_PedVend` bool NOT NULL,
+	`bt_Perm_Estoque` bool NOT NULL,
+	`bt_Perm_FluxoCaixa` bool NOT NULL,
+	`bt_Perm_Cliente` bool NOT NULL,
+	`bt_Perm_Usuario` bool NOT NULL,
+	`bt_Perm_Fornecedor` bool NOT NULL,
+	`bt_Perm_Prod` bool NOT NULL,
+	`bt_Perm_FolhaPgmt` bool NOT NULL,
+	PRIMARY KEY (`id_Usuario`)
+);
+
+CREATE TABLE `tb_Fornecedor` (
+	`id_Fornecedor` int NOT NULL AUTO_INCREMENT,
+	`nm_Fornecedor` varchar(50) NOT NULL,
+	`num_Telefone` varchar(20),
+	`ds_Endereco` varchar(100) NOT NULL,
+	`ds_CNPJ` varchar(30) NOT NULL UNIQUE,
+	`ds_Email` varchar(45) UNIQUE,
+	`dt_Cadastro` DATE NOT NULL,
+	`ds_Situacao` bool NOT NULL,
+	PRIMARY KEY (`id_Fornecedor`)
+);
+
+CREATE TABLE `tb_Produto` (
+	`id_Produto` int NOT NULL AUTO_INCREMENT,
+	`nm_Produto` varchar(50) NOT NULL UNIQUE,
+	`vl_Compra` DECIMAL(10,2) NOT NULL,
+	`vl_Venda` DECIMAL(10,2),
+	`ds_Produto` varchar(300) NOT NULL,
+	`fk_Produto_Fornecedor` int NOT NULL,
+	PRIMARY KEY (`id_Produto`),
+    FOREIGN KEY (fk_Produto_Fornecedor) REFERENCES tb_Fornecedor (id_Fornecedor)
+);
+
+CREATE TABLE `tb_Estoque` (
+	`id_Estoque` int NOT NULL AUTO_INCREMENT,
+	`qnt_Produto` int NOT NULL,
+	`num_Est_Min` int,
+	`num_Est_Max` int,
+	`fk_Estoque_Produto` int NOT NULL,
+	PRIMARY KEY (`id_Estoque`),
+    FOREIGN KEY (fk_Estoque_Produto) REFERENCES tb_Produto (id_Produto)
+);
+
+CREATE TABLE `tb_Pedido_Compra` (
+	`id_Pedido_Compra` int NOT NULL AUTO_INCREMENT,
+	`dt_Pedido` DATE NOT NULL,
+	`fk_PedidoCompra_Usuario` int NOT NULL,
+	PRIMARY KEY (`id_Pedido_Compra`),
+	FOREIGN KEY (fk_PedidoCompra_Usuario) REFERENCES tb_Usuario (id_Usuario)
+);
+
+CREATE TABLE `tb_Pedido_Item_Compra` (
+	`id_Pedido_Item_Compra` int NOT NULL AUTO_INCREMENT,
+	`fk_PedidoItemCompra_Produto` int NOT NULL,
+	`fk_PedidoItemCompra_PedidoCompra` int NOT NULL,
+	PRIMARY KEY (`id_Pedido_Item_Compra`),
+    FOREIGN KEY (fk_PedidoItemCompra_Produto) REFERENCES tb_Produto (id_Produto),
+    FOREIGN KEY (fk_PedidoItemCompra_PedidoCompra) REFERENCES tb_Pedido_Compra (id_Pedido_Compra)
+);
+
+CREATE TABLE `tb_Pedido_Venda` (
+	`id_Pedido_Venda` int NOT NULL AUTO_INCREMENT,
+	`dt_Pedido` DATE NOT NULL,
+	`fk_PedidoVenda_Usuario` int NOT NULL,
+	`fk_PedidoVenda_Cliente` int NOT NULL,
+	PRIMARY KEY (`id_Pedido_Venda`),
+    FOREIGN KEY (fk_PedidoVenda_Usuario) REFERENCES tb_Usuario (id_Usuario),
+    FOREIGN KEY (fk_PedidoVenda_Cliente) REFERENCES tb_Clientes (id_Cliente)
+);
+
+CREATE TABLE `tb_Pedido_Item_Venda` (
+	`id_Pedido_Item_Venda` int NOT NULL AUTO_INCREMENT,
+	`fk_PedidoItemVenda_Produto` int NOT NULL,
+	`fk_PedidoItemVenda_PedidoVenda` int NOT NULL,
+	PRIMARY KEY (`id_Pedido_Item_Venda`),
+    FOREIGN KEY (fk_PedidoItemVenda_Produto) REFERENCES tb_Produto (id_Produto),
+    FOREIGN KEY (fk_PedidoItemVenda_PedidoVenda) REFERENCES tb_Pedido_Venda (id_Pedido_Venda)
+);
+
+CREATE TABLE `tb_Fluxo_Caixa` (
+	`id_Fluxo_Caixa` int NOT NULL AUTO_INCREMENT,
+	`fk_FluxoCaixa_PedidoCompra` int NOT NULL,
+	`fk_FluxoCaixa_PedidoVenda` int NOT NULL,
+	PRIMARY KEY (`id_Fluxo_Caixa`),
+    FOREIGN KEY (fk_FluxoCaixa_PedidoCompra) REFERENCES tb_Pedido_Compra (id_Pedido_Compra),
+    FOREIGN KEY (fk_FluxoCaixa_PedidoVenda) REFERENCES tb_Pedido_Venda (id_Pedido_Venda)
+);
+
+CREATE TABLE `tb_Funcionario` (
+	`id_Funcionario` int NOT NULL AUTO_INCREMENT,
+	`nm_Nome` varchar(150) NOT NULL,
+	`ds_CPF` varchar(30) NOT NULL UNIQUE,
+	`ds_Sexo` set('M', 'F') NOT NULL,
+	`ds_CEP` char(9) NOT NULL,
+	`ds_Logradouro` varchar(200) NOT NULL,
+	`ds_Bairro` varchar(150) NOT NULL,
+	`ds_UF` char(2) NOT NULL,
+	`ds_Complemento` varchar(150),
+	`num_Residencia` varchar(10) NOT NULL,
+	`num_Celular` varchar(25),
+	`num_Telefone` varchar(25),
+	`ds_Email` varchar(100) NOT NULL UNIQUE,
+	`dt_Admissao` DATE NOT NULL,
+	`dt_Demissao` DATE,
+	`dt_Nasc` DATE NOT NULL,
+	`fk_Func_Usuario` int NOT NULL,
+	PRIMARY KEY (`id_Funcionario`),
+    FOREIGN KEY (fk_Func_Usuario) REFERENCES tb_Usuario (id_Usuario)
+);
+
+CREATE TABLE `tb_Cardapio` (
+	`id_Cardapio` int NOT NULL AUTO_INCREMENT,
+    `ds_Tema` varchar(150) NOT NULL,
+    PRIMARY KEY (`id_Cardapio`)
+);
+
+CREATE TABLE `tb_Cardapio_Item` (
+	`id_Cardapio_Item` int NOT NULL AUTO_INCREMENT,
+    `fk_CardapioItem_Produto` int NOT NULL,
+    `fk_CardapioItem_Cardapio` int NOT NULL,
+    PRIMARY KEY (`id_Cardapio_Item`),
+    FOREIGN KEY (fk_CardapioItem_Produto) REFERENCES tb_Produto (id_Produto),
+    FOREIGN KEY (fk_CardapioItem_Cardapio) REFERENCES tb_Cardapio (id_Cardapio)
+);
+
+CREATE TABLE `tb_Folha_Pgmt` (
+	`id_Folha_Pgmt` int NOT NULL AUTO_INCREMENT,
+	`dt_Pgmt` DATE NOT NULL,
+	`vl_Pgmt` DECIMAL(10,2) NOT NULL,
+	`vl_Descontos` DECIMAL(10,2),
+	`ds_Observacoes` varchar(300),
+	`fk_FolhaPgmt_Func` int NOT NULL,
+	PRIMARY KEY (`id_Folha_Pgmt`),
+    FOREIGN KEY (fk_FolhaPgmt_Func) REFERENCES tb_Funcionario (id_Funcionario)
+);
