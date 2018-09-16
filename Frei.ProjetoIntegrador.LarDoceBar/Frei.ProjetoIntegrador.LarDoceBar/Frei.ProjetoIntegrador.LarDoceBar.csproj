@@ -51,6 +51,24 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeCliente\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\ControleDeFornecedor\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,10 +87,91 @@
     <Compile Include="Modulos\ControleDeFornecedor\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeFuncionario\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeUsuario\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeVenda\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FolhaDePagamento\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeCliente\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeCliente\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeCliente\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeFornecedor\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
@@ -81,6 +180,42 @@
       <DependentUpon>frmConsultar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeFornecedor\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeFuncionario\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeFuncionario\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeFuncionario\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeUsuario\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeUsuario\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeUsuario\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeVenda\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeVenda\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeVenda\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FolhaDePagamento\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FolhaDePagamento\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FolhaDePagamento\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -107,15 +242,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Modulos\Cardapio\" />
-    <Folder Include="Modulos\ControleDeCliente\" />
     <Folder Include="Modulos\ControleDeCompra\" />
     <Folder Include="Modulos\ControleDeEstoque\" />
-    <Folder Include="Modulos\ControleDeFuncionario\" />
     <Folder Include="Modulos\ControleDeProdutos\" />
-    <Folder Include="Modulos\ControleDeUsuario\" />
-    <Folder Include="Modulos\ControleDeVenda\" />
     <Folder Include="Modulos\FluxoDeCaixa\" />
-    <Folder Include="Modulos\FolhaDePagamento\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DB\ScriptDeEstrutura.txt" />
