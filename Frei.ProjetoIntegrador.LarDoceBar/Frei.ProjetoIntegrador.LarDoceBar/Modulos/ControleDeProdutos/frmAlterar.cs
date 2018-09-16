@@ -16,5 +16,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeProdutos
         {
             InitializeComponent();
         }
+
+        private void txtnomeprod_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
