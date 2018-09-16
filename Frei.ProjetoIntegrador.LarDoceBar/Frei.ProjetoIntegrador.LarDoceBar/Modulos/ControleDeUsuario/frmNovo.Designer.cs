@@ -28,86 +28,140 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.txtnome = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtpermissões = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.txtsenha = new System.Windows.Forms.TextBox();
-            this.txtpermi = new System.Windows.Forms.TextBox();
-            this.btncad = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtnome);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.txtpermissões);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtsenha);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(131, 142);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(534, 227);
+            this.panel1.TabIndex = 53;
+            // 
+            // txtnome
+            // 
+            this.txtnome.Location = new System.Drawing.Point(143, 39);
+            this.txtnome.Name = "txtnome";
+            this.txtnome.Size = new System.Drawing.Size(339, 20);
+            this.txtnome.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(114, 64);
+            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(73, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 0;
+            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.TabIndex = 5;
             this.label1.Text = "nome:";
             // 
-            // label2
+            // txtpermissões
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(114, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "senha:";
+            this.txtpermissões.Location = new System.Drawing.Point(148, 149);
+            this.txtpermissões.Name = "txtpermissões";
+            this.txtpermissões.Size = new System.Drawing.Size(334, 20);
+            this.txtpermissões.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(314, 56);
+            this.label3.BackColor = System.Drawing.Color.Red;
+            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(35, 149);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 13);
-            this.label3.TabIndex = 0;
+            this.label3.Size = new System.Drawing.Size(90, 20);
+            this.label3.TabIndex = 4;
             this.label3.Text = "permissões:";
-            // 
-            // txtnome
-            // 
-            this.txtnome.Location = new System.Drawing.Point(169, 64);
-            this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(100, 20);
-            this.txtnome.TabIndex = 1;
             // 
             // txtsenha
             // 
-            this.txtsenha.Location = new System.Drawing.Point(169, 106);
+            this.txtsenha.Location = new System.Drawing.Point(143, 92);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(100, 20);
-            this.txtsenha.TabIndex = 1;
+            this.txtsenha.Size = new System.Drawing.Size(339, 20);
+            this.txtsenha.TabIndex = 7;
             // 
-            // txtpermi
+            // label2
             // 
-            this.txtpermi.Location = new System.Drawing.Point(382, 56);
-            this.txtpermi.Name = "txtpermi";
-            this.txtpermi.Size = new System.Drawing.Size(100, 20);
-            this.txtpermi.TabIndex = 1;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Red;
+            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(73, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "senha:";
             // 
-            // btncad
+            // button1
             // 
-            this.btncad.Location = new System.Drawing.Point(317, 101);
-            this.btncad.Name = "btncad";
-            this.btncad.Size = new System.Drawing.Size(75, 23);
-            this.btncad.TabIndex = 2;
-            this.btncad.Text = "cadastrar";
-            this.btncad.UseVisualStyleBackColor = true;
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(638, 384);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 38);
+            this.button1.TabIndex = 54;
+            this.button1.Text = "Cadastrar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Red;
+            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(305, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(193, 34);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "Cadastrar  Novo";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(291, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(226, 105);
+            this.panel3.TabIndex = 55;
             // 
             // frmNovo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btncad);
-            this.Controls.Add(this.txtpermi);
-            this.Controls.Add(this.txtsenha);
-            this.Controls.Add(this.txtnome);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
             this.Name = "frmNovo";
             this.Text = "frmNovo";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,12 +169,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtnome;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtpermissões;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtsenha;
-        private System.Windows.Forms.TextBox txtpermi;
-        private System.Windows.Forms.Button btncad;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel3;
     }
 }
