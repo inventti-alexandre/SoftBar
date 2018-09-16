@@ -16,5 +16,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
