@@ -226,6 +226,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -249,6 +250,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DB\ScriptDeEstrutura.txt" />
+    <None Include="Resources\the-background-321154_960_720.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\download %281%29.jpg" />
+    <None Include="Resources\papel-de-parede-beer-label-300-x-59cm1.jpg" />
+    <None Include="Resources\papel-de-parede-beer-label-300-x-59cm.jpg" />
+    <None Include="Resources\shakes.png" />
+    <None Include="Resources\topo_drinks.png" />
+    <None Include="Resources\14646669581.png" />
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\213302291000300162301082016114934.jpg" />
+    <None Include="Resources\depositphotos_27932415-stock-photo-red-gingham-tablecoth-background.jpg" />
+    <None Include="Resources\depositphotos_43984931-stock-photo-background-from-a-bar.jpg" />
+    <None Include="Resources\3b407e0fa32ec004492aec8bbd0e29c3.png" />
+    <None Include="Resources\juniper-1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
