@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="topo_drinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\topo_drinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eventos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eventos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="213302291000300162301082016114934" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\213302291000300162301082016114934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papel-de-parede-beer-label-300-x-59cm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papel-de-parede-beer-label-300-x-59cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="depositphotos_43984931-stock-photo-background-from-a-bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\depositphotos_43984931-stock-photo-background-from-a-bar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3b407e0fa32ec004492aec8bbd0e29c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3b407e0fa32ec004492aec8bbd0e29c3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="the-background-321154_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the-background-321154_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juniper-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juniper-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="depositphotos_27932415-stock-photo-red-gingham-tablecoth-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_27932415-stock-photo-red-gingham-tablecoth-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,19 +145,40 @@
   <data name="14646669581" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\14646669581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="papel-de-parede-beer-label-300-x-59cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beer-150071_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beer-150071_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="festas-e-eventos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\festas-e-eventos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_43984931-stock-photo-background-from-a-bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_43984931-stock-photo-background-from-a-bar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="juniper-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\juniper-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="afterpartyicon+(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afterpartyicon+(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shakes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shakes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="topo_drinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topo_drinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="papel-de-parede-beer-label-300-x-59cm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="the-background-321154_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\the-background-321154_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home_maluca_lanche-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_maluca_lanche-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1557cbcc5711d60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1557cbcc5711d60.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

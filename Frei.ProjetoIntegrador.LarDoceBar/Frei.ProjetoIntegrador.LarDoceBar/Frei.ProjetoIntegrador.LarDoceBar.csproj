@@ -379,6 +379,13 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="DB\ScriptDeEstrutura.txt" />
+    <None Include="Resources\1557cbcc5711d60.jpg" />
+    <None Include="Resources\festas-e-eventos.png" />
+    <None Include="Resources\afterpartyicon+%281%29.png" />
+    <None Include="Resources\Z.gif" />
+    <None Include="Resources\home_maluca_lanche-01.png" />
+    <None Include="Resources\beer-150071_960_720.png" />
+    <None Include="Resources\eventos %281%29.png" />
     <None Include="Resources\the-background-321154_960_720.png" />
     <None Include="Resources\image.png" />
     <None Include="Resources\download %281%29.jpg" />
