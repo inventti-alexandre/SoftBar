@@ -43,7 +43,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtvalorpord);
@@ -63,9 +63,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(67, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(122, 20);
             this.label2.TabIndex = 10;
-            this.label2.Text = "nome do produto:";
+            this.label2.Text = "Nome do Produto:";
             // 
             // label1
             // 
@@ -75,9 +75,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(141, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 20);
+            this.label1.Size = new System.Drawing.Size(46, 20);
             this.label1.TabIndex = 11;
-            this.label1.Text = "tema:";
+            this.label1.Text = "Tema:";
             // 
             // txtvalorpord
             // 
@@ -94,9 +94,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(67, 158);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 20);
+            this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 9;
-            this.label3.Text = "valor do produto:";
+            this.label3.Text = "Valor do Produto:";
             // 
             // txttema
             // 
@@ -118,11 +118,11 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(615, 387);
+            this.button1.Location = new System.Drawing.Point(656, 341);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 40);
             this.button1.TabIndex = 57;
-            this.button1.Text = "cadastrar";
+            this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // panel3
@@ -142,11 +142,11 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(298, 93);
+            this.label7.Location = new System.Drawing.Point(262, 93);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(193, 34);
+            this.label7.Size = new System.Drawing.Size(300, 34);
             this.label7.TabIndex = 64;
-            this.label7.Text = "Cadastrar  Novo";
+            this.label7.Text = "Cadastrar  Novo Cárdapio";
             // 
             // frmNovo
             // 
@@ -159,8 +159,10 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmNovo";
-            this.Text = "frmNovo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

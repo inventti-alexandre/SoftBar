@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.dtpCadastro = new System.Windows.Forms.DateTimePicker();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtnome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,47 +45,47 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(647, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 51);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "salvar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSalvar.BackColor = System.Drawing.Color.Red;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(647, 375);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(109, 51);
+            this.btnSalvar.TabIndex = 16;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
+            // dtpCadastro
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(331, 147);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 15;
+            this.dtpCadastro.Location = new System.Drawing.Point(331, 147);
+            this.dtpCadastro.Name = "dtpCadastro";
+            this.dtpCadastro.Size = new System.Drawing.Size(200, 20);
+            this.dtpCadastro.TabIndex = 15;
             // 
-            // textBox3
+            // txtCelular
             // 
-            this.textBox3.Location = new System.Drawing.Point(450, 94);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 20);
-            this.textBox3.TabIndex = 13;
+            this.txtCelular.Location = new System.Drawing.Point(450, 94);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(212, 20);
+            this.txtCelular.TabIndex = 13;
             // 
-            // textBox4
+            // txtTelefone
             // 
-            this.textBox4.Location = new System.Drawing.Point(450, 56);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(212, 20);
-            this.textBox4.TabIndex = 14;
+            this.txtTelefone.Location = new System.Drawing.Point(450, 56);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(212, 20);
+            this.txtTelefone.TabIndex = 14;
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(105, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 20);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtEmail.Location = new System.Drawing.Point(105, 91);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(235, 20);
+            this.txtEmail.TabIndex = 11;
+            this.txtEmail.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtnome
             // 
@@ -102,9 +102,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(39, 92);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 20);
+            this.label4.Size = new System.Drawing.Size(47, 20);
             this.label4.TabIndex = 6;
-            this.label4.Text = "email:";
+            this.label4.Text = "Email:";
             // 
             // label3
             // 
@@ -114,9 +114,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(377, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 20);
+            this.label3.Size = new System.Drawing.Size(59, 20);
             this.label3.TabIndex = 7;
-            this.label3.Text = "celular:";
+            this.label3.Text = "Celular:";
             // 
             // label5
             // 
@@ -126,9 +126,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(175, 147);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(122, 20);
+            this.label5.Size = new System.Drawing.Size(124, 20);
             this.label5.TabIndex = 8;
-            this.label5.Text = "data de cadastro:";
+            this.label5.Text = "Data de Cadastro:";
             // 
             // label2
             // 
@@ -138,9 +138,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(377, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 20);
+            this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 9;
-            this.label2.Text = "telefone:";
+            this.label2.Text = "Telefone:";
             // 
             // label1
             // 
@@ -156,16 +156,16 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtnome);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dtpCadastro);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtCelular);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.txtTelefone);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtEmail);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(49, 160);
             this.panel1.Name = "panel1";
@@ -205,10 +205,12 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSalvar);
             this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -218,11 +220,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.DateTimePicker dtpCadastro;
+        private System.Windows.Forms.TextBox txtCelular;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

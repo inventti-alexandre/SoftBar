@@ -33,9 +33,9 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRemover = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -96,44 +96,44 @@
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnRemover
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(496, 390);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 32);
-            this.button3.TabIndex = 61;
-            this.button3.Text = "Remover";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.ForeColor = System.Drawing.Color.White;
+            this.btnRemover.Location = new System.Drawing.Point(496, 390);
+            this.btnRemover.Name = "btnRemover";
+            this.btnRemover.Size = new System.Drawing.Size(84, 32);
+            this.btnRemover.TabIndex = 61;
+            this.btnRemover.Text = "Remover";
+            this.btnRemover.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnAlterar
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(703, 390);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 32);
-            this.button2.TabIndex = 62;
-            this.button2.Text = "Alterar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnAlterar.BackColor = System.Drawing.Color.Red;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnAlterar.ForeColor = System.Drawing.Color.White;
+            this.btnAlterar.Location = new System.Drawing.Point(703, 390);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(84, 32);
+            this.btnAlterar.TabIndex = 62;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnNovo
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(596, 390);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 32);
-            this.button1.TabIndex = 63;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnNovo.BackColor = System.Drawing.Color.Red;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.ForeColor = System.Drawing.Color.White;
+            this.btnNovo.Location = new System.Drawing.Point(596, 390);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(84, 32);
+            this.btnNovo.TabIndex = 63;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -188,13 +188,15 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRemover);
+            this.Controls.Add(this.btnAlterar);
+            this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.dgvViagem);
             this.Controls.Add(this.btnBuscar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsultar";
-            this.Text = "frmConsultar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,9 +210,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRemover;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;

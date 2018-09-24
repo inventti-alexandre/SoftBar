@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtValordecompra = new System.Windows.Forms.TextBox();
+            this.txtValor = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -45,11 +45,11 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.txtValordecompra);
+            this.panel1.Controls.Add(this.txtValor);
+            this.panel1.Controls.Add(this.txtNome);
+            this.panel1.Controls.Add(this.txtQuantidade);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -59,33 +59,33 @@
             this.panel1.Size = new System.Drawing.Size(540, 227);
             this.panel1.TabIndex = 59;
             // 
-            // textBox4
+            // txtValordecompra
             // 
-            this.textBox4.Location = new System.Drawing.Point(162, 144);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(296, 20);
-            this.textBox4.TabIndex = 16;
+            this.txtValordecompra.Location = new System.Drawing.Point(162, 144);
+            this.txtValordecompra.Name = "txtValordecompra";
+            this.txtValordecompra.Size = new System.Drawing.Size(296, 20);
+            this.txtValordecompra.TabIndex = 16;
             // 
-            // textBox3
+            // txtValor
             // 
-            this.textBox3.Location = new System.Drawing.Point(160, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(298, 20);
-            this.textBox3.TabIndex = 17;
+            this.txtValor.Location = new System.Drawing.Point(160, 105);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(298, 20);
+            this.txtValor.TabIndex = 17;
             // 
-            // textBox2
+            // txtNome
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(298, 20);
-            this.textBox2.TabIndex = 18;
+            this.txtNome.Location = new System.Drawing.Point(160, 71);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(298, 20);
+            this.txtNome.TabIndex = 18;
             // 
-            // textBox1
+            // txtQuantidade
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 20);
-            this.textBox1.TabIndex = 19;
+            this.txtQuantidade.Location = new System.Drawing.Point(160, 38);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(298, 20);
+            this.txtQuantidade.TabIndex = 19;
             // 
             // label4
             // 
@@ -95,9 +95,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(46, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 20);
+            this.label4.Size = new System.Drawing.Size(106, 20);
             this.label4.TabIndex = 12;
-            this.label4.Text = "valor de venda:";
+            this.label4.Text = "Valor de Venda:";
             // 
             // label3
             // 
@@ -109,7 +109,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 20);
             this.label3.TabIndex = 13;
-            this.label3.Text = "valor de compra";
+            this.label3.Text = "Valor de Compra";
             // 
             // label2
             // 
@@ -119,9 +119,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(33, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(122, 20);
             this.label2.TabIndex = 14;
-            this.label2.Text = "nome do produto:";
+            this.label2.Text = "Nome do Produto:";
             // 
             // label1
             // 
@@ -131,22 +131,22 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 20);
+            this.label1.Size = new System.Drawing.Size(159, 20);
             this.label1.TabIndex = 15;
-            this.label1.Text = "quantidade do produto:";
+            this.label1.Text = "Quantidade do Produto:";
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(597, 374);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 39);
-            this.button1.TabIndex = 66;
-            this.button1.Text = "salvar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSalvar.BackColor = System.Drawing.Color.Red;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(597, 374);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(88, 39);
+            this.btnSalvar.TabIndex = 66;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -180,10 +180,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -194,15 +196,15 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtValordecompra;
+        private System.Windows.Forms.TextBox txtValor;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
     }

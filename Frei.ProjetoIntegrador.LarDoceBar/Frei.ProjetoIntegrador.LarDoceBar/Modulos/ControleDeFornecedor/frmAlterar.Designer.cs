@@ -30,6 +30,7 @@
         {
             this.btnBuscar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -44,7 +45,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.txtCNPJ = new System.Windows.Forms.MaskedTextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -74,9 +74,20 @@
             this.panel3.Size = new System.Drawing.Size(262, 114);
             this.panel3.TabIndex = 48;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(77, 123);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(92, 34);
+            this.label7.TabIndex = 61;
+            this.label7.Text = "Alterar";
+            // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtNome);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.label1);
@@ -229,17 +240,6 @@
             this.txtCNPJ.Size = new System.Drawing.Size(249, 20);
             this.txtCNPJ.TabIndex = 51;
             this.txtCNPJ.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(77, 123);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 34);
-            this.label7.TabIndex = 61;
-            this.label7.Text = "Alterar";
             // 
             // label8
             // 

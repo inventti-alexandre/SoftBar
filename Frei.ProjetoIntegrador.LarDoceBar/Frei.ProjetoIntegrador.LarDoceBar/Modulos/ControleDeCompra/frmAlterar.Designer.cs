@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtssenhausu = new System.Windows.Forms.TextBox();
-            this.txtnmusu = new System.Windows.Forms.TextBox();
-            this.dtppedido = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.dtppedido = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtssenhausu = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtnmusu = new System.Windows.Forms.TextBox();
+            this.btnsalbar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -45,7 +45,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.dtppedido);
             this.panel1.Controls.Add(this.label2);
@@ -57,51 +57,6 @@
             this.panel1.Size = new System.Drawing.Size(506, 181);
             this.panel1.TabIndex = 57;
             // 
-            // txtssenhausu
-            // 
-            this.txtssenhausu.Location = new System.Drawing.Point(177, 126);
-            this.txtssenhausu.Name = "txtssenhausu";
-            this.txtssenhausu.Size = new System.Drawing.Size(243, 20);
-            this.txtssenhausu.TabIndex = 62;
-            // 
-            // txtnmusu
-            // 
-            this.txtnmusu.Location = new System.Drawing.Point(177, 76);
-            this.txtnmusu.Name = "txtnmusu";
-            this.txtnmusu.Size = new System.Drawing.Size(243, 20);
-            this.txtnmusu.TabIndex = 63;
-            // 
-            // dtppedido
-            // 
-            this.dtppedido.Location = new System.Drawing.Point(220, 32);
-            this.dtppedido.Name = "dtppedido";
-            this.dtppedido.Size = new System.Drawing.Size(200, 20);
-            this.dtppedido.TabIndex = 61;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(38, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 20);
-            this.label3.TabIndex = 58;
-            this.label3.Text = "senha do usuário:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(38, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
-            this.label2.TabIndex = 59;
-            this.label2.Text = "nome do usuário:";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -110,22 +65,67 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(38, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 20);
+            this.label1.Size = new System.Drawing.Size(177, 20);
             this.label1.TabIndex = 60;
-            this.label1.Text = "data do pedido de compra";
+            this.label1.Text = "Data do Pedido de compra";
             // 
-            // button1
+            // dtppedido
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(664, 385);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 39);
-            this.button1.TabIndex = 65;
-            this.button1.Text = "salvar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.dtppedido.Location = new System.Drawing.Point(220, 32);
+            this.dtppedido.Name = "dtppedido";
+            this.dtppedido.Size = new System.Drawing.Size(200, 20);
+            this.dtppedido.TabIndex = 61;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Red;
+            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(92, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 20);
+            this.label2.TabIndex = 59;
+            this.label2.Text = "Nome do Usuário:";
+            // 
+            // txtssenhausu
+            // 
+            this.txtssenhausu.Location = new System.Drawing.Point(220, 126);
+            this.txtssenhausu.Name = "txtssenhausu";
+            this.txtssenhausu.Size = new System.Drawing.Size(243, 20);
+            this.txtssenhausu.TabIndex = 62;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Red;
+            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(89, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 20);
+            this.label3.TabIndex = 58;
+            this.label3.Text = "Senha do Usuário:";
+            // 
+            // txtnmusu
+            // 
+            this.txtnmusu.Location = new System.Drawing.Point(220, 73);
+            this.txtnmusu.Name = "txtnmusu";
+            this.txtnmusu.Size = new System.Drawing.Size(243, 20);
+            this.txtnmusu.TabIndex = 63;
+            // 
+            // btnsalbar
+            // 
+            this.btnsalbar.BackColor = System.Drawing.Color.Red;
+            this.btnsalbar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsalbar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnsalbar.ForeColor = System.Drawing.Color.White;
+            this.btnsalbar.Location = new System.Drawing.Point(664, 385);
+            this.btnsalbar.Name = "btnsalbar";
+            this.btnsalbar.Size = new System.Drawing.Size(88, 39);
+            this.btnsalbar.TabIndex = 65;
+            this.btnsalbar.Text = "salvar";
+            this.btnsalbar.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -170,10 +170,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnsalbar);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -192,7 +194,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnsalbar;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;

@@ -30,26 +30,26 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpPedido = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtsenha = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dtpPedido);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtsenha);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtNome);
             this.panel1.Location = new System.Drawing.Point(145, 196);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(506, 181);
@@ -63,16 +63,16 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(38, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(176, 20);
+            this.label4.Size = new System.Drawing.Size(177, 20);
             this.label4.TabIndex = 60;
-            this.label4.Text = "data do pedido de compra";
+            this.label4.Text = "Data do Pedido de compra";
             // 
-            // dateTimePicker1
+            // dtpPedido
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(220, 32);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 61;
+            this.dtpPedido.Location = new System.Drawing.Point(220, 32);
+            this.dtpPedido.Name = "dtpPedido";
+            this.dtpPedido.Size = new System.Drawing.Size(200, 20);
+            this.dtpPedido.TabIndex = 61;
             // 
             // label5
             // 
@@ -82,16 +82,16 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(38, 73);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 20);
+            this.label5.Size = new System.Drawing.Size(122, 20);
             this.label5.TabIndex = 59;
-            this.label5.Text = "nome do usuário:";
+            this.label5.Text = "Nome do Usuário:";
             // 
-            // textBox1
+            // txtsenha
             // 
-            this.textBox1.Location = new System.Drawing.Point(177, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 20);
-            this.textBox1.TabIndex = 62;
+            this.txtsenha.Location = new System.Drawing.Point(177, 126);
+            this.txtsenha.Name = "txtsenha";
+            this.txtsenha.Size = new System.Drawing.Size(243, 20);
+            this.txtsenha.TabIndex = 62;
             // 
             // label6
             // 
@@ -101,16 +101,16 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(38, 126);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 20);
+            this.label6.Size = new System.Drawing.Size(125, 20);
             this.label6.TabIndex = 58;
-            this.label6.Text = "senha do usuário:";
+            this.label6.Text = "Senha do Usuário:";
             // 
-            // textBox2
+            // txtNome
             // 
-            this.textBox2.Location = new System.Drawing.Point(177, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(243, 20);
-            this.textBox2.TabIndex = 63;
+            this.txtNome.Location = new System.Drawing.Point(177, 76);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(243, 20);
+            this.txtNome.TabIndex = 63;
             // 
             // panel3
             // 
@@ -123,18 +123,18 @@
             this.panel3.Size = new System.Drawing.Size(226, 100);
             this.panel3.TabIndex = 64;
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(640, 391);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 47);
-            this.button1.TabIndex = 63;
-            this.button1.Text = "cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(640, 391);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(86, 47);
+            this.btnCadastrar.TabIndex = 63;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -157,7 +157,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.panel1);
             this.Name = "frmNovo";
             this.Text = "frmNovo";
@@ -172,13 +172,13 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpPedido;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtsenha;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label label7;
     }
 }

@@ -193,8 +193,10 @@
             this.Controls.Add(this.dgvViagem);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtNome);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsultar";
-            this.Text = "frmConsultar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

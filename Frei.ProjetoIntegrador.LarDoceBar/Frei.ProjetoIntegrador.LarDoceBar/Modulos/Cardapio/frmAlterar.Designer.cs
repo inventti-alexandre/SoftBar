@@ -72,9 +72,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(45, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 20);
+            this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "valor do produto:";
+            this.label3.Text = "Valor do Produto:";
             // 
             // label2
             // 
@@ -84,9 +84,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(45, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(122, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "nome do produto:";
+            this.label2.Text = "Nome do Produto:";
             // 
             // label1
             // 
@@ -96,13 +96,14 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(119, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 20);
+            this.label1.Size = new System.Drawing.Size(46, 20);
             this.label1.TabIndex = 5;
-            this.label1.Text = "tema:";
+            this.label1.Text = "Tema:";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtvalorpord);
@@ -142,11 +143,11 @@
             this.btnsalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnsalvar.ForeColor = System.Drawing.Color.White;
-            this.btnsalvar.Location = new System.Drawing.Point(621, 384);
+            this.btnsalvar.Location = new System.Drawing.Point(650, 339);
             this.btnsalvar.Name = "btnsalvar";
             this.btnsalvar.Size = new System.Drawing.Size(88, 39);
             this.btnsalvar.TabIndex = 62;
-            this.btnsalvar.Text = "salvar";
+            this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = false;
             // 
             // label11
@@ -155,11 +156,11 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(329, 129);
+            this.label11.Location = new System.Drawing.Point(196, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 34);
+            this.label11.Size = new System.Drawing.Size(199, 34);
             this.label11.TabIndex = 63;
-            this.label11.Text = "Alterar";
+            this.label11.Text = "Alterar Cardapio";
             // 
             // frmAlterar
             // 
@@ -168,18 +169,18 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnsalvar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
