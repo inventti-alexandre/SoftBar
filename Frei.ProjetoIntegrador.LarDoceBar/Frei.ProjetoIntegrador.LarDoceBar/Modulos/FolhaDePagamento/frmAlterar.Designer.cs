@@ -37,7 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtppagamento = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -47,6 +47,7 @@
             // 
             // txtobs
             // 
+            this.txtobs.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtobs.Location = new System.Drawing.Point(311, 153);
             this.txtobs.Multiline = true;
             this.txtobs.Name = "txtobs";
@@ -55,16 +56,18 @@
             // 
             // txtdesconto
             // 
+            this.txtdesconto.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtdesconto.Location = new System.Drawing.Point(100, 181);
             this.txtdesconto.Name = "txtdesconto";
-            this.txtdesconto.Size = new System.Drawing.Size(189, 20);
+            this.txtdesconto.Size = new System.Drawing.Size(189, 21);
             this.txtdesconto.TabIndex = 7;
             // 
             // txtvalor
             // 
+            this.txtvalor.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtvalor.Location = new System.Drawing.Point(168, 97);
             this.txtvalor.Name = "txtvalor";
-            this.txtvalor.Size = new System.Drawing.Size(221, 20);
+            this.txtvalor.Size = new System.Drawing.Size(221, 21);
             this.txtvalor.TabIndex = 8;
             // 
             // label4
@@ -75,9 +78,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(308, 124);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 20);
+            this.label4.Size = new System.Drawing.Size(99, 20);
             this.label4.TabIndex = 2;
-            this.label4.Text = "observações;";
+            this.label4.Text = "Observações;";
             // 
             // label3
             // 
@@ -87,9 +90,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(21, 178);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 20);
+            this.label3.Size = new System.Drawing.Size(74, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "desconto:";
+            this.label3.Text = "Desconto:";
             // 
             // label2
             // 
@@ -99,9 +102,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(21, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 20);
+            this.label2.Size = new System.Drawing.Size(140, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "valor de pagamento:";
+            this.label2.Text = "Valor de Pagamento:";
             // 
             // label1
             // 
@@ -111,20 +114,21 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(21, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 20);
+            this.label1.Size = new System.Drawing.Size(137, 20);
             this.label1.TabIndex = 5;
-            this.label1.Text = "data de pagamento:";
+            this.label1.Text = "Data de Pagamento:";
             // 
             // dtppagamento
             // 
+            this.dtppagamento.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtppagamento.Location = new System.Drawing.Point(160, 45);
             this.dtppagamento.Name = "dtppagamento";
-            this.dtppagamento.Size = new System.Drawing.Size(429, 20);
+            this.dtppagamento.Size = new System.Drawing.Size(429, 21);
             this.dtppagamento.TabIndex = 11;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtobs);
             this.panel1.Controls.Add(this.dtppagamento);
             this.panel1.Controls.Add(this.label1);
@@ -138,18 +142,18 @@
             this.panel1.Size = new System.Drawing.Size(630, 261);
             this.panel1.TabIndex = 55;
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(681, 395);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 34);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "salvar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSalvar.BackColor = System.Drawing.Color.Red;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(681, 395);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(86, 34);
+            this.btnSalvar.TabIndex = 12;
+            this.btnSalvar.Text = "salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -159,9 +163,9 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(316, 89);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 34);
+            this.label11.Size = new System.Drawing.Size(157, 34);
             this.label11.TabIndex = 57;
-            this.label11.Text = "Alterar";
+            this.label11.Text = "Alterar Folha";
             // 
             // panel3
             // 
@@ -194,10 +198,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -218,7 +224,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtppagamento;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;

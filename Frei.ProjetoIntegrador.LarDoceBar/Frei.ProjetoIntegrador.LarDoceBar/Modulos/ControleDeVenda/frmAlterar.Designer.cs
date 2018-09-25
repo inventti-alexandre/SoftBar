@@ -87,7 +87,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(-5, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 20);
+            this.label5.Size = new System.Drawing.Size(124, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "Telefone Clientes:";
             // 
@@ -97,7 +97,7 @@
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(639, 395);
+            this.btnSalvar.Location = new System.Drawing.Point(678, 377);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 34);
             this.btnSalvar.TabIndex = 8;

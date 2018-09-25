@@ -38,7 +38,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.dtppagamento);
             this.panel1.Controls.Add(this.label5);
@@ -72,6 +72,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.textBox1.Location = new System.Drawing.Point(311, 153);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -80,9 +81,10 @@
             // 
             // dtppagamento
             // 
+            this.dtppagamento.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtppagamento.Location = new System.Drawing.Point(160, 45);
             this.dtppagamento.Name = "dtppagamento";
-            this.dtppagamento.Size = new System.Drawing.Size(429, 20);
+            this.dtppagamento.Size = new System.Drawing.Size(429, 21);
             this.dtppagamento.TabIndex = 11;
             // 
             // label5
@@ -123,9 +125,10 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.textBox2.Location = new System.Drawing.Point(100, 181);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(189, 20);
+            this.textBox2.Size = new System.Drawing.Size(189, 21);
             this.textBox2.TabIndex = 7;
             // 
             // label8
@@ -142,23 +145,24 @@
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.textBox3.Location = new System.Drawing.Point(168, 97);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(221, 20);
+            this.textBox3.Size = new System.Drawing.Size(221, 21);
             this.textBox3.TabIndex = 8;
             // 
-            // button2
+            // btnCadastrar
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(613, 400);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 38);
-            this.button2.TabIndex = 57;
-            this.button2.Text = "Cadastrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(613, 400);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(128, 38);
+            this.btnCadastrar.TabIndex = 57;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -203,11 +207,13 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtobs);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmNovo";
-            this.Text = "frmNovo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -228,7 +234,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;

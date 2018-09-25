@@ -236,7 +236,9 @@
             this.Controls.Add(this.btnnovo);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsultar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
