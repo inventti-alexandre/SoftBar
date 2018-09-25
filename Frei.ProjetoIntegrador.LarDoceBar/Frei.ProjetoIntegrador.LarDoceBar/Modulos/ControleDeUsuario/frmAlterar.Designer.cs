@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnsalvar = new System.Windows.Forms.Button();
-            this.txtpermissões = new System.Windows.Forms.TextBox();
+            this.txtpermissoes = new System.Windows.Forms.TextBox();
             this.txtsenha = new System.Windows.Forms.TextBox();
             this.txtnome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,15 +53,15 @@
             this.btnsalvar.Name = "btnsalvar";
             this.btnsalvar.Size = new System.Drawing.Size(78, 35);
             this.btnsalvar.TabIndex = 9;
-            this.btnsalvar.Text = "salvar";
+            this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = false;
             // 
-            // txtpermissões
+            // txtpermissoes
             // 
-            this.txtpermissões.Location = new System.Drawing.Point(148, 149);
-            this.txtpermissões.Name = "txtpermissões";
-            this.txtpermissões.Size = new System.Drawing.Size(334, 20);
-            this.txtpermissões.TabIndex = 6;
+            this.txtpermissoes.Location = new System.Drawing.Point(148, 149);
+            this.txtpermissoes.Name = "txtpermissoes";
+            this.txtpermissoes.Size = new System.Drawing.Size(334, 20);
+            this.txtpermissoes.TabIndex = 6;
             // 
             // txtsenha
             // 
@@ -87,7 +87,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "senha:";
+            this.label2.Text = "Senha:";
             // 
             // label3
             // 
@@ -99,7 +99,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 20);
             this.label3.TabIndex = 4;
-            this.label3.Text = "permissões:";
+            this.label3.Text = "Permissões:";
             // 
             // label1
             // 
@@ -109,16 +109,16 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(73, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 5;
-            this.label1.Text = "nome:";
+            this.label1.Text = "Nome:";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtnome);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.txtpermissões);
+            this.panel1.Controls.Add(this.txtpermissoes);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.txtsenha);
             this.panel1.Controls.Add(this.label2);
@@ -133,11 +133,11 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(339, 124);
+            this.label11.Location = new System.Drawing.Point(313, 124);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 34);
+            this.label11.Size = new System.Drawing.Size(184, 34);
             this.label11.TabIndex = 55;
-            this.label11.Text = "Alterar";
+            this.label11.Text = "Alterar Usuario";
             // 
             // panel3
             // 
@@ -172,8 +172,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnsalvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -186,7 +188,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnsalvar;
-        private System.Windows.Forms.TextBox txtpermissões;
+        private System.Windows.Forms.TextBox txtpermissoes;
         private System.Windows.Forms.TextBox txtsenha;
         private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.Label label2;
