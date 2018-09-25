@@ -86,9 +86,10 @@
             // 
             // txtNome
             // 
+            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtNome.Location = new System.Drawing.Point(153, 152);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(302, 20);
+            this.txtNome.Size = new System.Drawing.Size(302, 21);
             this.txtNome.TabIndex = 18;
             // 
             // label1

@@ -108,9 +108,10 @@
             // 
             // txtNome
             // 
+            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtNome.Location = new System.Drawing.Point(83, 58);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(249, 20);
+            this.txtNome.Size = new System.Drawing.Size(249, 21);
             this.txtNome.TabIndex = 50;
             // 
             // radioButton2
@@ -167,9 +168,10 @@
             // 
             // txtTelefone
             // 
+            this.txtTelefone.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtTelefone.Location = new System.Drawing.Point(83, 147);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(249, 20);
+            this.txtTelefone.Size = new System.Drawing.Size(249, 21);
             this.txtTelefone.TabIndex = 53;
             // 
             // label2
@@ -180,15 +182,16 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(24, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 20);
+            this.label2.Size = new System.Drawing.Size(42, 20);
             this.label2.TabIndex = 48;
             this.label2.Text = "CNPJ:";
             // 
             // txtEmail
             // 
+            this.txtEmail.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtEmail.Location = new System.Drawing.Point(438, 58);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(232, 20);
+            this.txtEmail.Size = new System.Drawing.Size(232, 21);
             this.txtEmail.TabIndex = 55;
             // 
             // label5
@@ -211,7 +214,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(2, 147);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 52;
             this.label3.Text = "Telefone:";
             // 
@@ -229,17 +232,19 @@
             // 
             // txtEndereco
             // 
+            this.txtEndereco.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtEndereco.Location = new System.Drawing.Point(438, 100);
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(232, 20);
+            this.txtEndereco.Size = new System.Drawing.Size(232, 21);
             this.txtEndereco.TabIndex = 57;
             // 
             // txtCNPJ
             // 
+            this.txtCNPJ.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtCNPJ.Location = new System.Drawing.Point(83, 97);
             this.txtCNPJ.Mask = "99,999,999/9999-99";
             this.txtCNPJ.Name = "txtCNPJ";
-            this.txtCNPJ.Size = new System.Drawing.Size(249, 20);
+            this.txtCNPJ.Size = new System.Drawing.Size(249, 21);
             this.txtCNPJ.TabIndex = 51;
             this.txtCNPJ.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

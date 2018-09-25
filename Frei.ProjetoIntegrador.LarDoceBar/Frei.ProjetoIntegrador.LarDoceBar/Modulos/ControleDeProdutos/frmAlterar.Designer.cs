@@ -67,37 +67,42 @@
             // 
             // txttelfor
             // 
+            this.txttelfor.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txttelfor.Location = new System.Drawing.Point(514, 84);
             this.txttelfor.Name = "txttelfor";
-            this.txttelfor.Size = new System.Drawing.Size(153, 20);
+            this.txttelfor.Size = new System.Drawing.Size(153, 21);
             this.txttelfor.TabIndex = 18;
             // 
             // txtvlprod
             // 
+            this.txtvlprod.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtvlprod.Location = new System.Drawing.Point(514, 32);
             this.txtvlprod.Name = "txtvlprod";
-            this.txtvlprod.Size = new System.Drawing.Size(153, 20);
+            this.txtvlprod.Size = new System.Drawing.Size(153, 21);
             this.txtvlprod.TabIndex = 19;
             // 
             // txtcnpjfor
             // 
+            this.txtcnpjfor.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcnpjfor.Location = new System.Drawing.Point(172, 151);
             this.txtcnpjfor.Name = "txtcnpjfor";
-            this.txtcnpjfor.Size = new System.Drawing.Size(138, 20);
+            this.txtcnpjfor.Size = new System.Drawing.Size(138, 21);
             this.txtcnpjfor.TabIndex = 20;
             // 
             // txtnomefor
             // 
+            this.txtnomefor.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnomefor.Location = new System.Drawing.Point(172, 87);
             this.txtnomefor.Name = "txtnomefor";
-            this.txtnomefor.Size = new System.Drawing.Size(138, 20);
+            this.txtnomefor.Size = new System.Drawing.Size(138, 21);
             this.txtnomefor.TabIndex = 21;
             // 
             // txtnomeprod
             // 
+            this.txtnomeprod.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnomeprod.Location = new System.Drawing.Point(172, 35);
             this.txtnomeprod.Name = "txtnomeprod";
-            this.txtnomeprod.Size = new System.Drawing.Size(138, 20);
+            this.txtnomeprod.Size = new System.Drawing.Size(138, 21);
             this.txtnomeprod.TabIndex = 22;
             this.txtnomeprod.TextChanged += new System.EventHandler(this.txtnomeprod_TextChanged);
             // 
@@ -109,7 +114,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(5, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 20);
+            this.label3.Size = new System.Drawing.Size(138, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "CNPJ do Fornecedor:";
             // 
@@ -121,7 +126,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(347, 84);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(164, 20);
+            this.label5.Size = new System.Drawing.Size(163, 20);
             this.label5.TabIndex = 14;
             this.label5.Text = "Telefone do Fornecedor:";
             // 

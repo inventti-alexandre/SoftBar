@@ -120,11 +120,11 @@
             // 
             // txtCNPJ
             // 
-            this.txtCNPJ.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCNPJ.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtCNPJ.Location = new System.Drawing.Point(405, 155);
             this.txtCNPJ.Mask = "99,999,999/9999-99";
             this.txtCNPJ.Name = "txtCNPJ";
-            this.txtCNPJ.Size = new System.Drawing.Size(261, 26);
+            this.txtCNPJ.Size = new System.Drawing.Size(261, 21);
             this.txtCNPJ.TabIndex = 14;
             this.txtCNPJ.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -182,10 +182,10 @@
             // 
             // txtNome
             // 
-            this.txtNome.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtNome.Location = new System.Drawing.Point(133, 155);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(188, 26);
+            this.txtNome.Size = new System.Drawing.Size(188, 21);
             this.txtNome.TabIndex = 9;
             // 
             // label2
@@ -196,7 +196,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(343, 156);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 20);
+            this.label2.Size = new System.Drawing.Size(42, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "CNPJ:";
             // 

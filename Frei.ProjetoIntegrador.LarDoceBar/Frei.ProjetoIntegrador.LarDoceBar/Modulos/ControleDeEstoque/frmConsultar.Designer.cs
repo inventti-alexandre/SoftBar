@@ -97,9 +97,10 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.textBox1.Location = new System.Drawing.Point(224, 128);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 20);
+            this.textBox1.Size = new System.Drawing.Size(288, 21);
             this.textBox1.TabIndex = 68;
             // 
             // btnBuscar

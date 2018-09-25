@@ -70,65 +70,74 @@
             // 
             // txtdemi
             // 
+            this.txtdemi.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtdemi.Location = new System.Drawing.Point(501, 170);
             this.txtdemi.Name = "txtdemi";
-            this.txtdemi.Size = new System.Drawing.Size(200, 20);
+            this.txtdemi.Size = new System.Drawing.Size(200, 21);
             this.txtdemi.TabIndex = 25;
             // 
             // txtadmi
             // 
+            this.txtadmi.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtadmi.Location = new System.Drawing.Point(481, 96);
             this.txtadmi.Name = "txtadmi";
-            this.txtadmi.Size = new System.Drawing.Size(220, 20);
+            this.txtadmi.Size = new System.Drawing.Size(220, 21);
             this.txtadmi.TabIndex = 26;
             // 
             // txtemail
             // 
+            this.txtemail.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtemail.Location = new System.Drawing.Point(256, 173);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(100, 20);
+            this.txtemail.Size = new System.Drawing.Size(100, 21);
             this.txtemail.TabIndex = 22;
             // 
             // txttel
             // 
+            this.txttel.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txttel.Location = new System.Drawing.Point(481, 57);
             this.txttel.Name = "txttel";
-            this.txttel.Size = new System.Drawing.Size(220, 20);
+            this.txttel.Size = new System.Drawing.Size(220, 21);
             this.txttel.TabIndex = 23;
             // 
             // txtcel
             // 
+            this.txtcel.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcel.Location = new System.Drawing.Point(70, 60);
             this.txtcel.Name = "txtcel";
-            this.txtcel.Size = new System.Drawing.Size(250, 20);
+            this.txtcel.Size = new System.Drawing.Size(250, 21);
             this.txtcel.TabIndex = 24;
             // 
             // txtcep
             // 
+            this.txtcep.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcep.Location = new System.Drawing.Point(70, 173);
             this.txtcep.Name = "txtcep";
-            this.txtcep.Size = new System.Drawing.Size(100, 20);
+            this.txtcep.Size = new System.Drawing.Size(100, 21);
             this.txtcep.TabIndex = 20;
             // 
             // txtcpf
             // 
+            this.txtcpf.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcpf.Location = new System.Drawing.Point(70, 99);
             this.txtcpf.Name = "txtcpf";
-            this.txtcpf.Size = new System.Drawing.Size(250, 20);
+            this.txtcpf.Size = new System.Drawing.Size(250, 21);
             this.txtcpf.TabIndex = 19;
             // 
             // txtnome
             // 
+            this.txtnome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnome.Location = new System.Drawing.Point(70, 22);
             this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(250, 20);
+            this.txtnome.Size = new System.Drawing.Size(250, 21);
             this.txtnome.TabIndex = 21;
             // 
             // dtpnasci
             // 
+            this.dtpnasci.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtpnasci.Location = new System.Drawing.Point(481, 22);
             this.dtpnasci.Name = "dtpnasci";
-            this.dtpnasci.Size = new System.Drawing.Size(220, 20);
+            this.dtpnasci.Size = new System.Drawing.Size(220, 21);
             this.dtpnasci.TabIndex = 18;
             // 
             // label9

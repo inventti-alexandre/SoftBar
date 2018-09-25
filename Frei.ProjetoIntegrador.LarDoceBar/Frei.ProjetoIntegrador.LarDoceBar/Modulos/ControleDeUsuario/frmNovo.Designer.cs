@@ -57,9 +57,10 @@
             // 
             // txtnome
             // 
+            this.txtnome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnome.Location = new System.Drawing.Point(143, 39);
             this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(339, 20);
+            this.txtnome.Size = new System.Drawing.Size(339, 21);
             this.txtnome.TabIndex = 8;
             // 
             // label1
@@ -76,9 +77,10 @@
             // 
             // txtpermissões
             // 
+            this.txtpermissões.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtpermissões.Location = new System.Drawing.Point(148, 149);
             this.txtpermissões.Name = "txtpermissões";
-            this.txtpermissões.Size = new System.Drawing.Size(334, 20);
+            this.txtpermissões.Size = new System.Drawing.Size(334, 21);
             this.txtpermissões.TabIndex = 6;
             // 
             // label3
@@ -95,9 +97,10 @@
             // 
             // txtsenha
             // 
+            this.txtsenha.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtsenha.Location = new System.Drawing.Point(143, 92);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(339, 20);
+            this.txtsenha.Size = new System.Drawing.Size(339, 21);
             this.txtsenha.TabIndex = 7;
             // 
             // label2

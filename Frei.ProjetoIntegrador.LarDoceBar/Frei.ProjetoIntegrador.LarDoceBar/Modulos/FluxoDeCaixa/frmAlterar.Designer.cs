@@ -55,16 +55,18 @@
             // 
             // dtppedidodevenda
             // 
+            this.dtppedidodevenda.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtppedidodevenda.Location = new System.Drawing.Point(222, 117);
             this.dtppedidodevenda.Name = "dtppedidodevenda";
-            this.dtppedidodevenda.Size = new System.Drawing.Size(200, 20);
+            this.dtppedidodevenda.Size = new System.Drawing.Size(200, 21);
             this.dtppedidodevenda.TabIndex = 10;
             // 
             // dtppedidodecompra
             // 
+            this.dtppedidodecompra.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtppedidodecompra.Location = new System.Drawing.Point(222, 77);
             this.dtppedidodecompra.Name = "dtppedidodecompra";
-            this.dtppedidodecompra.Size = new System.Drawing.Size(200, 20);
+            this.dtppedidodecompra.Size = new System.Drawing.Size(200, 21);
             this.dtppedidodecompra.TabIndex = 11;
             // 
             // label2

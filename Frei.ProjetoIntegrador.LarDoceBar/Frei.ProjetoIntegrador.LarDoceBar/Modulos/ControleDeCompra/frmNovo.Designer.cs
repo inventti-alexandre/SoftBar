@@ -69,9 +69,11 @@
             // 
             // dtpPedido
             // 
+            this.dtpPedido.CalendarFont = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.dtpPedido.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtpPedido.Location = new System.Drawing.Point(220, 32);
             this.dtpPedido.Name = "dtpPedido";
-            this.dtpPedido.Size = new System.Drawing.Size(200, 20);
+            this.dtpPedido.Size = new System.Drawing.Size(200, 21);
             this.dtpPedido.TabIndex = 61;
             // 
             // label5
@@ -80,17 +82,19 @@
             this.label5.BackColor = System.Drawing.Color.Red;
             this.label5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(38, 73);
+            this.label5.Location = new System.Drawing.Point(92, 73);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 20);
             this.label5.TabIndex = 59;
             this.label5.Text = "Nome do Usuário:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtsenha
             // 
-            this.txtsenha.Location = new System.Drawing.Point(177, 126);
+            this.txtsenha.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.txtsenha.Location = new System.Drawing.Point(220, 126);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(243, 20);
+            this.txtsenha.Size = new System.Drawing.Size(200, 21);
             this.txtsenha.TabIndex = 62;
             // 
             // label6
@@ -99,7 +103,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(38, 126);
+            this.label6.Location = new System.Drawing.Point(89, 123);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(125, 20);
             this.label6.TabIndex = 58;
@@ -107,9 +111,10 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(177, 76);
+            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.txtNome.Location = new System.Drawing.Point(220, 73);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(243, 20);
+            this.txtNome.Size = new System.Drawing.Size(200, 21);
             this.txtNome.TabIndex = 63;
             // 
             // panel3

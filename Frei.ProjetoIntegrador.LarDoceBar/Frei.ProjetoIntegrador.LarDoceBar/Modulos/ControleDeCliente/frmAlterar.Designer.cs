@@ -60,38 +60,43 @@
             // 
             // dtpCadastro
             // 
+            this.dtpCadastro.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtpCadastro.Location = new System.Drawing.Point(331, 147);
             this.dtpCadastro.Name = "dtpCadastro";
-            this.dtpCadastro.Size = new System.Drawing.Size(200, 20);
+            this.dtpCadastro.Size = new System.Drawing.Size(200, 21);
             this.dtpCadastro.TabIndex = 15;
             // 
             // txtCelular
             // 
+            this.txtCelular.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtCelular.Location = new System.Drawing.Point(450, 94);
             this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(212, 20);
+            this.txtCelular.Size = new System.Drawing.Size(212, 21);
             this.txtCelular.TabIndex = 13;
             // 
             // txtTelefone
             // 
+            this.txtTelefone.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtTelefone.Location = new System.Drawing.Point(450, 56);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(212, 20);
+            this.txtTelefone.Size = new System.Drawing.Size(212, 21);
             this.txtTelefone.TabIndex = 14;
             // 
             // txtEmail
             // 
+            this.txtEmail.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtEmail.Location = new System.Drawing.Point(105, 91);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(235, 20);
+            this.txtEmail.Size = new System.Drawing.Size(235, 21);
             this.txtEmail.TabIndex = 11;
             this.txtEmail.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtnome
             // 
+            this.txtnome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnome.Location = new System.Drawing.Point(105, 53);
             this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(235, 20);
+            this.txtnome.Size = new System.Drawing.Size(235, 21);
             this.txtnome.TabIndex = 12;
             // 
             // label4

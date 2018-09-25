@@ -152,9 +152,10 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.textBox1.Location = new System.Drawing.Point(109, 165);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 20);
+            this.textBox1.Size = new System.Drawing.Size(288, 21);
             this.textBox1.TabIndex = 74;
             // 
             // btnBuscar

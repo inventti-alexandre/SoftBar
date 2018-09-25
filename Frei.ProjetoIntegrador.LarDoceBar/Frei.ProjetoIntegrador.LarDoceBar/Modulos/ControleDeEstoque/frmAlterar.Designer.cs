@@ -61,30 +61,34 @@
             // 
             // txtValordecompra
             // 
+            this.txtValordecompra.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtValordecompra.Location = new System.Drawing.Point(162, 144);
             this.txtValordecompra.Name = "txtValordecompra";
-            this.txtValordecompra.Size = new System.Drawing.Size(296, 20);
+            this.txtValordecompra.Size = new System.Drawing.Size(296, 21);
             this.txtValordecompra.TabIndex = 16;
             // 
             // txtValor
             // 
+            this.txtValor.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtValor.Location = new System.Drawing.Point(160, 105);
             this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(298, 20);
+            this.txtValor.Size = new System.Drawing.Size(298, 21);
             this.txtValor.TabIndex = 17;
             // 
             // txtNome
             // 
+            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtNome.Location = new System.Drawing.Point(160, 71);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(298, 20);
+            this.txtNome.Size = new System.Drawing.Size(298, 21);
             this.txtNome.TabIndex = 18;
             // 
             // txtQuantidade
             // 
+            this.txtQuantidade.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtQuantidade.Location = new System.Drawing.Point(160, 38);
             this.txtQuantidade.Name = "txtQuantidade";
-            this.txtQuantidade.Size = new System.Drawing.Size(298, 20);
+            this.txtQuantidade.Size = new System.Drawing.Size(298, 21);
             this.txtQuantidade.TabIndex = 19;
             // 
             // label4

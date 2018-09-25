@@ -71,9 +71,10 @@
             // 
             // dtppedido
             // 
+            this.dtppedido.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtppedido.Location = new System.Drawing.Point(220, 32);
             this.dtppedido.Name = "dtppedido";
-            this.dtppedido.Size = new System.Drawing.Size(200, 20);
+            this.dtppedido.Size = new System.Drawing.Size(200, 21);
             this.dtppedido.TabIndex = 61;
             // 
             // label2
@@ -90,9 +91,10 @@
             // 
             // txtssenhausu
             // 
+            this.txtssenhausu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtssenhausu.Location = new System.Drawing.Point(220, 126);
             this.txtssenhausu.Name = "txtssenhausu";
-            this.txtssenhausu.Size = new System.Drawing.Size(243, 20);
+            this.txtssenhausu.Size = new System.Drawing.Size(243, 21);
             this.txtssenhausu.TabIndex = 62;
             // 
             // label3
@@ -109,9 +111,10 @@
             // 
             // txtnmusu
             // 
+            this.txtnmusu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnmusu.Location = new System.Drawing.Point(220, 73);
             this.txtnmusu.Name = "txtnmusu";
-            this.txtnmusu.Size = new System.Drawing.Size(243, 20);
+            this.txtnmusu.Size = new System.Drawing.Size(243, 21);
             this.txtnmusu.TabIndex = 63;
             // 
             // btnsalbar

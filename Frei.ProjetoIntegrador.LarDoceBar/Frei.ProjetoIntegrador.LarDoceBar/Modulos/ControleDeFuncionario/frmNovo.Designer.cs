@@ -112,7 +112,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(213, 258);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 20);
+            this.label5.Size = new System.Drawing.Size(67, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "Telefone:";
             this.label5.Click += new System.EventHandler(this.label2_Click);
@@ -145,9 +145,10 @@
             // 
             // dtpnasci
             // 
+            this.dtpnasci.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.dtpnasci.Location = new System.Drawing.Point(588, 213);
             this.dtpnasci.Name = "dtpnasci";
-            this.dtpnasci.Size = new System.Drawing.Size(200, 20);
+            this.dtpnasci.Size = new System.Drawing.Size(200, 21);
             this.dtpnasci.TabIndex = 1;
             // 
             // label8
@@ -178,58 +179,66 @@
             // 
             // txtnome
             // 
+            this.txtnome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtnome.Location = new System.Drawing.Point(67, 219);
             this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(100, 20);
+            this.txtnome.Size = new System.Drawing.Size(100, 21);
             this.txtnome.TabIndex = 2;
             // 
             // txtcpf
             // 
+            this.txtcpf.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcpf.Location = new System.Drawing.Point(67, 251);
             this.txtcpf.Name = "txtcpf";
-            this.txtcpf.Size = new System.Drawing.Size(100, 20);
+            this.txtcpf.Size = new System.Drawing.Size(100, 21);
             this.txtcpf.TabIndex = 2;
             // 
             // txtcep
             // 
+            this.txtcep.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcep.Location = new System.Drawing.Point(67, 290);
             this.txtcep.Name = "txtcep";
-            this.txtcep.Size = new System.Drawing.Size(100, 20);
+            this.txtcep.Size = new System.Drawing.Size(100, 21);
             this.txtcep.TabIndex = 2;
             // 
             // txtemail
             // 
+            this.txtemail.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtemail.Location = new System.Drawing.Point(297, 297);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(100, 20);
+            this.txtemail.Size = new System.Drawing.Size(100, 21);
             this.txtemail.TabIndex = 3;
             // 
             // txttel
             // 
+            this.txttel.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txttel.Location = new System.Drawing.Point(297, 258);
             this.txttel.Name = "txttel";
-            this.txttel.Size = new System.Drawing.Size(100, 20);
+            this.txttel.Size = new System.Drawing.Size(100, 21);
             this.txttel.TabIndex = 4;
             // 
             // txtcelular
             // 
+            this.txtcelular.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtcelular.Location = new System.Drawing.Point(297, 216);
             this.txtcelular.Name = "txtcelular";
-            this.txtcelular.Size = new System.Drawing.Size(100, 20);
+            this.txtcelular.Size = new System.Drawing.Size(100, 21);
             this.txtcelular.TabIndex = 5;
             // 
             // txtdemi
             // 
+            this.txtdemi.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtdemi.Location = new System.Drawing.Point(588, 294);
             this.txtdemi.Name = "txtdemi";
-            this.txtdemi.Size = new System.Drawing.Size(200, 20);
+            this.txtdemi.Size = new System.Drawing.Size(200, 21);
             this.txtdemi.TabIndex = 6;
             // 
             // txtad
             // 
+            this.txtad.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
             this.txtad.Location = new System.Drawing.Point(588, 258);
             this.txtad.Name = "txtad";
-            this.txtad.Size = new System.Drawing.Size(200, 20);
+            this.txtad.Size = new System.Drawing.Size(200, 21);
             this.txtad.TabIndex = 7;
             // 
             // btncad
