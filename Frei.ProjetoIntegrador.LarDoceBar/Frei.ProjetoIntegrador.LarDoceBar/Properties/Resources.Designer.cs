@@ -63,6 +63,26 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_W8cj_FRc58UozzcMWqVPZw {
+            get {
+                object obj = ResourceManager.GetObject("1_W8cj-FRc58UozzcMWqVPZw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1288412340_carregando_e_o_1_gif_d_pedrohdlm {
+            get {
+                object obj = ResourceManager.GetObject("1288412340-carregando-e-o-1-gif-d-pedrohdlm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _14646669581 {
             get {
                 object obj = ResourceManager.GetObject("14646669581", resourceCulture);
@@ -116,6 +136,16 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         internal static System.Drawing.Bitmap beer_150071_960_720 {
             get {
                 object obj = ResourceManager.GetObject("beer-150071_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CoolClips_peop0043 {
+            get {
+                object obj = ResourceManager.GetObject("CoolClips_peop0043", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +236,26 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         internal static System.Drawing.Bitmap juniper_1 {
             get {
                 object obj = ResourceManager.GetObject("juniper-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loader {
+            get {
+                object obj = ResourceManager.GetObject("loader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NELSON_MUNTZ_LOS_SIMPSONS__logo_4724AE8BDD_seeklogo_com {
+            get {
+                object obj = ResourceManager.GetObject("NELSON_MUNTZ_LOS_SIMPSONS_-logo-4724AE8BDD-seeklogo.com", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
