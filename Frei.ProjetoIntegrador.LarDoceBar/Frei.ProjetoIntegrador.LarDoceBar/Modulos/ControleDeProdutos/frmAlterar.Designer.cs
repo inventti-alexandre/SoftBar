@@ -40,7 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -49,7 +49,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txttelfor);
             this.panel1.Controls.Add(this.txtvlprod);
             this.panel1.Controls.Add(this.txtcnpjfor);
@@ -74,30 +74,30 @@
             // 
             // txtvlprod
             // 
-            this.txtvlprod.Location = new System.Drawing.Point(472, 32);
+            this.txtvlprod.Location = new System.Drawing.Point(514, 32);
             this.txtvlprod.Name = "txtvlprod";
-            this.txtvlprod.Size = new System.Drawing.Size(195, 20);
+            this.txtvlprod.Size = new System.Drawing.Size(153, 20);
             this.txtvlprod.TabIndex = 19;
             // 
             // txtcnpjfor
             // 
-            this.txtcnpjfor.Location = new System.Drawing.Point(150, 151);
+            this.txtcnpjfor.Location = new System.Drawing.Point(172, 151);
             this.txtcnpjfor.Name = "txtcnpjfor";
-            this.txtcnpjfor.Size = new System.Drawing.Size(211, 20);
+            this.txtcnpjfor.Size = new System.Drawing.Size(138, 20);
             this.txtcnpjfor.TabIndex = 20;
             // 
             // txtnomefor
             // 
-            this.txtnomefor.Location = new System.Drawing.Point(156, 87);
+            this.txtnomefor.Location = new System.Drawing.Point(172, 87);
             this.txtnomefor.Name = "txtnomefor";
-            this.txtnomefor.Size = new System.Drawing.Size(179, 20);
+            this.txtnomefor.Size = new System.Drawing.Size(138, 20);
             this.txtnomefor.TabIndex = 21;
             // 
             // txtnomeprod
             // 
-            this.txtnomeprod.Location = new System.Drawing.Point(149, 35);
+            this.txtnomeprod.Location = new System.Drawing.Point(172, 35);
             this.txtnomeprod.Name = "txtnomeprod";
-            this.txtnomeprod.Size = new System.Drawing.Size(173, 20);
+            this.txtnomeprod.Size = new System.Drawing.Size(138, 20);
             this.txtnomeprod.TabIndex = 22;
             this.txtnomeprod.TextChanged += new System.EventHandler(this.txtnomeprod_TextChanged);
             // 
@@ -107,11 +107,11 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(7, 151);
+            this.label3.Location = new System.Drawing.Point(5, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 20);
+            this.label3.Size = new System.Drawing.Size(139, 20);
             this.label3.TabIndex = 13;
-            this.label3.Text = "CNPJ do fornecedor:";
+            this.label3.Text = "CNPJ do Fornecedor:";
             // 
             // label5
             // 
@@ -121,9 +121,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(347, 84);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(161, 20);
+            this.label5.Size = new System.Drawing.Size(164, 20);
             this.label5.TabIndex = 14;
-            this.label5.Text = "telefone do fornecedor:";
+            this.label5.Text = "Telefone do Fornecedor:";
             // 
             // label2
             // 
@@ -131,11 +131,11 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(7, 87);
+            this.label2.Location = new System.Drawing.Point(-1, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 20);
+            this.label2.Size = new System.Drawing.Size(145, 20);
             this.label2.TabIndex = 15;
-            this.label2.Text = "nome do fornecedor:";
+            this.label2.Text = "Nome do Fornecedor:";
             // 
             // label4
             // 
@@ -143,11 +143,11 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(345, 32);
+            this.label4.Location = new System.Drawing.Point(390, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 20);
+            this.label4.Size = new System.Drawing.Size(118, 20);
             this.label4.TabIndex = 16;
-            this.label4.Text = "valor do produto:";
+            this.label4.Text = "Valor do produto:";
             // 
             // label1
             // 
@@ -157,9 +157,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(22, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 20);
+            this.label1.Size = new System.Drawing.Size(122, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "nome do produto:";
+            this.label1.Text = "Nome do Produto:";
             // 
             // label8
             // 
@@ -169,22 +169,22 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(333, 111);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 34);
+            this.label8.Size = new System.Drawing.Size(198, 34);
             this.label8.TabIndex = 51;
-            this.label8.Text = "Alterar";
+            this.label8.Text = "Alterar Produtos";
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(642, 379);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 47);
-            this.button1.TabIndex = 65;
-            this.button1.Text = "cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(642, 379);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(104, 47);
+            this.btnCadastrar.TabIndex = 65;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -216,11 +216,13 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -244,7 +246,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
     }

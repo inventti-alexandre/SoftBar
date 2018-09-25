@@ -33,7 +33,7 @@
             this.dtppedidodecompra = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -43,7 +43,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.dtppedidodevenda);
             this.panel1.Controls.Add(this.dtppedidodecompra);
             this.panel1.Controls.Add(this.label2);
@@ -73,11 +73,11 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(88, 116);
+            this.label2.Location = new System.Drawing.Point(100, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 20);
+            this.label2.Size = new System.Drawing.Size(117, 20);
             this.label2.TabIndex = 8;
-            this.label2.Text = "pedido de venda:";
+            this.label2.Text = "Pedido de Venda:";
             // 
             // label1
             // 
@@ -87,22 +87,22 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(88, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 20);
+            this.label1.Size = new System.Drawing.Size(129, 20);
             this.label1.TabIndex = 9;
-            this.label1.Text = "pedido de compra:";
+            this.label1.Text = "Pedido de Compra:";
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(595, 391);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 47);
-            this.button1.TabIndex = 67;
-            this.button1.Text = "cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(595, 391);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(104, 47);
+            this.btnCadastrar.TabIndex = 67;
+            this.btnCadastrar.Text = "cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -147,7 +147,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.panel1);
             this.Name = "frmAlterar";
             this.Text = "alterar";
@@ -167,7 +167,7 @@
         private System.Windows.Forms.DateTimePicker dtppedidodecompra;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;

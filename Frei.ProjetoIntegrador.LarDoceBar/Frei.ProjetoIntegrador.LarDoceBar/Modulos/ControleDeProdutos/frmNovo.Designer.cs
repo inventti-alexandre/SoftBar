@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txTel = new System.Windows.Forms.TextBox();
+            this.txtValorprod = new System.Windows.Forms.TextBox();
+            this.txtCNPJ = new System.Windows.Forms.TextBox();
+            this.txtNomefor = new System.Windows.Forms.TextBox();
+            this.txtNomeprod = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -47,12 +47,12 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.txTel);
+            this.panel1.Controls.Add(this.txtValorprod);
+            this.panel1.Controls.Add(this.txtCNPJ);
+            this.panel1.Controls.Add(this.txtNomefor);
+            this.panel1.Controls.Add(this.txtNomeprod);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
@@ -63,40 +63,40 @@
             this.panel1.Size = new System.Drawing.Size(690, 209);
             this.panel1.TabIndex = 51;
             // 
-            // textBox1
+            // txTel
             // 
-            this.textBox1.Location = new System.Drawing.Point(514, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 20);
-            this.textBox1.TabIndex = 18;
+            this.txTel.Location = new System.Drawing.Point(514, 84);
+            this.txTel.Name = "txTel";
+            this.txTel.Size = new System.Drawing.Size(153, 20);
+            this.txTel.TabIndex = 18;
             // 
-            // textBox2
+            // txtValorprod
             // 
-            this.textBox2.Location = new System.Drawing.Point(472, 32);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 20);
-            this.textBox2.TabIndex = 19;
+            this.txtValorprod.Location = new System.Drawing.Point(514, 32);
+            this.txtValorprod.Name = "txtValorprod";
+            this.txtValorprod.Size = new System.Drawing.Size(153, 20);
+            this.txtValorprod.TabIndex = 19;
             // 
-            // textBox3
+            // txtCNPJ
             // 
-            this.textBox3.Location = new System.Drawing.Point(150, 151);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 20);
-            this.textBox3.TabIndex = 20;
+            this.txtCNPJ.Location = new System.Drawing.Point(150, 151);
+            this.txtCNPJ.Name = "txtCNPJ";
+            this.txtCNPJ.Size = new System.Drawing.Size(172, 20);
+            this.txtCNPJ.TabIndex = 20;
             // 
-            // textBox4
+            // txtNomefor
             // 
-            this.textBox4.Location = new System.Drawing.Point(156, 87);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(179, 20);
-            this.textBox4.TabIndex = 21;
+            this.txtNomefor.Location = new System.Drawing.Point(156, 87);
+            this.txtNomefor.Name = "txtNomefor";
+            this.txtNomefor.Size = new System.Drawing.Size(166, 20);
+            this.txtNomefor.TabIndex = 21;
             // 
-            // textBox5
+            // txtNomeprod
             // 
-            this.textBox5.Location = new System.Drawing.Point(149, 35);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(173, 20);
-            this.textBox5.TabIndex = 22;
+            this.txtNomeprod.Location = new System.Drawing.Point(149, 35);
+            this.txtNomeprod.Name = "txtNomeprod";
+            this.txtNomeprod.Size = new System.Drawing.Size(173, 20);
+            this.txtNomeprod.TabIndex = 22;
             // 
             // label6
             // 
@@ -106,9 +106,9 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(7, 151);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 20);
+            this.label6.Size = new System.Drawing.Size(139, 20);
             this.label6.TabIndex = 13;
-            this.label6.Text = "CNPJ do fornecedor:";
+            this.label6.Text = "CNPJ do Fornecedor:";
             // 
             // label7
             // 
@@ -118,9 +118,9 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(347, 84);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(161, 20);
+            this.label7.Size = new System.Drawing.Size(164, 20);
             this.label7.TabIndex = 14;
-            this.label7.Text = "telefone do fornecedor:";
+            this.label7.Text = "Telefone do Fornecedor:";
             // 
             // label8
             // 
@@ -130,9 +130,9 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(7, 87);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 20);
+            this.label8.Size = new System.Drawing.Size(145, 20);
             this.label8.TabIndex = 15;
-            this.label8.Text = "nome do fornecedor:";
+            this.label8.Text = "Nome do Fornecedor:";
             // 
             // label9
             // 
@@ -140,11 +140,11 @@
             this.label9.BackColor = System.Drawing.Color.Red;
             this.label9.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(345, 32);
+            this.label9.Location = new System.Drawing.Point(389, 32);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 20);
+            this.label9.Size = new System.Drawing.Size(118, 20);
             this.label9.TabIndex = 16;
-            this.label9.Text = "valor do produto:";
+            this.label9.Text = "Valor do Produto:";
             // 
             // label10
             // 
@@ -154,9 +154,9 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(22, 35);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(121, 20);
+            this.label10.Size = new System.Drawing.Size(122, 20);
             this.label10.TabIndex = 17;
-            this.label10.Text = "nome do produto:";
+            this.label10.Text = "Nome do Produto:";
             // 
             // button1
             // 
@@ -168,7 +168,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 66;
-            this.button1.Text = "cadastrar";
+            this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // panel3
@@ -188,11 +188,11 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(287, 107);
+            this.label1.Location = new System.Drawing.Point(254, 107);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 34);
+            this.label1.Size = new System.Drawing.Size(286, 34);
             this.label1.TabIndex = 78;
-            this.label1.Text = "Cadastrar  Novo";
+            this.label1.Text = "Cadastrar  Novo Produto";
             // 
             // frmNovo
             // 
@@ -205,8 +205,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmNovo";
-            this.Text = "frmNovo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.Load += new System.EventHandler(this.frmNovo_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -218,11 +220,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txTel;
+        private System.Windows.Forms.TextBox txtValorprod;
+        private System.Windows.Forms.TextBox txtCNPJ;
+        private System.Windows.Forms.TextBox txtNomefor;
+        private System.Windows.Forms.TextBox txtNomeprod;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;

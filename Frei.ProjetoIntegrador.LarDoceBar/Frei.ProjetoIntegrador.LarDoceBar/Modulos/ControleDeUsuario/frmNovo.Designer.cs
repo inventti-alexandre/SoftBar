@@ -35,7 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtsenha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -43,7 +43,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtnome);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtpermissões);
@@ -70,9 +70,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(73, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 5;
-            this.label1.Text = "nome:";
+            this.label1.Text = "Nome:";
             // 
             // txtpermissões
             // 
@@ -91,7 +91,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 20);
             this.label3.TabIndex = 4;
-            this.label3.Text = "permissões:";
+            this.label3.Text = "Permissões:";
             // 
             // txtsenha
             // 
@@ -110,20 +110,20 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "senha:";
+            this.label2.Text = "Senha:";
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(638, 384);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 38);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(638, 384);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(128, 38);
+            this.btnCadastrar.TabIndex = 54;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -156,10 +156,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmNovo";
-            this.Text = "frmNovo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -176,7 +178,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtsenha;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel3;
     }

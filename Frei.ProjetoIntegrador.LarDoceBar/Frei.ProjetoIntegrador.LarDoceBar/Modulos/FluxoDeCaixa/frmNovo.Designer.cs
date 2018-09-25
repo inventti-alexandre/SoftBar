@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpPedidovenda = new System.Windows.Forms.DateTimePicker();
+            this.dtpPedidocompr = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,9 +41,9 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.dtpPedidovenda);
+            this.panel1.Controls.Add(this.dtpPedidocompr);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(115, 120);
@@ -51,19 +51,19 @@
             this.panel1.Size = new System.Drawing.Size(552, 227);
             this.panel1.TabIndex = 55;
             // 
-            // dateTimePicker1
+            // dtpPedidovenda
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(222, 117);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtpPedidovenda.Location = new System.Drawing.Point(222, 117);
+            this.dtpPedidovenda.Name = "dtpPedidovenda";
+            this.dtpPedidovenda.Size = new System.Drawing.Size(200, 20);
+            this.dtpPedidovenda.TabIndex = 10;
             // 
-            // dateTimePicker2
+            // dtpPedidocompr
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(222, 77);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 11;
+            this.dtpPedidocompr.Location = new System.Drawing.Point(222, 77);
+            this.dtpPedidocompr.Name = "dtpPedidocompr";
+            this.dtpPedidocompr.Size = new System.Drawing.Size(200, 20);
+            this.dtpPedidocompr.TabIndex = 11;
             // 
             // label3
             // 
@@ -71,7 +71,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(88, 116);
+            this.label3.Location = new System.Drawing.Point(98, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 8;
@@ -148,8 +148,8 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtpPedidovenda;
+        private System.Windows.Forms.DateTimePicker dtpPedidocompr;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
