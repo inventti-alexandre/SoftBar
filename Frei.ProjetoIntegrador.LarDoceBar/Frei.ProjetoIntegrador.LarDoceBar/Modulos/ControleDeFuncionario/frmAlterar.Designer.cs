@@ -77,9 +77,9 @@
             // 
             // txtadmi
             // 
-            this.txtadmi.Location = new System.Drawing.Point(425, 106);
+            this.txtadmi.Location = new System.Drawing.Point(481, 96);
             this.txtadmi.Name = "txtadmi";
-            this.txtadmi.Size = new System.Drawing.Size(276, 20);
+            this.txtadmi.Size = new System.Drawing.Size(220, 20);
             this.txtadmi.TabIndex = 26;
             // 
             // txtemail
@@ -98,7 +98,7 @@
             // 
             // txtcel
             // 
-            this.txtcel.Location = new System.Drawing.Point(70, 67);
+            this.txtcel.Location = new System.Drawing.Point(70, 60);
             this.txtcel.Name = "txtcel";
             this.txtcel.Size = new System.Drawing.Size(250, 20);
             this.txtcel.TabIndex = 24;
@@ -112,7 +112,7 @@
             // 
             // txtcpf
             // 
-            this.txtcpf.Location = new System.Drawing.Point(70, 109);
+            this.txtcpf.Location = new System.Drawing.Point(70, 99);
             this.txtcpf.Name = "txtcpf";
             this.txtcpf.Size = new System.Drawing.Size(250, 20);
             this.txtcpf.TabIndex = 19;
@@ -149,7 +149,7 @@
             this.label8.BackColor = System.Drawing.Color.Red;
             this.label8.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(326, 106);
+            this.label8.Location = new System.Drawing.Point(386, 96);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 20);
             this.label8.TabIndex = 15;
@@ -197,7 +197,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 67);
+            this.label4.Location = new System.Drawing.Point(6, 60);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 20);
             this.label4.TabIndex = 11;
@@ -209,7 +209,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(13, 175);
+            this.label3.Location = new System.Drawing.Point(28, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 20);
             this.label3.TabIndex = 10;
@@ -221,7 +221,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(15, 116);
+            this.label2.Location = new System.Drawing.Point(30, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 20);
             this.label2.TabIndex = 17;
@@ -241,7 +241,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtcel);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtdemi);
@@ -294,11 +294,11 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(350, 129);
+            this.label11.Location = new System.Drawing.Point(286, 129);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 34);
+            this.label11.Size = new System.Drawing.Size(229, 34);
             this.label11.TabIndex = 53;
-            this.label11.Text = "Alterar";
+            this.label11.Text = "Alterar Funcionario";
             // 
             // frmAlterar
             // 
@@ -311,8 +311,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnsalvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
-            this.Text = "frmAlterar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
