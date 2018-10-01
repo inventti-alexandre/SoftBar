@@ -66,7 +66,7 @@
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dgvViagem.Location = new System.Drawing.Point(2, 167);
+            this.dgvViagem.Location = new System.Drawing.Point(30, 167);
             this.dgvViagem.Name = "dgvViagem";
             this.dgvViagem.ReadOnly = true;
             this.dgvViagem.RowHeadersVisible = false;
@@ -134,6 +134,7 @@
             // btnremove
             // 
             this.btnremove.BackColor = System.Drawing.Color.Red;
+            this.btnremove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnremove.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnremove.ForeColor = System.Drawing.Color.White;
             this.btnremove.Location = new System.Drawing.Point(530, 393);
@@ -146,6 +147,7 @@
             // btnalt
             // 
             this.btnalt.BackColor = System.Drawing.Color.Red;
+            this.btnalt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnalt.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnalt.ForeColor = System.Drawing.Color.White;
             this.btnalt.Location = new System.Drawing.Point(411, 393);
@@ -158,6 +160,7 @@
             // btnnovo
             // 
             this.btnnovo.BackColor = System.Drawing.Color.Red;
+            this.btnnovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnnovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnnovo.ForeColor = System.Drawing.Color.White;
             this.btnnovo.Location = new System.Drawing.Point(654, 393);
@@ -170,9 +173,9 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
-            this.txtNome.Location = new System.Drawing.Point(82, 141);
+            this.txtNome.Location = new System.Drawing.Point(127, 135);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 21);
+            this.txtNome.Size = new System.Drawing.Size(359, 21);
             this.txtNome.TabIndex = 18;
             // 
             // label1
@@ -181,7 +184,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 144);
+            this.label1.Location = new System.Drawing.Point(72, 136);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 17;
@@ -215,9 +218,9 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(198, 122);
+            this.btnBuscar.Location = new System.Drawing.Point(504, 127);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(88, 39);
+            this.btnBuscar.Size = new System.Drawing.Size(88, 35);
             this.btnBuscar.TabIndex = 62;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -240,6 +243,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsultar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.frmConsultar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

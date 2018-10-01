@@ -18,5 +18,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmSplash());
         }
+
+        static public int id_Filial = 1;
     }
 }
