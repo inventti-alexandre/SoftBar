@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
+namespace Frei.ProjetoIntegrador.Academia.DB.Funcionario
 {
     class FuncionarioDTO
     {

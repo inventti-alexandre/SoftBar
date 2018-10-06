@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Usuario
+namespace Frei.ProjetoIntegrador.Academia.DB.Usuario
 {
     class LoginBusiness
     {

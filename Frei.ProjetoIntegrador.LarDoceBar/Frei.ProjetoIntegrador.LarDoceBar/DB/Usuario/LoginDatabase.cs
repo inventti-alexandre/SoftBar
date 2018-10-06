@@ -1,12 +1,12 @@
-﻿using Frei.ProjetoIntegrador.LarDoceBar.DB.Base;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
+using Nsf._2018.Modulo3.App.DB.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Usuario
+namespace Frei.ProjetoIntegrador.Academia.DB.Usuario
 {
     class LoginDatabase
     {

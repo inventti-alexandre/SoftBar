@@ -1,21 +1,72 @@
-﻿using System;
+﻿using Frei.ProjetoIntegrador.Academia.Validacoes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
+namespace Frei.ProjetoIntegrador.Academia.DB.Funcionario
 {
     class FuncionarioBusiness
     {
         public int CadastrarFuncionario(FuncionarioDTO dto)
         {
+            exReg regex = new exReg();
+            regex.ValidarEmail(dto.ds_Email);
+            regex.ValidarNome(dto.nm_NomeFunc);
+            regex.ValidarTelefoneFixo(dto.num_Telefone);
+            regex.ValidarTelefoneCelular(dto.num_Celular);
+
+            CPF validar = new CPF();
+            validar.ValidarCPF(dto.ds_CPF);
+
+            decimal idade = DateTime.Now.Year - dto.dt_Nasc.Year;
+            if (idade < 18)
+                throw new ArgumentException("Não é possível cadastrar funcionários menores de 18 anos.");
+
+            if(dto.ds_Logradouro == string.Empty)
+                throw new ArgumentException("Logradouro não pode ser nulo.");
+
+            if (dto.ds_Bairro == string.Empty)
+                throw new ArgumentException("Bairro não pode ser nulo.");
+
+            if (dto.ds_UF == string.Empty)
+                throw new ArgumentException("UF não pode ser nula.");
+
+            if (dto.num_Residencia == string.Empty)
+                throw new ArgumentException("Número de residencia não pode ser nulo.");
+
             FuncionarioDatabase db = new FuncionarioDatabase();
             return db.CadastrarFuncionario(dto);
         }
 
         public int AlterarFuncionario(FuncionarioDTO dto)
         {
+            exReg regex = new exReg();
+            regex.ValidarEmail(dto.ds_Email);
+            regex.ValidarNome(dto.nm_NomeFunc);
+            regex.ValidarTelefoneFixo(dto.num_Telefone);
+            regex.ValidarTelefoneCelular(dto.num_Celular);
+
+            CPF validar = new CPF();
+            validar.ValidarCPF(dto.ds_CPF);
+
+            decimal idade = DateTime.Now.Year - dto.dt_Nasc.Year;
+            if (idade < 18)
+                throw new ArgumentException("Não é possível cadastrar funcionários menores de 18 anos.");
+
+            if (dto.ds_Logradouro == string.Empty)
+                throw new ArgumentException("Logradouro não pode ser nulo.");
+
+            if (dto.ds_Bairro == string.Empty)
+                throw new ArgumentException("Bairro não pode ser nulo.");
+
+            if (dto.ds_UF == string.Empty)
+                throw new ArgumentException("UF não pode ser nula.");
+
+            if (dto.num_Residencia == string.Empty)
+                throw new ArgumentException("Número de residencia não pode ser nulo.");
+
             FuncionarioDatabase db = new FuncionarioDatabase();
             return db.AlterarFuncionario(dto);
         }

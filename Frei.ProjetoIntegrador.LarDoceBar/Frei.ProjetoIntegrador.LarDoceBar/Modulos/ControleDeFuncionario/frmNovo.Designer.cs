@@ -110,14 +110,15 @@
             this.btnSearchCEP.BackColor = System.Drawing.Color.Transparent;
             this.btnSearchCEP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSearchCEP.FlatAppearance.BorderSize = 0;
-            this.btnSearchCEP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchCEP.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnSearchCEP.ForeColor = System.Drawing.Color.Black;
             this.btnSearchCEP.Location = new System.Drawing.Point(258, 17);
             this.btnSearchCEP.Name = "btnSearchCEP";
-            this.btnSearchCEP.Size = new System.Drawing.Size(25, 24);
+            this.btnSearchCEP.Size = new System.Drawing.Size(83, 25);
             this.btnSearchCEP.TabIndex = 6;
+            this.btnSearchCEP.Text = "Buscar";
             this.btnSearchCEP.UseVisualStyleBackColor = false;
+            this.btnSearchCEP.Click += new System.EventHandler(this.btnSearchCEP_Click);
             // 
             // txtNRes
             // 
@@ -186,7 +187,7 @@
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(260, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(85, 20);
+            this.label21.Size = new System.Drawing.Size(84, 20);
             this.label21.TabIndex = 0;
             this.label21.Text = "Nº Telefone:";
             // 
@@ -622,7 +623,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(599, 450);
+            this.ClientSize = new System.Drawing.Size(616, 450);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.pnEmpresa);

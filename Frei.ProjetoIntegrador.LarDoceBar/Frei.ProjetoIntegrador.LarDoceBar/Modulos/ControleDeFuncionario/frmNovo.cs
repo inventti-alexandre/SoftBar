@@ -1,5 +1,6 @@
-﻿using Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario;
-using Frei.ProjetoIntegrador.LarDoceBar.DB.Usuario;
+﻿using Frei.ProjetoIntegrador.Academia.APIs.Correio;
+using Frei.ProjetoIntegrador.Academia.DB.Funcionario;
+using Frei.ProjetoIntegrador.Academia.DB.Usuario;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -80,9 +81,16 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFuncionario
             {
                 MessageBox.Show(ex.Message, "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Ocorreu um erro não identificado.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (ex.Message.Contains("'ds_CPF'"))
+                    MessageBox.Show("Este CPF já foi cadastrado.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else if (ex.Message.Contains("`id_Usuario`"))
+                    MessageBox.Show("Usuário não autenticado!", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else if (ex.Message.Contains("'fk_Func_Usuario'"))
+                    MessageBox.Show("Este usuário já está em uso.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                    MessageBox.Show("Ocorreu um erro não identificado.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -94,9 +102,24 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFuncionario
             return user.id_Usuario;
         }
 
-        private void frmNovo_Load(object sender, EventArgs e)
+        private void txtUF_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (char.IsLetter(e.KeyChar) || char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+                e.Handled = true;
+        }
 
+        private void txtNRes_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) || char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+                e.Handled = true;
         }
     }
 }

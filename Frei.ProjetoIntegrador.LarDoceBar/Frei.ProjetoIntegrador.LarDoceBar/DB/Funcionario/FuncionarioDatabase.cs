@@ -1,25 +1,25 @@
-﻿using Frei.ProjetoIntegrador.LarDoceBar.DB.Base;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
+using Nsf._2018.Modulo3.App.DB.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
+namespace Frei.ProjetoIntegrador.Academia.DB.Funcionario
 {
     class FuncionarioDatabase
     {
         public int CadastrarFuncionario(FuncionarioDTO dto)
         {
-            string script = @"INSERT tb_funcionario(nm_Nome, ds_Sexo, ds_CPF, ds_CEPFunc, ds_Bairro, ds_Logradouro, ds_UF, ds_Complemento, num_Celular, num_Telefone, num_Residencia, ds_Email, dt_Admissao, dt_Demissao, dt_Nasc, fk_Func_Usuario, fk_Func_Filial)
-                                             VALUES(@nm_Nome, @ds_Sexo, @ds_CPF, @ds_CEP, @ds_Bairro, @ds_Logradouro, @ds_UF, @ds_Complemento, @num_Celular, @num_Telefone, @num_Residencia, @ds_Email, @dt_Admissao, @dt_Demissao, @dt_Nasc, @fk_Func_Usuario, @fk_Func_Filial)";
+            string script = @"INSERT tb_funcionario(nm_NomeFunc, ds_Sexo, ds_CPF, ds_CEPFunc, ds_Bairro, ds_Logradouro, ds_UF, ds_Complemento, num_Celular, num_Telefone, num_Residencia, ds_Email, dt_Admissao, dt_Demissao, dt_Nasc, fk_Func_Usuario, fk_Func_Filial)
+                                             VALUES(@nm_NomeFunc, @ds_Sexo, @ds_CPF, @ds_CEPFunc, @ds_Bairro, @ds_Logradouro, @ds_UF, @ds_Complemento, @num_Celular, @num_Telefone, @num_Residencia, @ds_Email, @dt_Admissao, @dt_Demissao, @dt_Nasc, @fk_Func_Usuario, @fk_Func_Filial)";
 
             List<MySqlParameter> parms = new List<MySqlParameter>();
-            parms.Add(new MySqlParameter("nm_Nome", dto.nm_Nome));
+            parms.Add(new MySqlParameter("nm_NomeFunc", dto.nm_NomeFunc));
             parms.Add(new MySqlParameter("ds_Sexo", dto.ds_Sexo));
             parms.Add(new MySqlParameter("ds_CPF", dto.ds_CPF));
-            parms.Add(new MySqlParameter("ds_CEP", dto.ds_CEP));
+            parms.Add(new MySqlParameter("ds_CEPFunc", dto.ds_CEPFunc));
             parms.Add(new MySqlParameter("ds_Bairro", dto.ds_Bairro));
             parms.Add(new MySqlParameter("ds_Logradouro", dto.ds_Logradouro));
             parms.Add(new MySqlParameter("ds_UF", dto.ds_UF));
@@ -61,10 +61,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
             List<MySqlParameter> parms = new List<MySqlParameter>();
             parms.Add(new MySqlParameter("id_Funcionario", dto.id_Funcionario));
-            parms.Add(new MySqlParameter("nm_Nome", dto.nm_Nome));
+            parms.Add(new MySqlParameter("nm_NomeFunc", dto.nm_NomeFunc));
             parms.Add(new MySqlParameter("ds_Sexo", dto.ds_Sexo));
             parms.Add(new MySqlParameter("ds_CPF", dto.ds_CPF));
-            parms.Add(new MySqlParameter("ds_CEP", dto.ds_CEP));
+            parms.Add(new MySqlParameter("ds_CEPFunc", dto.ds_CEPFunc));
             parms.Add(new MySqlParameter("ds_Bairro", dto.ds_Bairro));
             parms.Add(new MySqlParameter("ds_Logradouro", dto.ds_Logradouro));
             parms.Add(new MySqlParameter("ds_UF", dto.ds_UF));
@@ -107,10 +107,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             {
                 view_Func_Usua_Filial funcionario = new view_Func_Usua_Filial();
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");
@@ -138,15 +138,15 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
         public List<view_Func_Usua_Filial> ConsultarPorNome(string nome)
         {
-            string script = $@"SELECT `tb_Funcionario`.*,
-		                             `tb_Usuario`.nm_Usuario,
-		                             `tb_Usuario`.ds_Situacao,
+            string script = $@"SELECT `tb_funcionario`.*,
+		                             `tb_usuario`.nm_Usuario,
+		                             `tb_usuario`.ds_Situacao,
                                      `tb_Filial`.nm_Nome,
                                      `tb_Filial`.ds_CEP
-                                FROM `tb_Funcionario`
+                                FROM `tb_funcionario`
                                 JOIN `tb_Filial` 
                                 ON fk_Func_Filial = id_Filial 
-                                JOIN `tb_Usuario` 
+                                JOIN `tb_usuario` 
                                 ON fk_Func_Usuario = id_Usuario
 
                                 WHERE nm_NomeFunc LIKE '%{nome}%'";
@@ -161,10 +161,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             {
                 view_Func_Usua_Filial funcionario = new view_Func_Usua_Filial();
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");
@@ -192,18 +192,18 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
         public view_Func_Usua_Filial ConsultarPorId(int id)
         {
-            string script = $@"SELECT `tb_Funcionario`.*,
-		                             `tb_Usuario`.nm_Usuario,
-		                             `tb_Usuario`.ds_Situacao,
+            string script = $@"SELECT `tb_funcionario`.*,
+		                             `tb_usuario`.nm_Usuario,
+		                             `tb_usuario`.ds_Situacao,
                                      `tb_Filial`.nm_Nome,
                                      `tb_Filial`.ds_CEP
-                                FROM `tb_Funcionario`
+                                FROM `tb_funcionario`
                                 JOIN `tb_Filial` 
                                 ON fk_Func_Filial = id_Filial 
-                                JOIN `tb_Usuario` 
+                                JOIN `tb_usuario` 
                                 ON fk_Func_Usuario = id_Usuario
 
-                                WHERE id_Funcionario LIKE '%{id}%'";
+                                WHERE id_Funcionario = '{id}'";
 
             List<MySqlParameter> parms = new List<MySqlParameter>();
 
@@ -214,10 +214,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             if (reader.Read())
             {
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");
@@ -243,15 +243,15 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
         public List<view_Func_Usua_Filial> ConsultarPorCPF(string cpf)
         {
-            string script = @"SELECT `tb_Funcionario`.*,
-		                             `tb_Usuario`.nm_Usuario,
-		                             `tb_Usuario`.ds_Situacao,
+            string script = @"SELECT `tb_funcionario`.*,
+		                             `tb_usuario`.nm_Usuario,
+		                             `tb_usuario`.ds_Situacao,
                                      `tb_Filial`.nm_Nome,
                                      `tb_Filial`.ds_CEP
-                                FROM `tb_Funcionario`
+                                FROM `tb_funcionario`
                                 JOIN `tb_Filial` 
                                 ON fk_Func_Filial = id_Filial 
-                                JOIN `tb_Usuario` 
+                                JOIN `tb_usuario` 
                                 ON fk_Func_Usuario = id_Usuario
 
                                 WHERE ds_CPF = @ds_CPF";
@@ -267,10 +267,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             {
                 view_Func_Usua_Filial funcionario = new view_Func_Usua_Filial();
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");
@@ -298,15 +298,15 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
         public List<view_Func_Usua_Filial> ConsultarPorFilial(int idFilial)
         {
-            string script = @"SELECT `tb_Funcionario`.*,
-		                             `tb_Usuario`.nm_Usuario,
-		                             `tb_Usuario`.ds_Situacao,
+            string script = @"SELECT `tb_funcionario`.*,
+		                             `tb_usuario`.nm_Usuario,
+		                             `tb_usuario`.ds_Situacao,
                                      `tb_Filial`.nm_Nome,
                                      `tb_Filial`.ds_CEP
-                                FROM `tb_Funcionario`
+                                FROM `tb_funcionario`
                                 JOIN `tb_Filial` 
                                 ON fk_Func_Filial = id_Filial 
-                                JOIN `tb_Usuario` 
+                                JOIN `tb_usuario` 
                                 ON fk_Func_Usuario = id_Usuario
 
                                 WHERE fk_Func_Filial = @fk_Func_Filial";
@@ -322,10 +322,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             {
                 view_Func_Usua_Filial funcionario = new view_Func_Usua_Filial();
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");
@@ -353,15 +353,15 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
 
         public List<view_Func_Usua_Filial> ConsultarPorNome_Filial(int idFilial, string nome)
         {
-            string script = $@"SELECT `tb_Funcionario`.*,
-		                             `tb_Usuario`.nm_Usuario,
-		                             `tb_Usuario`.ds_Situacao,
+            string script = $@"SELECT `tb_funcionario`.*,
+		                             `tb_usuario`.nm_Usuario,
+		                             `tb_usuario`.ds_Situacao,
                                      `tb_Filial`.nm_Nome,
                                      `tb_Filial`.ds_CEP
-                                FROM `tb_Funcionario`
+                                FROM `tb_funcionario`
                                 JOIN `tb_Filial` 
                                 ON fk_Func_Filial = id_Filial 
-                                JOIN `tb_Usuario` 
+                                JOIN `tb_usuario` 
                                 ON fk_Func_Usuario = id_Usuario
 
                                 WHERE fk_Func_Filial = @fk_Func_Filial%
@@ -378,10 +378,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Funcionario
             {
                 view_Func_Usua_Filial funcionario = new view_Func_Usua_Filial();
                 funcionario.id_Funcionario = reader.GetInt32("id_Funcionario");
-                funcionario.nm_NomeFunc = reader.GetString("nm_Nome");
+                funcionario.nm_NomeFunc = reader.GetString("nm_NomeFunc");
                 funcionario.ds_CPF = reader.GetString("ds_CPF");
                 funcionario.ds_Sexo = reader.GetString("ds_Sexo");
-                funcionario.ds_CEPFunc = reader.GetString("ds_CEP");
+                funcionario.ds_CEPFunc = reader.GetString("ds_CEPFunc");
                 funcionario.ds_Logradouro = reader.GetString("ds_Logradouro");
                 funcionario.ds_Bairro = reader.GetString("ds_Bairro");
                 funcionario.ds_UF = reader.GetString("ds_UF");

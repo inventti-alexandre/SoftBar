@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Frei.ProjetoIntegrador.Academia.DB.FolhaPgmt
 {
-    class FolhaPgmtDTO
+    class view_func_folha
     {
         public int id_Folha_Pgmt { get; set; }
         public DateTime dt_Registro { get; set; }
@@ -17,5 +17,8 @@ namespace Frei.ProjetoIntegrador.Academia.DB.FolhaPgmt
         public int ds_HoraE100 { get; set; }
         public string ds_Mensagem { get; set; }
         public int fk_FolhaPgmt_Func { get; set; }
+
+        public string nm_NomeFunc { get; set; }
+        public string ds_CPF { get; set; }
     }
 }
