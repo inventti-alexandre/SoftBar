@@ -62,8 +62,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(186, 126);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(367, 34);
@@ -73,9 +74,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.Red;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(249, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 20);
@@ -101,52 +103,65 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Red;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(611, 28);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 26);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnRemover
             // 
+            this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(531, 577);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(87, 28);
             this.btnRemover.TabIndex = 49;
             this.btnRemover.Text = "Remover";
-            this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.UseVisualStyleBackColor = false;
             this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
             // btnAlterar
             // 
+            this.btnAlterar.BackColor = System.Drawing.Color.Red;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(438, 577);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(87, 28);
             this.btnAlterar.TabIndex = 50;
             this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.UseVisualStyleBackColor = false;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnNovo
             // 
+            this.btnNovo.BackColor = System.Drawing.Color.Red;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(12, 577);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(87, 28);
             this.btnNovo.TabIndex = 52;
             this.btnNovo.Text = "Novo";
-            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.UseVisualStyleBackColor = false;
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // dgvFolha
             // 
             this.dgvFolha.AllowUserToAddRows = false;
             this.dgvFolha.AllowUserToDeleteRows = false;
+            this.dgvFolha.BackgroundColor = System.Drawing.Color.White;
             this.dgvFolha.ColumnHeadersHeight = 40;
             this.dgvFolha.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvFolha.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -155,6 +170,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
+            this.dgvFolha.GridColor = System.Drawing.Color.White;
             this.dgvFolha.Location = new System.Drawing.Point(12, 283);
             this.dgvFolha.Name = "dgvFolha";
             this.dgvFolha.ReadOnly = true;
@@ -208,13 +224,16 @@
             // 
             // btnVisualizar
             // 
+            this.btnVisualizar.BackColor = System.Drawing.Color.Red;
+            this.btnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisualizar.ForeColor = System.Drawing.Color.White;
             this.btnVisualizar.Location = new System.Drawing.Point(624, 577);
             this.btnVisualizar.Name = "btnVisualizar";
             this.btnVisualizar.Size = new System.Drawing.Size(87, 28);
             this.btnVisualizar.TabIndex = 51;
             this.btnVisualizar.Text = "Visualizar";
-            this.btnVisualizar.UseVisualStyleBackColor = true;
+            this.btnVisualizar.UseVisualStyleBackColor = false;
             this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
             // frmConsultar
