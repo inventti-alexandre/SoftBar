@@ -1,4 +1,4 @@
-﻿using Frei.ProjetoIntegrador.LarDoceBar.DB.Usuario;
+﻿using Frei.ProjetoIntegrador.Academia.DB.Usuario;
 using System;
 using System.Collections.Generic;
 using System.Linq;

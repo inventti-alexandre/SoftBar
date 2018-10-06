@@ -1,4 +1,5 @@
-﻿using Frei.ProjetoIntegrador.Academia.DB.Funcionario;
+﻿using Frei.ProjetoIntegrador.Academia.APIs.Correio;
+using Frei.ProjetoIntegrador.Academia.DB.Funcionario;
 using Frei.ProjetoIntegrador.Academia.DB.Usuario;
 using System;
 using System.Collections.Generic;
@@ -73,7 +74,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFuncionario
             {
                 ValidarUsuario(txtNomeUsuario.Text, txtSenha.Text);
 
-                Validacoes.CPF validar = new Validacoes.CPF();
+                Academia.Validacoes.CPF validar = new Academia.Validacoes.CPF();
                 validar.ValidarCPF(txtCPF.Text);
 
                 FuncionarioDTO dto = new FuncionarioDTO();

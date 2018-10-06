@@ -35,7 +35,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             chkA1.Checked = permissoes.Cliente.Substring(0, 1) == "0" ? false : true;
             chkA2.Checked = permissoes.Funcionario.Substring(0, 1) == "0" ? false : true;
             chkA3.Checked = permissoes.Usuario.Substring(0, 1) == "0" ? false : true;
-            chkA4.Checked = permissoes.Aulas.Substring(0, 1) == "0" ? false : true;
+            chkA4.Checked = permissoes.Cardapio.Substring(0, 1) == "0" ? false : true;
             chkA5.Checked = permissoes.Produto.Substring(0, 1) == "0" ? false : true;
             chkA6.Checked = permissoes.Compra.Substring(0, 1) == "0" ? false : true;
             chkA7.Checked = permissoes.Venda.Substring(0, 1) == "0" ? false : true;
@@ -47,7 +47,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             chkCad1.Checked = permissoes.Cliente.Substring(1, 1) == "0" ? false : true;
             chkCad2.Checked = permissoes.Funcionario.Substring(1, 1) == "0" ? false : true;
             chkCad3.Checked = permissoes.Usuario.Substring(1, 1) == "0" ? false : true;
-            chkCad4.Checked = permissoes.Aulas.Substring(1, 1) == "0" ? false : true;
+            chkCad4.Checked = permissoes.Cardapio.Substring(1, 1) == "0" ? false : true;
             chkCad5.Checked = permissoes.Produto.Substring(1, 1) == "0" ? false : true;
             chkCad6.Checked = permissoes.Compra.Substring(1, 1) == "0" ? false : true;
             chkCad7.Checked = permissoes.Venda.Substring(1, 1) == "0" ? false : true;
@@ -59,7 +59,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             chkCon1.Checked = permissoes.Cliente.Substring(2, 1) == "0" ? false : true;
             chkCon2.Checked = permissoes.Funcionario.Substring(2, 1) == "0" ? false : true;
             chkCon3.Checked = permissoes.Usuario.Substring(2, 1) == "0" ? false : true;
-            chkCon4.Checked = permissoes.Aulas.Substring(2, 1) == "0" ? false : true;
+            chkCon4.Checked = permissoes.Cardapio.Substring(2, 1) == "0" ? false : true;
             chkCon5.Checked = permissoes.Produto.Substring(2, 1) == "0" ? false : true;
             chkCon6.Checked = permissoes.Compra.Substring(2, 1) == "0" ? false : true;
             chkCon7.Checked = permissoes.Venda.Substring(2, 1) == "0" ? false : true;
@@ -71,7 +71,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             chkAlt1.Checked = permissoes.Cliente.Substring(3, 1) == "0" ? false : true;
             chkAlt2.Checked = permissoes.Funcionario.Substring(3, 1) == "0" ? false : true;
             chkAlt3.Checked = permissoes.Usuario.Substring(3, 1) == "0" ? false : true;
-            chkAlt4.Checked = permissoes.Aulas.Substring(3, 1) == "0" ? false : true;
+            chkAlt4.Checked = permissoes.Cardapio.Substring(3, 1) == "0" ? false : true;
             chkAlt5.Checked = permissoes.Produto.Substring(3, 1) == "0" ? false : true;
             chkAlt6.Checked = permissoes.Compra.Substring(3, 1) == "0" ? false : true;
             chkAlt7.Checked = permissoes.Venda.Substring(3, 1) == "0" ? false : true;
@@ -83,7 +83,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             chkRem1.Checked = permissoes.Cliente.Substring(4, 1) == "0" ? false : true;
             chkRem2.Checked = permissoes.Funcionario.Substring(4, 1) == "0" ? false : true;
             chkRem3.Checked = permissoes.Usuario.Substring(4, 1) == "0" ? false : true;
-            chkRem4.Checked = permissoes.Aulas.Substring(4, 1) == "0" ? false : true;
+            chkRem4.Checked = permissoes.Cardapio.Substring(4, 1) == "0" ? false : true;
             chkRem5.Checked = permissoes.Produto.Substring(4, 1) == "0" ? false : true;
             chkRem6.Checked = permissoes.Compra.Substring(4, 1) == "0" ? false : true;
             chkRem7.Checked = permissoes.Venda.Substring(4, 1) == "0" ? false : true;
