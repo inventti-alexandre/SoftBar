@@ -107,11 +107,12 @@
             // 
             // btnSearchCEP
             // 
-            this.btnSearchCEP.BackColor = System.Drawing.Color.Transparent;
+            this.btnSearchCEP.BackColor = System.Drawing.Color.Red;
             this.btnSearchCEP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSearchCEP.FlatAppearance.BorderSize = 0;
+            this.btnSearchCEP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchCEP.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnSearchCEP.ForeColor = System.Drawing.Color.Black;
+            this.btnSearchCEP.ForeColor = System.Drawing.Color.White;
             this.btnSearchCEP.Location = new System.Drawing.Point(258, 17);
             this.btnSearchCEP.Name = "btnSearchCEP";
             this.btnSearchCEP.Size = new System.Drawing.Size(83, 25);
@@ -151,7 +152,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.BackColor = System.Drawing.Color.Red;
             this.label15.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(307, 97);
@@ -170,7 +171,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.BackColor = System.Drawing.Color.Red;
             this.label13.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(337, 71);
@@ -182,7 +183,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.BackColor = System.Drawing.Color.Red;
             this.label21.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(260, 41);
@@ -222,7 +223,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.BackColor = System.Drawing.Color.Red;
             this.label18.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(95, 15);
@@ -309,7 +310,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.BackColor = System.Drawing.Color.Red;
             this.label9.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(93, 39);
@@ -422,6 +423,7 @@
             // btnCadastrar
             // 
             this.btnCadastrar.BackColor = System.Drawing.Color.Red;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Location = new System.Drawing.Point(242, 827);
@@ -441,7 +443,8 @@
             // rbnF
             // 
             this.rbnF.AutoSize = true;
-            this.rbnF.BackColor = System.Drawing.Color.Transparent;
+            this.rbnF.BackColor = System.Drawing.Color.Red;
+            this.rbnF.ForeColor = System.Drawing.Color.White;
             this.rbnF.Location = new System.Drawing.Point(392, 51);
             this.rbnF.Name = "rbnF";
             this.rbnF.Size = new System.Drawing.Size(67, 17);
@@ -464,8 +467,9 @@
             // rbnM
             // 
             this.rbnM.AutoSize = true;
-            this.rbnM.BackColor = System.Drawing.Color.Transparent;
+            this.rbnM.BackColor = System.Drawing.Color.Red;
             this.rbnM.Checked = true;
+            this.rbnM.ForeColor = System.Drawing.Color.White;
             this.rbnM.Location = new System.Drawing.Point(313, 51);
             this.rbnM.Name = "rbnM";
             this.rbnM.Size = new System.Drawing.Size(73, 17);
@@ -498,7 +502,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(265, 48);
