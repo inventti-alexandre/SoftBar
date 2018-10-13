@@ -20,6 +20,6 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Fornecedor
         public string ds_Email { get; set; }
         public DateTime dt_Cadastro { get; set; }
         public bool ds_Situacao { get; set; }
-        public int fk_Forn_Filial { get; set; }
+        public int fk_Fornecedor_Filial { get; set; }
     }
 }
