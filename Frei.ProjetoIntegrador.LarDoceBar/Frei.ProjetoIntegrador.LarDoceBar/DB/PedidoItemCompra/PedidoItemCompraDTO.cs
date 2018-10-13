@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.Academia.DB.PedidoCompra
+namespace Frei.ProjetoIntegrador.Academia.DB.PedidoItemCompra
 {
-    class PedidoCompraDTO
+    class PedidoItemCompraDTO
     {
-        public int id_Pedido_Compra { get; set; }
-        public DateTime dt_Pedido { get; set; }
-        public int fk_PedidoCompra_Usuario { get; set; }
-        public int fk_PedidoCompra_Filial { get; set; }
+        public string nm_Produto { get; set; }
 
         public int id_Pedido_Item_Compra { get; set; }
         public int fk_PedidoItemCompra_Produto { get; set; }
+        public int qnt_Produto { get; set; }
         public int fk_PedidoItemCompra_PedidoCompra { get; set; }
     }
 }

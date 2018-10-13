@@ -233,5 +233,61 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
             frm.ShowDialog();
             Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeCompra.frmConsultar frm = new Modulos.ControleDeCompra.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeProdutos.frmNovo frm = new Modulos.ControleDeProdutos.frmNovo();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeProdutos.frmConsultar frm = new Modulos.ControleDeProdutos.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeCompra.frmNovo frm = new Modulos.ControleDeCompra.frmNovo();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeCompra.frmConsultar frm = new Modulos.ControleDeCompra.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void cadastrarToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeFornecedor.frmNovo frm = new Modulos.ControleDeFornecedor.frmNovo();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeFornecedor.frmConsultar frm = new Modulos.ControleDeFornecedor.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
     }
 }

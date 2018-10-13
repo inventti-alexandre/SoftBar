@@ -82,6 +82,10 @@
     <Compile Include="DB\PedidoCompra\PedidoCompraBusiness.cs" />
     <Compile Include="DB\PedidoCompra\PedidoCompraDatabase.cs" />
     <Compile Include="DB\PedidoCompra\PedidoCompraDTO.cs" />
+    <Compile Include="DB\PedidoCompra\view_PedidoCompra.cs" />
+    <Compile Include="DB\PedidoItemCompra\PedidoItemCompraBusiness.cs" />
+    <Compile Include="DB\PedidoItemCompra\PedidoItemCompraDatabase.cs" />
+    <Compile Include="DB\PedidoItemCompra\PedidoItemCompraDTO.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaBusiness.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDatabase.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDTO.cs" />
