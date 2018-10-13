@@ -85,9 +85,10 @@
     <Compile Include="DB\PedidoVenda\PedidoVendaBusiness.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDatabase.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDTO.cs" />
-    <Compile Include="DB\Produto\ProdutoBusiness.cs" />
-    <Compile Include="DB\Produto\ProdutoDatabase.cs" />
-    <Compile Include="DB\Produto\ProdutoDTO.cs" />
+    <Compile Include="DB\ProdutoCompra\ProdutoCompraBusiness.cs" />
+    <Compile Include="DB\ProdutoCompra\ProdutoCompraDatabase.cs" />
+    <Compile Include="DB\ProdutoCompra\ProdutoCompraDTO.cs" />
+    <Compile Include="DB\ProdutoCompra\view_produtoCompra_Forn_Filial.cs" />
     <Compile Include="DB\Usuario\LoginBusiness.cs" />
     <Compile Include="DB\Usuario\LoginDatabase.cs" />
     <Compile Include="DB\Usuario\UsuarioBusiness.cs" />
@@ -221,22 +222,22 @@
     <Compile Include="Modulos\ControleDeFuncionario\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmAlterar.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmAlterar.Designer.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmAlterar.Designer.cs">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmConsultar.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmConsultar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmConsultar.Designer.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmConsultar.Designer.cs">
       <DependentUpon>frmConsultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmNovo.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmNovo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeProdutos\frmNovo.Designer.cs">
+    <Compile Include="Modulos\ControleDeProdutosCompra\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\ControleDeUsuario\frmAlterar.cs">
@@ -386,13 +387,13 @@
     <EmbeddedResource Include="Modulos\ControleDeFuncionario\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeProdutos\frmAlterar.resx">
+    <EmbeddedResource Include="Modulos\ControleDeProdutosCompra\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeProdutos\frmConsultar.resx">
+    <EmbeddedResource Include="Modulos\ControleDeProdutosCompra\frmConsultar.resx">
       <DependentUpon>frmConsultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeProdutos\frmNovo.resx">
+    <EmbeddedResource Include="Modulos\ControleDeProdutosCompra\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeUsuario\frmAlterar.resx">
