@@ -110,8 +110,8 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
                     else
                         throw new ArgumentException("Autenticação falhou!");
                 }
-                else
-                    user.ds_Senha = txtSenha.Text == txtNSenha.Text ? txtSenha.Text : throw new ArgumentException("As senhas não são iguais.");
+               //// else
+//user.ds_Senha = txtSenha.Text == txtNSenha.Text ? txtSenha.Text : throw new ArgumentException("As senhas não são iguais.");
 
                 if (user.id_Usuario == UserSession.UsuarioLogado.id_Usuario)
                     throw new ArgumentException("Impossível alterar seu usuário enquanto estiver logado.");
