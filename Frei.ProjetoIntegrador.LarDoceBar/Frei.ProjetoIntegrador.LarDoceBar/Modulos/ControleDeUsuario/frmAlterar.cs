@@ -111,7 +111,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
                         throw new ArgumentException("Autenticação falhou!");
                 }
                 else
-                    user.ds_Senha = txtSenha.Text == txtNSenha.Text ? txtSenha.Text : throw new ArgumentException("As senhas não são iguais.");
+                    user.ds_Senha = txtSenha.Text == txtNSenha.Text ? txtSenha.Text :  Erro();
 
                 if (user.id_Usuario == UserSession.UsuarioLogado.id_Usuario)
                     throw new ArgumentException("Impossível alterar seu usuário enquanto estiver logado.");
@@ -132,6 +132,11 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeUsuario
             {
                 MessageBox.Show("Ocorreu um erro não identificado.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private string Erro()
+        {
+            throw new ArgumentException("As senhas não são iguais.");
         }
 
         private int ValidarUsuario(string nome, string senha)
