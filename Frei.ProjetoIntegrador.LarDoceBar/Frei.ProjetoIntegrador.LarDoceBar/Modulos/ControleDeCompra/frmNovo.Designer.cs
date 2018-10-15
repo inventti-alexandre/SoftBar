@@ -340,8 +340,9 @@
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label7);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmNovo";
-            this.Text = "frmNovo";
+            this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.dgvItens)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
