@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Cliente
+namespace Frei.ProjetoIntegrador.Academia.DB.ProdutoVenda
 {
-    class ClienteBusiness
+    class view_Produto
     {
+        public string nm_Nome { get; set; }
     }
 }

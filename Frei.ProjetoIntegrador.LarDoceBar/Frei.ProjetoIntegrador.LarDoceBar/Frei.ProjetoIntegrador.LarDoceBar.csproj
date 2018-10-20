@@ -53,9 +53,9 @@
     <Compile Include="APIs\Correio\CorreioResponse.cs" />
     <Compile Include="DB\Base\Connection.cs" />
     <Compile Include="DB\Base\Database.cs" />
-    <Compile Include="DB\Cliente\ClienteBusiness.cs" />
-    <Compile Include="DB\Cliente\ClienteDatabase.cs" />
-    <Compile Include="DB\Cliente\ClienteDTO.cs" />
+    <Compile Include="DB\Cliente\ClientesBusiness.cs" />
+    <Compile Include="DB\Cliente\ClientesDatabase.cs" />
+    <Compile Include="DB\Cliente\ClientesDTO.cs" />
     <Compile Include="DB\Estoque\EstoqueBusiness.cs" />
     <Compile Include="DB\Estoque\EstoqueDatabase.cs" />
     <Compile Include="DB\Estoque\EstoqueDTO.cs" />
@@ -86,13 +86,21 @@
     <Compile Include="DB\PedidoItemCompra\PedidoItemCompraBusiness.cs" />
     <Compile Include="DB\PedidoItemCompra\PedidoItemCompraDatabase.cs" />
     <Compile Include="DB\PedidoItemCompra\PedidoItemCompraDTO.cs" />
+    <Compile Include="DB\PedidoItemVenda\PedidoItemVendaBusiness.cs" />
+    <Compile Include="DB\PedidoItemVenda\PedidoItemVendaDatabase.cs" />
+    <Compile Include="DB\PedidoItemVenda\PedidoItemVendaDTO.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaBusiness.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDatabase.cs" />
     <Compile Include="DB\PedidoVenda\PedidoVendaDTO.cs" />
+    <Compile Include="DB\PedidoVenda\view_PedidoVenda.cs" />
     <Compile Include="DB\ProdutoCompra\ProdutoCompraBusiness.cs" />
     <Compile Include="DB\ProdutoCompra\ProdutoCompraDatabase.cs" />
     <Compile Include="DB\ProdutoCompra\ProdutoCompraDTO.cs" />
     <Compile Include="DB\ProdutoCompra\view_produtoCompra_Forn_Filial.cs" />
+    <Compile Include="DB\ProdutoVenda\ProdutoVendaBusiness.cs" />
+    <Compile Include="DB\ProdutoVenda\ProdutoVendaDatabase.cs" />
+    <Compile Include="DB\ProdutoVenda\ProdutoVendaDTO.cs" />
+    <Compile Include="DB\ProdutoVenda\view_Produto.cs" />
     <Compile Include="DB\Usuario\LoginBusiness.cs" />
     <Compile Include="DB\Usuario\LoginDatabase.cs" />
     <Compile Include="DB\Usuario\UsuarioBusiness.cs" />
@@ -244,6 +252,24 @@
     <Compile Include="Modulos\ControleDeProdutosCompra\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmAlterar.Designer.cs">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeProdutosVenda\frmNovo.Designer.cs">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\ControleDeUsuario\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,12 +287,6 @@
     </Compile>
     <Compile Include="Modulos\ControleDeUsuario\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modulos\ControleDeVenda\frmAlterar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulos\ControleDeVenda\frmAlterar.Designer.cs">
-      <DependentUpon>frmAlterar.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\ControleDeVenda\frmConsultar.cs">
       <SubType>Form</SubType>
@@ -400,6 +420,15 @@
     <EmbeddedResource Include="Modulos\ControleDeProdutosCompra\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeProdutosVenda\frmAlterar.resx">
+      <DependentUpon>frmAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeProdutosVenda\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeProdutosVenda\frmNovo.resx">
+      <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeUsuario\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
@@ -408,9 +437,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeUsuario\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeVenda\frmAlterar.resx">
-      <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeVenda\frmConsultar.resx">
       <DependentUpon>frmConsultar.cs</DependentUpon>

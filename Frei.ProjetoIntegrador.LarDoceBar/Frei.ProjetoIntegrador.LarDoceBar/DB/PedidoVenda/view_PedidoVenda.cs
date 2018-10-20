@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Frei.ProjetoIntegrador.Academia.DB.PedidoVenda
 {
-    class PedidoVendaDTO
+    class view_PedidoVenda
     {
         public int id_Pedido_Venda { get; set; }
+        public int qnt_Produto { get; set; }
+        public decimal vl_Total { get; set; }
         public DateTime dt_Pedido { get; set; }
-        public int fk_PedidoVenda_Usuario { get; set; }
-        public int fk_PedidoVenda_Cliente { get; set; }
-        public int fk_PedidoVenda_Filial { get; set; }
     }
 }
