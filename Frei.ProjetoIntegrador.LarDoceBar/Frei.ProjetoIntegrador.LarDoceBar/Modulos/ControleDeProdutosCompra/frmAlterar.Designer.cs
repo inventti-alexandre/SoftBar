@@ -247,7 +247,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(80, 52);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 20);
+            this.label6.Size = new System.Drawing.Size(68, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "Telefone:";
             // 
@@ -310,9 +310,9 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(271, 133);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(193, 34);
+            this.label11.Size = new System.Drawing.Size(185, 34);
             this.label11.TabIndex = 74;
-            this.label11.Text = "Cadastrar  Novo";
+            this.label11.Text = "Alterar Produto";
             // 
             // btnSalvar
             // 
