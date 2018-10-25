@@ -36,5 +36,15 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

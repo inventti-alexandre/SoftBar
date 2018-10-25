@@ -109,11 +109,11 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._1557cbcc5711d60;
+            this.pictureBox5.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._234137398050212;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 39);
+            this.pictureBox5.Location = new System.Drawing.Point(32, 39);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(391, 160);
+            this.pictureBox5.Size = new System.Drawing.Size(311, 160);
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
@@ -186,7 +186,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.festas_e_eventos;
+            this.pictureBox4.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Veinte_aniversario_de_los_Simpson;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(21, 39);
             this.pictureBox4.Name = "pictureBox4";
@@ -253,18 +253,18 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.beer_150071_960_720;
+            this.pictureBox2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.simpsons_duff;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(375, 39);
+            this.pictureBox2.Location = new System.Drawing.Point(381, 39);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(388, 166);
+            this.pictureBox2.Size = new System.Drawing.Size(369, 166);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.home_maluca_lanche_01;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.drawn_dougnut_simpsons_20;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(3, 39);
             this.pictureBox1.Name = "pictureBox1";
