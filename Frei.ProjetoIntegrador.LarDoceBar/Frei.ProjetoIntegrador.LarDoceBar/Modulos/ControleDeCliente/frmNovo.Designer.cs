@@ -70,7 +70,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(517, 306);
+            this.pictureBox2.Location = new System.Drawing.Point(648, 312);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(138, 208);
             this.pictureBox2.TabIndex = 71;
@@ -91,7 +91,7 @@
             this.pnEndereco.Controls.Add(this.txtCEP);
             this.pnEndereco.Controls.Add(this.label6);
             this.pnEndereco.Controls.Add(this.label7);
-            this.pnEndereco.Location = new System.Drawing.Point(12, 301);
+            this.pnEndereco.Location = new System.Drawing.Point(143, 307);
             this.pnEndereco.Name = "pnEndereco";
             this.pnEndereco.Size = new System.Drawing.Size(479, 143);
             this.pnEndereco.TabIndex = 66;
@@ -219,7 +219,7 @@
             this.label5.BackColor = System.Drawing.Color.Red;
             this.label5.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(47, 175);
+            this.label5.Location = new System.Drawing.Point(178, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 29);
             this.label5.TabIndex = 64;
@@ -249,9 +249,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar5;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(169, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(300, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -264,7 +264,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(161, 113);
+            this.label11.Location = new System.Drawing.Point(292, 119);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(193, 34);
             this.label11.TabIndex = 69;
@@ -275,7 +275,7 @@
             this.btnCadastrar.BackColor = System.Drawing.Color.Red;
             this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(194, 572);
+            this.btnCadastrar.Location = new System.Drawing.Point(325, 578);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(102, 28);
             this.btnCadastrar.TabIndex = 68;
@@ -309,7 +309,7 @@
             this.label20.BackColor = System.Drawing.Color.Red;
             this.label20.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(47, 456);
+            this.label20.Location = new System.Drawing.Point(178, 462);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(89, 29);
             this.label20.TabIndex = 63;
@@ -325,7 +325,7 @@
             this.pnContato.Controls.Add(this.label19);
             this.pnContato.Controls.Add(this.txtEmail);
             this.pnContato.Controls.Add(this.label18);
-            this.pnContato.Location = new System.Drawing.Point(12, 475);
+            this.pnContato.Location = new System.Drawing.Point(143, 481);
             this.pnContato.Name = "pnContato";
             this.pnContato.Size = new System.Drawing.Size(479, 82);
             this.pnContato.TabIndex = 67;
@@ -347,7 +347,7 @@
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(260, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(84, 20);
+            this.label21.Size = new System.Drawing.Size(85, 20);
             this.label21.TabIndex = 0;
             this.label21.Text = "Nº Telefone:";
             // 
@@ -398,7 +398,7 @@
             this.label10.BackColor = System.Drawing.Color.Red;
             this.label10.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(47, 282);
+            this.label10.Location = new System.Drawing.Point(178, 288);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 29);
             this.label10.TabIndex = 62;
@@ -412,7 +412,7 @@
             this.pnDadosPessoais.Controls.Add(this.label1);
             this.pnDadosPessoais.Controls.Add(this.label2);
             this.pnDadosPessoais.Controls.Add(this.txtCPF);
-            this.pnDadosPessoais.Location = new System.Drawing.Point(12, 194);
+            this.pnDadosPessoais.Location = new System.Drawing.Point(143, 200);
             this.pnDadosPessoais.Name = "pnDadosPessoais";
             this.pnDadosPessoais.Size = new System.Drawing.Size(479, 78);
             this.pnDadosPessoais.TabIndex = 65;
@@ -424,7 +424,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(536, 512);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pnEndereco);
             this.Controls.Add(this.label5);

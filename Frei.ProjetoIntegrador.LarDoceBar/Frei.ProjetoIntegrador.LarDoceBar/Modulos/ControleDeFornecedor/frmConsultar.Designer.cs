@@ -199,7 +199,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(290, 128);
+            this.label7.Location = new System.Drawing.Point(291, 137);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(257, 34);
             this.label7.TabIndex = 52;
@@ -210,7 +210,7 @@
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(118, 493);
+            this.btnRemover.Location = new System.Drawing.Point(187, 493);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(92, 34);
             this.btnRemover.TabIndex = 49;
@@ -223,7 +223,7 @@
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
             this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
-            this.btnVisualizar.Location = new System.Drawing.Point(12, 493);
+            this.btnVisualizar.Location = new System.Drawing.Point(81, 493);
             this.btnVisualizar.Name = "btnVisualizar";
             this.btnVisualizar.Size = new System.Drawing.Size(100, 34);
             this.btnVisualizar.TabIndex = 50;
@@ -236,7 +236,7 @@
             this.btnNovo.BackColor = System.Drawing.Color.Red;
             this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.Location = new System.Drawing.Point(740, 493);
+            this.btnNovo.Location = new System.Drawing.Point(661, 493);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(99, 34);
             this.btnNovo.TabIndex = 51;
@@ -258,7 +258,7 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dgvFornecedor.Location = new System.Drawing.Point(-1, 267);
+            this.dgvFornecedor.Location = new System.Drawing.Point(81, 267);
             this.dgvFornecedor.Name = "dgvFornecedor";
             this.dgvFornecedor.ReadOnly = true;
             this.dgvFornecedor.RowHeadersVisible = false;
@@ -266,7 +266,7 @@
             this.dgvFornecedor.RowTemplate.Height = 30;
             this.dgvFornecedor.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvFornecedor.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFornecedor.Size = new System.Drawing.Size(852, 220);
+            this.dgvFornecedor.Size = new System.Drawing.Size(679, 220);
             this.dgvFornecedor.TabIndex = 48;
             // 
             // Column4
@@ -280,12 +280,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.panel3.Location = new System.Drawing.Point(306, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 100);
+            this.panel3.Size = new System.Drawing.Size(226, 122);
             this.panel3.TabIndex = 70;
             // 
             // frmConsultar
@@ -294,7 +294,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(850, 531);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);

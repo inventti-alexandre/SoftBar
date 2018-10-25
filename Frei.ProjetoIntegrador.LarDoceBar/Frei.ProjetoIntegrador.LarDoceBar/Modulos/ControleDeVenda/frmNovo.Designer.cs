@@ -213,7 +213,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(350, 8);
             this.pictureBox1.Name = "pictureBox1";
@@ -337,7 +337,7 @@
             this.dgvItens.Name = "dgvItens";
             this.dgvItens.ReadOnly = true;
             this.dgvItens.RowHeadersVisible = false;
-            this.dgvItens.Size = new System.Drawing.Size(327, 336);
+            this.dgvItens.Size = new System.Drawing.Size(310, 336);
             this.dgvItens.TabIndex = 55;
             // 
             // label5
@@ -372,7 +372,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(855, 549);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);

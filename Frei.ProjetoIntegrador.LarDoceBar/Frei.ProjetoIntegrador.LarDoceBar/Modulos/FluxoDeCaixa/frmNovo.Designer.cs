@@ -46,7 +46,7 @@
             this.panel1.Controls.Add(this.dtpPedidocompr);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(115, 120);
+            this.panel1.Location = new System.Drawing.Point(116, 231);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(552, 227);
             this.panel1.TabIndex = 55;
@@ -97,9 +97,9 @@
             this.btncadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btncadastrar.ForeColor = System.Drawing.Color.White;
-            this.btncadastrar.Location = new System.Drawing.Point(563, 380);
+            this.btncadastrar.Location = new System.Drawing.Point(641, 488);
             this.btncadastrar.Name = "btncadastrar";
-            this.btncadastrar.Size = new System.Drawing.Size(104, 47);
+            this.btncadastrar.Size = new System.Drawing.Size(104, 32);
             this.btncadastrar.TabIndex = 68;
             this.btncadastrar.Text = "cadastrar";
             this.btncadastrar.UseVisualStyleBackColor = false;
@@ -107,12 +107,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(269, 12);
+            this.panel3.Location = new System.Drawing.Point(294, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 78);
+            this.panel3.Size = new System.Drawing.Size(244, 152);
             this.panel3.TabIndex = 79;
             // 
             // label1
@@ -121,7 +121,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(283, 105);
+            this.label1.Location = new System.Drawing.Point(320, 179);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 34);
             this.label1.TabIndex = 79;
@@ -133,7 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btncadastrar);

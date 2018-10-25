@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,20 +43,11 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnVisualizar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFolha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(278, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 47;
-            this.pictureBox1.TabStop = false;
             // 
             // label7
             // 
@@ -65,7 +55,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(186, 126);
+            this.label7.Location = new System.Drawing.Point(229, 119);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(367, 34);
             this.label7.TabIndex = 46;
@@ -89,7 +79,7 @@
             this.panel1.Controls.Add(this.txtCPF);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnBuscar);
-            this.panel1.Location = new System.Drawing.Point(12, 195);
+            this.panel1.Location = new System.Drawing.Point(55, 188);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(699, 76);
             this.panel1.TabIndex = 53;
@@ -121,7 +111,7 @@
             this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(531, 577);
+            this.btnRemover.Location = new System.Drawing.Point(574, 570);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(87, 28);
             this.btnRemover.TabIndex = 49;
@@ -135,7 +125,7 @@
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
-            this.btnAlterar.Location = new System.Drawing.Point(438, 577);
+            this.btnAlterar.Location = new System.Drawing.Point(481, 570);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(87, 28);
             this.btnAlterar.TabIndex = 50;
@@ -149,7 +139,7 @@
             this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.Location = new System.Drawing.Point(12, 577);
+            this.btnNovo.Location = new System.Drawing.Point(55, 570);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(87, 28);
             this.btnNovo.TabIndex = 52;
@@ -171,7 +161,7 @@
             this.Column4,
             this.Column5});
             this.dgvFolha.GridColor = System.Drawing.Color.White;
-            this.dgvFolha.Location = new System.Drawing.Point(12, 283);
+            this.dgvFolha.Location = new System.Drawing.Point(55, 276);
             this.dgvFolha.Name = "dgvFolha";
             this.dgvFolha.ReadOnly = true;
             this.dgvFolha.RowHeadersVisible = false;
@@ -228,7 +218,7 @@
             this.btnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
-            this.btnVisualizar.Location = new System.Drawing.Point(624, 577);
+            this.btnVisualizar.Location = new System.Drawing.Point(667, 570);
             this.btnVisualizar.Name = "btnVisualizar";
             this.btnVisualizar.Size = new System.Drawing.Size(87, 28);
             this.btnVisualizar.TabIndex = 51;
@@ -236,13 +226,26 @@
             this.btnVisualizar.UseVisualStyleBackColor = false;
             this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(345, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(175, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 54;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(725, 614);
+            this.ClientSize = new System.Drawing.Size(865, 532);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
@@ -255,18 +258,16 @@
             this.Name = "frmConsultar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFolha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
@@ -282,5 +283,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btnVisualizar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

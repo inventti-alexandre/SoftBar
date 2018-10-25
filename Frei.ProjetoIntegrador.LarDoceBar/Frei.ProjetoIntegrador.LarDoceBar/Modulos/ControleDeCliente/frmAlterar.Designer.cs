@@ -141,7 +141,7 @@
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(260, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(84, 20);
+            this.label21.Size = new System.Drawing.Size(85, 20);
             this.label21.TabIndex = 0;
             this.label21.Text = "Nº Telefone:";
             // 
@@ -330,7 +330,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar3;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(330, 19);
             this.pictureBox1.Name = "pictureBox1";
@@ -461,7 +461,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(848, 532);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label5);

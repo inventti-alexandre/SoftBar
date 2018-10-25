@@ -78,7 +78,7 @@
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label13.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(558, 201);
+            this.label13.Location = new System.Drawing.Point(560, 181);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(82, 29);
             this.label13.TabIndex = 47;
@@ -90,7 +90,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.txtMensagem);
-            this.panel3.Location = new System.Drawing.Point(523, 368);
+            this.panel3.Location = new System.Drawing.Point(525, 348);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(270, 176);
             this.panel3.TabIndex = 50;
@@ -135,7 +135,7 @@
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(47, 349);
+            this.label9.Location = new System.Drawing.Point(49, 329);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(189, 29);
             this.label9.TabIndex = 48;
@@ -147,7 +147,7 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.txtSalarioBruto);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(523, 220);
+            this.panel2.Location = new System.Drawing.Point(525, 200);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(270, 113);
             this.panel2.TabIndex = 51;
@@ -162,7 +162,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtDias);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(12, 368);
+            this.panel1.Location = new System.Drawing.Point(14, 348);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(479, 211);
             this.panel1.TabIndex = 52;
@@ -301,7 +301,7 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(47, 201);
+            this.label5.Location = new System.Drawing.Point(49, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 29);
             this.label5.TabIndex = 49;
@@ -318,7 +318,7 @@
             this.pnDadosPessoais.Controls.Add(this.label3);
             this.pnDadosPessoais.Controls.Add(this.label4);
             this.pnDadosPessoais.Controls.Add(this.txtCPF);
-            this.pnDadosPessoais.Location = new System.Drawing.Point(12, 220);
+            this.pnDadosPessoais.Location = new System.Drawing.Point(14, 200);
             this.pnDadosPessoais.Name = "pnDadosPessoais";
             this.pnDadosPessoais.Size = new System.Drawing.Size(479, 113);
             this.pnDadosPessoais.TabIndex = 53;
@@ -339,9 +339,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(335, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(337, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -355,7 +355,7 @@
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(320, 138);
+            this.label7.Location = new System.Drawing.Point(322, 118);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(204, 34);
             this.label7.TabIndex = 45;
@@ -367,7 +367,7 @@
             this.btnGerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGerar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnGerar.ForeColor = System.Drawing.Color.White;
-            this.btnGerar.Location = new System.Drawing.Point(523, 550);
+            this.btnGerar.Location = new System.Drawing.Point(525, 530);
             this.btnGerar.Name = "btnGerar";
             this.btnGerar.Size = new System.Drawing.Size(270, 28);
             this.btnGerar.TabIndex = 44;
@@ -379,9 +379,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 598);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label9);

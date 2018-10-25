@@ -49,7 +49,7 @@
             this.Column1,
             this.Column2});
             this.dgvProdutos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvProdutos.Location = new System.Drawing.Point(137, 124);
+            this.dgvProdutos.Location = new System.Drawing.Point(150, 182);
             this.dgvProdutos.Name = "dgvProdutos";
             this.dgvProdutos.RowHeadersVisible = false;
             this.dgvProdutos.Size = new System.Drawing.Size(524, 284);
@@ -74,7 +74,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(257, 87);
+            this.label7.Location = new System.Drawing.Point(270, 145);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(329, 34);
             this.label7.TabIndex = 68;
@@ -85,7 +85,7 @@
             this.btnNovo.BackColor = System.Drawing.Color.Red;
             this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.Location = new System.Drawing.Point(569, 414);
+            this.btnNovo.Location = new System.Drawing.Point(582, 472);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(92, 35);
             this.btnNovo.TabIndex = 64;
@@ -98,7 +98,7 @@
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(263, 414);
+            this.btnRemover.Location = new System.Drawing.Point(276, 472);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(92, 35);
             this.btnRemover.TabIndex = 65;
@@ -111,7 +111,7 @@
             this.btnVisualisar.BackColor = System.Drawing.Color.Red;
             this.btnVisualisar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnVisualisar.ForeColor = System.Drawing.Color.White;
-            this.btnVisualisar.Location = new System.Drawing.Point(154, 414);
+            this.btnVisualisar.Location = new System.Drawing.Point(167, 472);
             this.btnVisualisar.Name = "btnVisualisar";
             this.btnVisualisar.Size = new System.Drawing.Size(92, 35);
             this.btnVisualisar.TabIndex = 66;
@@ -122,11 +122,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(304, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 84);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 128);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 67;
             this.pictureBox1.TabStop = false;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 528);
             this.Controls.Add(this.dgvProdutos);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);

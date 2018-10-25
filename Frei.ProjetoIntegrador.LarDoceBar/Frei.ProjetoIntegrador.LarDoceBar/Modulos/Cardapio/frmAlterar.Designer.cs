@@ -35,31 +35,29 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.btnsalvar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnsalvar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtvalorpord
             // 
-            this.txtvalorpord.Location = new System.Drawing.Point(184, 139);
+            this.txtvalorpord.Location = new System.Drawing.Point(207, 181);
             this.txtvalorpord.Name = "txtvalorpord";
             this.txtvalorpord.Size = new System.Drawing.Size(234, 20);
             this.txtvalorpord.TabIndex = 6;
             // 
             // txttema
             // 
-            this.txttema.Location = new System.Drawing.Point(184, 98);
+            this.txttema.Location = new System.Drawing.Point(207, 140);
             this.txttema.Name = "txttema";
             this.txttema.Size = new System.Drawing.Size(234, 20);
             this.txttema.TabIndex = 7;
             // 
             // txtnomeprod
             // 
-            this.txtnomeprod.Location = new System.Drawing.Point(184, 51);
+            this.txtnomeprod.Location = new System.Drawing.Point(207, 93);
             this.txtnomeprod.Name = "txtnomeprod";
             this.txtnomeprod.Size = new System.Drawing.Size(234, 20);
             this.txtnomeprod.TabIndex = 8;
@@ -70,7 +68,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(45, 138);
+            this.label3.Location = new System.Drawing.Point(68, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 3;
@@ -82,7 +80,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(45, 51);
+            this.label2.Location = new System.Drawing.Point(68, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 20);
             this.label2.TabIndex = 4;
@@ -94,9 +92,9 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(119, 95);
+            this.label1.Location = new System.Drawing.Point(142, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 20);
+            this.label1.Size = new System.Drawing.Size(47, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Tema:";
             // 
@@ -115,27 +113,27 @@
             this.panel1.Size = new System.Drawing.Size(539, 227);
             this.panel1.TabIndex = 52;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Red;
+            this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(219, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(199, 34);
+            this.label11.TabIndex = 63;
+            this.label11.Text = "Alterar Cardapio";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar2;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Location = new System.Drawing.Point(261, 12);
+            this.panel3.Location = new System.Drawing.Point(278, 24);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(262, 114);
+            this.panel3.Size = new System.Drawing.Size(285, 166);
             this.panel3.TabIndex = 53;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(77, 123);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 34);
-            this.label10.TabIndex = 61;
-            this.label10.Text = "Alterar";
             // 
             // btnsalvar
             // 
@@ -143,24 +141,12 @@
             this.btnsalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnsalvar.ForeColor = System.Drawing.Color.White;
-            this.btnsalvar.Location = new System.Drawing.Point(650, 339);
+            this.btnsalvar.Location = new System.Drawing.Point(666, 469);
             this.btnsalvar.Name = "btnsalvar";
             this.btnsalvar.Size = new System.Drawing.Size(88, 39);
             this.btnsalvar.TabIndex = 62;
             this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Red;
-            this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(196, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(199, 34);
-            this.label11.TabIndex = 63;
-            this.label11.Text = "Alterar Cardapio";
             // 
             // frmAlterar
             // 
@@ -168,7 +154,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.btnsalvar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -178,8 +164,6 @@
             this.Text = "Lar Doce Bar LTDA";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -193,7 +177,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btnsalvar;
         private System.Windows.Forms.Label label11;
     }

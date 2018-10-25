@@ -54,7 +54,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(121, 128);
+            this.panel1.Location = new System.Drawing.Point(121, 191);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(540, 227);
             this.panel1.TabIndex = 59;
@@ -145,7 +145,7 @@
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(597, 374);
+            this.btnSalvar.Location = new System.Drawing.Point(573, 470);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(88, 39);
             this.btnSalvar.TabIndex = 66;
@@ -158,7 +158,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(354, 104);
+            this.label11.Location = new System.Drawing.Point(346, 154);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(92, 34);
             this.label11.TabIndex = 68;
@@ -167,12 +167,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar9;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(292, 1);
+            this.panel3.Location = new System.Drawing.Point(285, 1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 100);
+            this.panel3.Size = new System.Drawing.Size(226, 150);
             this.panel3.TabIndex = 69;
             // 
             // frmAlterar
@@ -181,7 +181,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnSalvar);

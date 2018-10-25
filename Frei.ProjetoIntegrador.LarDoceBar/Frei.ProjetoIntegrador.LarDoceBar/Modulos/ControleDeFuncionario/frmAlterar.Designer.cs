@@ -109,7 +109,7 @@
             this.label25.BackColor = System.Drawing.Color.Red;
             this.label25.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(47, 795);
+            this.label25.Location = new System.Drawing.Point(180, 779);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(89, 29);
             this.label25.TabIndex = 54;
@@ -125,7 +125,7 @@
             this.pnContato.Controls.Add(this.label19);
             this.pnContato.Controls.Add(this.txtEmail);
             this.pnContato.Controls.Add(this.label18);
-            this.pnContato.Location = new System.Drawing.Point(12, 548);
+            this.pnContato.Location = new System.Drawing.Point(145, 532);
             this.pnContato.Name = "pnContato";
             this.pnContato.Size = new System.Drawing.Size(479, 82);
             this.pnContato.TabIndex = 62;
@@ -147,7 +147,7 @@
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(260, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(84, 20);
+            this.label21.Size = new System.Drawing.Size(85, 20);
             this.label21.TabIndex = 0;
             this.label21.Text = "Nº Telefone:";
             // 
@@ -225,9 +225,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(173, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(306, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -240,7 +240,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(138, 136);
+            this.label11.Location = new System.Drawing.Point(271, 120);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(229, 34);
             this.label11.TabIndex = 66;
@@ -340,7 +340,7 @@
             this.label5.BackColor = System.Drawing.Color.Red;
             this.label5.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(47, 195);
+            this.label5.Location = new System.Drawing.Point(180, 179);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 29);
             this.label5.TabIndex = 59;
@@ -363,7 +363,7 @@
             this.pnEndereco.Controls.Add(this.txtCEP);
             this.pnEndereco.Controls.Add(this.label6);
             this.pnEndereco.Controls.Add(this.label7);
-            this.pnEndereco.Location = new System.Drawing.Point(12, 366);
+            this.pnEndereco.Location = new System.Drawing.Point(145, 350);
             this.pnEndereco.Name = "pnEndereco";
             this.pnEndereco.Size = new System.Drawing.Size(479, 143);
             this.pnEndereco.TabIndex = 61;
@@ -494,7 +494,7 @@
             this.label22.BackColor = System.Drawing.Color.Red;
             this.label22.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(403, 141);
+            this.label22.Location = new System.Drawing.Point(536, 125);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(37, 29);
             this.label22.TabIndex = 57;
@@ -506,7 +506,7 @@
             this.lblId.BackColor = System.Drawing.Color.Red;
             this.lblId.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.lblId.ForeColor = System.Drawing.Color.White;
-            this.lblId.Location = new System.Drawing.Point(446, 141);
+            this.lblId.Location = new System.Drawing.Point(579, 125);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(26, 29);
             this.lblId.TabIndex = 58;
@@ -525,7 +525,7 @@
             this.pnDadosPessoais.Controls.Add(this.label4);
             this.pnDadosPessoais.Controls.Add(this.txtCPF);
             this.pnDadosPessoais.Controls.Add(this.label3);
-            this.pnDadosPessoais.Location = new System.Drawing.Point(12, 214);
+            this.pnDadosPessoais.Location = new System.Drawing.Point(145, 198);
             this.pnDadosPessoais.Name = "pnDadosPessoais";
             this.pnDadosPessoais.Size = new System.Drawing.Size(479, 118);
             this.pnDadosPessoais.TabIndex = 60;
@@ -548,7 +548,7 @@
             this.label27.BackColor = System.Drawing.Color.Red;
             this.label27.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(405, 191);
+            this.label27.Location = new System.Drawing.Point(538, 175);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(63, 20);
             this.label27.TabIndex = 56;
@@ -567,7 +567,7 @@
             this.label10.BackColor = System.Drawing.Color.Red;
             this.label10.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(47, 347);
+            this.label10.Location = new System.Drawing.Point(180, 331);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 29);
             this.label10.TabIndex = 51;
@@ -579,7 +579,7 @@
             this.lblIdUser.BackColor = System.Drawing.Color.Red;
             this.lblIdUser.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.lblIdUser.ForeColor = System.Drawing.Color.White;
-            this.lblIdUser.Location = new System.Drawing.Point(473, 191);
+            this.lblIdUser.Location = new System.Drawing.Point(606, 175);
             this.lblIdUser.Name = "lblIdUser";
             this.lblIdUser.Size = new System.Drawing.Size(18, 20);
             this.lblIdUser.TabIndex = 55;
@@ -591,7 +591,7 @@
             this.label20.BackColor = System.Drawing.Color.Red;
             this.label20.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(47, 529);
+            this.label20.Location = new System.Drawing.Point(180, 513);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(89, 29);
             this.label20.TabIndex = 52;
@@ -607,7 +607,7 @@
             this.pnEmpresa.Controls.Add(this.dtpAdmissao);
             this.pnEmpresa.Controls.Add(this.txtNomeEmpresa);
             this.pnEmpresa.Controls.Add(this.label23);
-            this.pnEmpresa.Location = new System.Drawing.Point(12, 668);
+            this.pnEmpresa.Location = new System.Drawing.Point(145, 652);
             this.pnEmpresa.Name = "pnEmpresa";
             this.pnEmpresa.Size = new System.Drawing.Size(479, 104);
             this.pnEmpresa.TabIndex = 63;
@@ -675,7 +675,7 @@
             this.label17.BackColor = System.Drawing.Color.Red;
             this.label17.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(47, 649);
+            this.label17.Location = new System.Drawing.Point(180, 633);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(98, 29);
             this.label17.TabIndex = 53;
@@ -689,7 +689,7 @@
             this.pnUsuario.Controls.Add(this.label9);
             this.pnUsuario.Controls.Add(this.txtNomeUsuario);
             this.pnUsuario.Controls.Add(this.label8);
-            this.pnUsuario.Location = new System.Drawing.Point(12, 814);
+            this.pnUsuario.Location = new System.Drawing.Point(145, 798);
             this.pnUsuario.Name = "pnUsuario";
             this.pnUsuario.Size = new System.Drawing.Size(479, 75);
             this.pnUsuario.TabIndex = 64;
@@ -713,7 +713,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(544, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.pnContato);
             this.Controls.Add(this.pictureBox1);
