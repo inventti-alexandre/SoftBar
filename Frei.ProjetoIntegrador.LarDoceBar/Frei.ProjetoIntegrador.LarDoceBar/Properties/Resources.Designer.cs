@@ -113,6 +113,16 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2062398_orig__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("2062398_orig-(1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _213302291000300162301082016114934 {
             get {
                 object obj = ResourceManager.GetObject("213302291000300162301082016114934", resourceCulture);
@@ -143,6 +153,16 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _76a6c6e3f132017ac29cda47bb2ad82a {
+            get {
+                object obj = ResourceManager.GetObject("76a6c6e3f132017ac29cda47bb2ad82a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _79x1yl_large {
             get {
                 object obj = ResourceManager.GetObject("79x1yl_large", resourceCulture);
@@ -163,9 +183,49 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Astronaut_Barney_Unlock {
+            get {
+                object obj = ResourceManager.GetObject("Astronaut_Barney_Unlock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Barney_Gumble {
             get {
                 object obj = ResourceManager.GetObject("Barney_Gumble", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barney_Gumble__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Barney_Gumble (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barney_Gumble1 {
+            get {
+                object obj = ResourceManager.GetObject("Barney_Gumble1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barney_Gumble2 {
+            get {
+                object obj = ResourceManager.GetObject("Barney_Gumble2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +273,29 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__1_ {
             get {
                 object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +326,16 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         internal static System.Drawing.Bitmap Fat_Smithers {
             get {
                 object obj = ResourceManager.GetObject("Fat_Smithers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fat_Smithers1 {
+            get {
+                object obj = ResourceManager.GetObject("Fat_Smithers1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -296,6 +386,27 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         internal static System.Drawing.Bitmap juniper_1 {
             get {
                 object obj = ResourceManager.GetObject("juniper-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_homer_simpson_beer_bart_simpson_marge_simpson_moe_simpsons_5ab77298137224_7523664615219718640797 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-homer-simpson-beer-bart-simpson-marge-simpson-moe-simpsons-5ab77298137224" +
+                        ".7523664615219718640797", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lady_Duff_Character_Set {
+            get {
+                object obj = ResourceManager.GetObject("Lady_Duff_Character_Set", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +534,39 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mindy_Simmons_updated {
+            get {
+                object obj = ResourceManager.GetObject("Mindy_Simmons_updated", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Moe {
             get {
                 object obj = ResourceManager.GetObject("Moe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Moe_Szyslak {
+            get {
+                object obj = ResourceManager.GetObject("Moe_Szyslak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Moe_Szyslak_avat0 {
+            get {
+                object obj = ResourceManager.GetObject("Moe_Szyslak_avat0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +647,46 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Properties {
         internal static System.Drawing.Bitmap swsb_character_fact_doris_550x960 {
             get {
                 object obj = ResourceManager.GetObject("swsb_character_fact_doris_550x960", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap swsb_character_fact_doris_550x9601 {
+            get {
+                object obj = ResourceManager.GetObject("swsb_character_fact_doris_550x9601", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap swsb_character_fact_duffman_550x960 {
+            get {
+                object obj = ResourceManager.GetObject("swsb_character_fact_duffman_550x960", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap swsb_character_fact_moe_550x960 {
+            get {
+                object obj = ResourceManager.GetObject("swsb_character_fact_moe_550x960", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tapped_Out_Unlock_Moe {
+            get {
+                object obj = ResourceManager.GetObject("Tapped_Out_Unlock_Moe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
