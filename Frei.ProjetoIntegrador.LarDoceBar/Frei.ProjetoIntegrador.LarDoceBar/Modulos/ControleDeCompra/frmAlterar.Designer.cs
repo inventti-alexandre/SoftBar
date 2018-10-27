@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.btnsalbar = new System.Windows.Forms.Button();
@@ -39,30 +38,17 @@
             this.dtppedido = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(77, 123);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 34);
-            this.label10.TabIndex = 61;
-            this.label10.Text = "Alterar";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar6;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label10);
             this.panel3.Location = new System.Drawing.Point(271, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(262, 114);
+            this.panel3.Size = new System.Drawing.Size(289, 201);
             this.panel3.TabIndex = 66;
             // 
             // label11
@@ -71,7 +57,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(348, 122);
+            this.label11.Location = new System.Drawing.Point(369, 206);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(92, 34);
             this.label11.TabIndex = 67;
@@ -83,7 +69,7 @@
             this.btnsalbar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalbar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnsalbar.ForeColor = System.Drawing.Color.White;
-            this.btnsalbar.Location = new System.Drawing.Point(664, 385);
+            this.btnsalbar.Location = new System.Drawing.Point(656, 459);
             this.btnsalbar.Name = "btnsalbar";
             this.btnsalbar.Size = new System.Drawing.Size(88, 39);
             this.btnsalbar.TabIndex = 65;
@@ -159,7 +145,7 @@
             this.panel1.Controls.Add(this.txtssenhausu);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.txtnmusu);
-            this.panel1.Location = new System.Drawing.Point(151, 161);
+            this.panel1.Location = new System.Drawing.Point(140, 243);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(506, 181);
             this.panel1.TabIndex = 57;
@@ -170,7 +156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnsalbar);
@@ -179,8 +165,6 @@
             this.Name = "frmAlterar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -189,8 +173,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnsalbar;

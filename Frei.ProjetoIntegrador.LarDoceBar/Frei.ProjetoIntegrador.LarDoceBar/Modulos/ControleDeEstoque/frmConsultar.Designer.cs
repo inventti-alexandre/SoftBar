@@ -167,6 +167,7 @@
             // 
             this.dgvViagem.AllowUserToAddRows = false;
             this.dgvViagem.AllowUserToDeleteRows = false;
+            this.dgvViagem.BackgroundColor = System.Drawing.Color.White;
             this.dgvViagem.ColumnHeadersHeight = 40;
             this.dgvViagem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvViagem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {

@@ -48,7 +48,7 @@
             this.panel1.Controls.Add(this.dtppedidodecompra);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(131, 141);
+            this.panel1.Location = new System.Drawing.Point(127, 225);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(552, 227);
             this.panel1.TabIndex = 54;
@@ -99,9 +99,9 @@
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(595, 391);
+            this.btnCadastrar.Location = new System.Drawing.Point(624, 483);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(104, 47);
+            this.btnCadastrar.Size = new System.Drawing.Size(104, 37);
             this.btnCadastrar.TabIndex = 67;
             this.btnCadastrar.Text = "cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
@@ -112,7 +112,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(353, 114);
+            this.label11.Location = new System.Drawing.Point(364, 169);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(92, 34);
             this.label11.TabIndex = 69;
@@ -121,12 +121,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.label10);
             this.panel3.Location = new System.Drawing.Point(312, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(174, 99);
+            this.panel3.Size = new System.Drawing.Size(208, 133);
             this.panel3.TabIndex = 68;
             // 
             // label10
@@ -146,7 +146,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnCadastrar);

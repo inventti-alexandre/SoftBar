@@ -40,7 +40,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvViagem
@@ -54,7 +56,7 @@
             this.Column1,
             this.Column2,
             this.Column3});
-            this.dgvViagem.Location = new System.Drawing.Point(131, 207);
+            this.dgvViagem.Location = new System.Drawing.Point(120, 266);
             this.dgvViagem.Name = "dgvViagem";
             this.dgvViagem.ReadOnly = true;
             this.dgvViagem.RowHeadersVisible = false;
@@ -89,7 +91,7 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(522, 152);
+            this.btnBuscar.Location = new System.Drawing.Point(511, 211);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(88, 39);
             this.btnBuscar.TabIndex = 29;
@@ -98,7 +100,7 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(196, 161);
+            this.txtNome.Location = new System.Drawing.Point(185, 220);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(288, 20);
             this.txtNome.TabIndex = 25;
@@ -109,7 +111,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(468, 395);
+            this.button3.Location = new System.Drawing.Point(457, 454);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 32);
             this.button3.TabIndex = 58;
@@ -122,7 +124,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(675, 395);
+            this.button2.Location = new System.Drawing.Point(664, 454);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 32);
             this.button2.TabIndex = 59;
@@ -135,7 +137,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(568, 395);
+            this.button1.Location = new System.Drawing.Point(557, 454);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 32);
             this.button1.TabIndex = 60;
@@ -148,7 +150,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(128, 161);
+            this.label3.Location = new System.Drawing.Point(117, 220);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 61;
@@ -157,12 +159,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar1;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(258, 12);
+            this.panel3.Location = new System.Drawing.Point(224, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 78);
+            this.panel3.Size = new System.Drawing.Size(297, 178);
             this.panel3.TabIndex = 62;
             // 
             // label7
@@ -171,11 +173,21 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(264, 108);
+            this.label7.Location = new System.Drawing.Point(253, 167);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(229, 34);
             this.label7.TabIndex = 63;
             this.label7.Text = "Consultar cardapio";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Mindy_Simmons_updated;
+            this.pictureBox2.Location = new System.Drawing.Point(585, 52);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(257, 396);
+            this.pictureBox2.TabIndex = 65;
+            this.pictureBox2.TabStop = false;
             // 
             // frmConsultar
             // 
@@ -183,7 +195,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label3);
@@ -198,6 +211,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,5 +231,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

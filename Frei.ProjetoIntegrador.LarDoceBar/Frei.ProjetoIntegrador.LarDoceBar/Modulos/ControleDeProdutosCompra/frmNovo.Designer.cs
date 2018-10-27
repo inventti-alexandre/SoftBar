@@ -134,7 +134,7 @@
             this.btnCadastrar.BackColor = System.Drawing.Color.Red;
             this.btnCadastrar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(585, 514);
+            this.btnCadastrar.Location = new System.Drawing.Point(642, 498);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(102, 28);
             this.btnCadastrar.TabIndex = 64;
@@ -148,7 +148,7 @@
             this.label20.BackColor = System.Drawing.Color.Red;
             this.label20.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(47, 418);
+            this.label20.Location = new System.Drawing.Point(104, 402);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(126, 29);
             this.label20.TabIndex = 60;
@@ -160,7 +160,7 @@
             this.pnContato.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnContato.Controls.Add(this.cboFornecedor);
             this.pnContato.Controls.Add(this.label18);
-            this.pnContato.Location = new System.Drawing.Point(12, 437);
+            this.pnContato.Location = new System.Drawing.Point(69, 421);
             this.pnContato.Name = "pnContato";
             this.pnContato.Size = new System.Drawing.Size(675, 71);
             this.pnContato.TabIndex = 63;
@@ -192,7 +192,7 @@
             this.label5.BackColor = System.Drawing.Color.Red;
             this.label5.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(47, 181);
+            this.label5.Location = new System.Drawing.Point(104, 165);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 29);
             this.label5.TabIndex = 61;
@@ -210,7 +210,7 @@
             this.pnDadosPessoais.Controls.Add(this.txtNome);
             this.pnDadosPessoais.Controls.Add(this.label1);
             this.pnDadosPessoais.Controls.Add(this.label2);
-            this.pnDadosPessoais.Location = new System.Drawing.Point(12, 200);
+            this.pnDadosPessoais.Location = new System.Drawing.Point(69, 184);
             this.pnDadosPessoais.Name = "pnDadosPessoais";
             this.pnDadosPessoais.Size = new System.Drawing.Size(675, 203);
             this.pnDadosPessoais.TabIndex = 62;
@@ -221,7 +221,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(268, 131);
+            this.label11.Location = new System.Drawing.Point(326, 147);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(193, 34);
             this.label11.TabIndex = 65;
@@ -230,12 +230,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(255, 28);
+            this.panel3.Location = new System.Drawing.Point(293, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 100);
+            this.panel3.Size = new System.Drawing.Size(226, 132);
             this.panel3.TabIndex = 70;
             // 
             // frmNovo
@@ -244,7 +244,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(698, 547);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label20);

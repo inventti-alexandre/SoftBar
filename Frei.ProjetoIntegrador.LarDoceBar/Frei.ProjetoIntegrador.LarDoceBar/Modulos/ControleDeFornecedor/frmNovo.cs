@@ -72,5 +72,45 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFornecedor
                 MessageBox.Show(ex.Message, "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnEndereco_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnDadosPessoais_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnContato_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

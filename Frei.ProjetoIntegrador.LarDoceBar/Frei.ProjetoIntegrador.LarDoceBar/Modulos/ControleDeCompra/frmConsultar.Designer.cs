@@ -51,7 +51,7 @@
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnBuscar);
-            this.panel1.Location = new System.Drawing.Point(11, 198);
+            this.panel1.Location = new System.Drawing.Point(72, 213);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(699, 76);
             this.panel1.TabIndex = 52;
@@ -70,7 +70,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(201, 28);
+            this.label1.Location = new System.Drawing.Point(193, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 4;
@@ -94,7 +94,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(202, 121);
+            this.label7.Location = new System.Drawing.Point(250, 167);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(345, 34);
             this.label7.TabIndex = 50;
@@ -105,7 +105,7 @@
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(106, 474);
+            this.btnRemover.Location = new System.Drawing.Point(166, 489);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(78, 28);
             this.btnRemover.TabIndex = 47;
@@ -118,7 +118,7 @@
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
             this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
-            this.btnVisualizar.Location = new System.Drawing.Point(12, 473);
+            this.btnVisualizar.Location = new System.Drawing.Point(72, 488);
             this.btnVisualizar.Name = "btnVisualizar";
             this.btnVisualizar.Size = new System.Drawing.Size(88, 28);
             this.btnVisualizar.TabIndex = 48;
@@ -131,7 +131,7 @@
             this.btnNovo.BackColor = System.Drawing.Color.Red;
             this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.Location = new System.Drawing.Point(633, 473);
+            this.btnNovo.Location = new System.Drawing.Point(693, 488);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(78, 28);
             this.btnNovo.TabIndex = 49;
@@ -143,13 +143,14 @@
             // 
             this.dgvPedidos.AllowUserToAddRows = false;
             this.dgvPedidos.AllowUserToDeleteRows = false;
+            this.dgvPedidos.BackgroundColor = System.Drawing.Color.White;
             this.dgvPedidos.ColumnHeadersHeight = 40;
             this.dgvPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvPedidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
             this.Column3,
             this.Column1});
-            this.dgvPedidos.Location = new System.Drawing.Point(12, 280);
+            this.dgvPedidos.Location = new System.Drawing.Point(72, 295);
             this.dgvPedidos.Name = "dgvPedidos";
             this.dgvPedidos.ReadOnly = true;
             this.dgvPedidos.RowHeadersVisible = false;
@@ -187,12 +188,12 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources._3b407e0fa32ec004492aec8bbd0e29c3;
+            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar7;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(276, 12);
+            this.panel3.Location = new System.Drawing.Point(299, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 100);
+            this.panel3.Size = new System.Drawing.Size(245, 152);
             this.panel3.TabIndex = 70;
             // 
             // frmConsultar
@@ -201,7 +202,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(722, 506);
+            this.ClientSize = new System.Drawing.Size(831, 532);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
