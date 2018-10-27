@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Frei.ProjetoIntegrador.Academia.APIs.Correio;
+using Frei.ProjetoIntegrador.Academia.DB.Clientes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
