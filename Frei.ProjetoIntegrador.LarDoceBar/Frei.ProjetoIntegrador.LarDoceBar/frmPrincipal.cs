@@ -147,10 +147,6 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
 
             if (permissoes.FluxoDeCaixa.Substring(0, 1) == "0")
             {
-                if (permissoes.FluxoDeCaixa.Substring(1, 1) == "0")
-                {
-                    novoToolStripMenuItem.Enabled = false;
-                }
 
                 if (permissoes.FluxoDeCaixa.Substring(2, 1) == "0")
                 {
@@ -293,6 +289,46 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void cadastrarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeVenda.frmNovo frm = new Modulos.ControleDeVenda.frmNovo();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Modulos.FluxoDeCaixa.frmConsultar frm = new Modulos.FluxoDeCaixa.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeVenda.frmConsultar frm = new Modulos.ControleDeVenda.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void constularToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeEstoqueVenda.frmConsultar frm = new Modulos.ControleDeEstoqueVenda.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void consultarToolStripMenuItem10_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeEstoque.frmConsultar frm = new Modulos.ControleDeEstoque.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
         }
     }
 }

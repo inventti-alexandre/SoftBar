@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.FluxoDeCaixa
+namespace Frei.ProjetoIntegrador.Academia.DB.FluxoDeCaixa
 {
     class FluxoDeCaixaDTO
     {
-        public int id_Fluxo_Caixa { get; set; }
-        public int fk_FluxoCaixa_PedidoCompra { get; set; }
-        public int fk_FluxoCaixa_PedidoVenda { get; set; }
+        public DateTime dt_referencia { get; set; }
+        public decimal vlVendas { get; set; }
+        public decimal vlCompras { get; set; }
+        public decimal vlFollha { get; set; }
+        public decimal vlGerais { get; set; }
     }
 }

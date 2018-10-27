@@ -9,7 +9,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.FolhaPgmt
 {
     class FolhaPgmtBusiness
     {
-        public int SalvarFolha(FolhaPgmtDTO dto)
+        public void SalvarFolha(FolhaPgmtDTO dto)
         {
             exReg regex = new exReg();
             regex.ValidarSalario(dto.vl_SalarioBruto.ToString());
@@ -18,7 +18,13 @@ namespace Frei.ProjetoIntegrador.Academia.DB.FolhaPgmt
                 throw new ArgumentException("O cargo não pode ser nulo.");
 
             FolhaPgmtDatabase db = new FolhaPgmtDatabase();
-            return db.SalvarFolha(dto);
+            int idFolha = db.SalvarFolha(dto);
+
+            Folha_Pgmt calcular = new Folha_Pgmt();
+            FolhaPgmtDTO folha = calcular.Folha(idFolha.ToString(), dto);
+
+            dto.id_Folha_Pgmt = idFolha;
+            db.AlterarFolha(dto);
         }
 
         public int AlterarFolha(FolhaPgmtDTO dto)

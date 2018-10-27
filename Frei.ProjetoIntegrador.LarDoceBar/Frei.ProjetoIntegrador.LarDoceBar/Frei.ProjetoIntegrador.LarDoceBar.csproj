@@ -57,9 +57,14 @@
     <Compile Include="DB\Cliente\ClientesBusiness.cs" />
     <Compile Include="DB\Cliente\ClientesDatabase.cs" />
     <Compile Include="DB\Cliente\ClientesDTO.cs" />
+    <Compile Include="DB\EstoqueVenda\EstoqueVendaBusiness.cs" />
+    <Compile Include="DB\EstoqueVenda\EstoqueVendaDatabase.cs" />
+    <Compile Include="DB\EstoqueVenda\EstoqueVendaDTO.cs" />
+    <Compile Include="DB\EstoqueVenda\view_EstoqueVenda.cs" />
     <Compile Include="DB\Estoque\EstoqueBusiness.cs" />
     <Compile Include="DB\Estoque\EstoqueDatabase.cs" />
     <Compile Include="DB\Estoque\EstoqueDTO.cs" />
+    <Compile Include="DB\Estoque\view_Estoque.cs" />
     <Compile Include="DB\Filial\FilialBusiness.cs" />
     <Compile Include="DB\Filial\FilialDatabase.cs" />
     <Compile Include="DB\Filial\FilialDTO.cs" />
@@ -73,6 +78,7 @@
     <Compile Include="DB\FolhaPgmt\INSS_DTO.cs" />
     <Compile Include="DB\FolhaPgmt\IR_DTO.cs" />
     <Compile Include="DB\FolhaPgmt\view_func_folha.cs" />
+    <Compile Include="DB\Folha_Pgmt.cs" />
     <Compile Include="DB\Fornecedor\FornecedorBusiness.cs" />
     <Compile Include="DB\Fornecedor\FornecedorDatabase.cs" />
     <Compile Include="DB\Fornecedor\FornecedorDTO.cs" />
@@ -181,23 +187,29 @@
     <Compile Include="Modulos\ControleDeCompra\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmAlterar.cs">
+    <Compile Include="Modulos\ControleDeEstoqueCompra\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmAlterar.Designer.cs">
+    <Compile Include="Modulos\ControleDeEstoqueCompra\frmAlterar.Designer.cs">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmConsultar.cs">
+    <Compile Include="Modulos\ControleDeEstoqueCompra\frmConsultar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmConsultar.Designer.cs">
+    <Compile Include="Modulos\ControleDeEstoqueCompra\frmConsultar.Designer.cs">
       <DependentUpon>frmConsultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmNovo.cs">
+    <Compile Include="Modulos\ControleDeEstoqueVenda\frmAdicionar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\ControleDeEstoque\frmNovo.Designer.cs">
-      <DependentUpon>frmNovo.cs</DependentUpon>
+    <Compile Include="Modulos\ControleDeEstoqueVenda\frmAdicionar.Designer.cs">
+      <DependentUpon>frmAdicionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ControleDeEstoqueVenda\frmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ControleDeEstoqueVenda\frmConsultar.Designer.cs">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\ControleDeFornecedor\frmAlterar.cs">
       <SubType>Form</SubType>
@@ -301,23 +313,11 @@
     <Compile Include="Modulos\ControleDeVenda\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\FluxoDeCaixa\frmAlterar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulos\FluxoDeCaixa\frmAlterar.Designer.cs">
-      <DependentUpon>frmAlterar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Modulos\FluxoDeCaixa\frmConsultar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulos\FluxoDeCaixa\frmConsultar.Designer.cs">
       <DependentUpon>frmConsultar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modulos\FluxoDeCaixa\frmNovo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulos\FluxoDeCaixa\frmNovo.Designer.cs">
-      <DependentUpon>frmNovo.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\FolhaDePagamento\frmAlterar.cs">
       <SubType>Form</SubType>
@@ -385,14 +385,17 @@
     <EmbeddedResource Include="Modulos\ControleDeCompra\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeEstoque\frmAlterar.resx">
+    <EmbeddedResource Include="Modulos\ControleDeEstoqueCompra\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeEstoque\frmConsultar.resx">
+    <EmbeddedResource Include="Modulos\ControleDeEstoqueCompra\frmConsultar.resx">
       <DependentUpon>frmConsultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\ControleDeEstoque\frmNovo.resx">
-      <DependentUpon>frmNovo.cs</DependentUpon>
+    <EmbeddedResource Include="Modulos\ControleDeEstoqueVenda\frmAdicionar.resx">
+      <DependentUpon>frmAdicionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ControleDeEstoqueVenda\frmConsultar.resx">
+      <DependentUpon>frmConsultar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeFornecedor\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
@@ -445,14 +448,8 @@
     <EmbeddedResource Include="Modulos\ControleDeVenda\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\FluxoDeCaixa\frmAlterar.resx">
-      <DependentUpon>frmAlterar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Modulos\FluxoDeCaixa\frmConsultar.resx">
       <DependentUpon>frmConsultar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\FluxoDeCaixa\frmNovo.resx">
-      <DependentUpon>frmNovo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\FolhaDePagamento\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
@@ -491,9 +488,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DB\DDL.txt" />
-    <Content Include="DB\DML.txt" />
-    <Content Include="DB\DQL.txt" />
     <None Include="Resources\Tapped_Out_Unlock_Moe.png" />
     <None Include="Resources\swsb_character_fact_moe_550x960.png" />
     <None Include="Resources\Moe_Szyslak_avat0.png" />

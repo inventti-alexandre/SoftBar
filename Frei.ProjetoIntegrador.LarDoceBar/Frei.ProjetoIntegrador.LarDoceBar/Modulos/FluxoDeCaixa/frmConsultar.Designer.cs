@@ -28,160 +28,214 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvViagem = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnalterar = new System.Windows.Forms.Button();
-            this.btnremover = new System.Windows.Forms.Button();
-            this.btnnovo = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblSub = new System.Windows.Forms.Label();
+            this.lblGerais = new System.Windows.Forms.Label();
+            this.lblFolha = new System.Windows.Forms.Label();
+            this.lblCompras = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lblVendas = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dtpDia = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).BeginInit();
-            this.panel3.SuspendLayout();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvViagem
+            // panel1
             // 
-            this.dgvViagem.AllowUserToAddRows = false;
-            this.dgvViagem.AllowUserToDeleteRows = false;
-            this.dgvViagem.BackgroundColor = System.Drawing.Color.White;
-            this.dgvViagem.ColumnHeadersHeight = 40;
-            this.dgvViagem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvViagem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dgvViagem.Location = new System.Drawing.Point(255, 300);
-            this.dgvViagem.Name = "dgvViagem";
-            this.dgvViagem.ReadOnly = true;
-            this.dgvViagem.RowHeadersVisible = false;
-            this.dgvViagem.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dgvViagem.RowTemplate.Height = 30;
-            this.dgvViagem.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvViagem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvViagem.Size = new System.Drawing.Size(206, 220);
-            this.dgvViagem.TabIndex = 30;
+            this.panel1.Controls.Add(this.lblSub);
+            this.panel1.Controls.Add(this.lblGerais);
+            this.panel1.Controls.Add(this.lblFolha);
+            this.panel1.Controls.Add(this.lblCompras);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.lblVendas);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(214, 235);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(405, 272);
+            this.panel1.TabIndex = 48;
             // 
-            // Column1
+            // lblSub
             // 
-            this.Column1.HeaderText = "compra";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
+            this.lblSub.AutoSize = true;
+            this.lblSub.BackColor = System.Drawing.Color.Transparent;
+            this.lblSub.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSub.ForeColor = System.Drawing.Color.Black;
+            this.lblSub.Location = new System.Drawing.Point(270, 228);
+            this.lblSub.Name = "lblSub";
+            this.lblSub.Size = new System.Drawing.Size(60, 20);
+            this.lblSub.TabIndex = 33;
+            this.lblSub.Text = "R$ 0,00";
             // 
-            // Column2
+            // lblGerais
             // 
-            this.Column2.HeaderText = "venda";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.lblGerais.AutoSize = true;
+            this.lblGerais.BackColor = System.Drawing.Color.Transparent;
+            this.lblGerais.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGerais.ForeColor = System.Drawing.Color.Black;
+            this.lblGerais.Location = new System.Drawing.Point(270, 127);
+            this.lblGerais.Name = "lblGerais";
+            this.lblGerais.Size = new System.Drawing.Size(60, 20);
+            this.lblGerais.TabIndex = 33;
+            this.lblGerais.Text = "R$ 0,00";
             // 
-            // btnalterar
+            // lblFolha
             // 
-            this.btnalterar.BackColor = System.Drawing.Color.Red;
-            this.btnalterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnalterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnalterar.ForeColor = System.Drawing.Color.White;
-            this.btnalterar.Location = new System.Drawing.Point(514, 483);
-            this.btnalterar.Name = "btnalterar";
-            this.btnalterar.Size = new System.Drawing.Size(75, 37);
-            this.btnalterar.TabIndex = 68;
-            this.btnalterar.Text = "Alterar";
-            this.btnalterar.UseVisualStyleBackColor = false;
+            this.lblFolha.AutoSize = true;
+            this.lblFolha.BackColor = System.Drawing.Color.Transparent;
+            this.lblFolha.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFolha.ForeColor = System.Drawing.Color.Black;
+            this.lblFolha.Location = new System.Drawing.Point(270, 93);
+            this.lblFolha.Name = "lblFolha";
+            this.lblFolha.Size = new System.Drawing.Size(60, 20);
+            this.lblFolha.TabIndex = 33;
+            this.lblFolha.Text = "R$ 0,00";
             // 
-            // btnremover
+            // lblCompras
             // 
-            this.btnremover.BackColor = System.Drawing.Color.Red;
-            this.btnremover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnremover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnremover.ForeColor = System.Drawing.Color.White;
-            this.btnremover.Location = new System.Drawing.Point(611, 484);
-            this.btnremover.Name = "btnremover";
-            this.btnremover.Size = new System.Drawing.Size(75, 36);
-            this.btnremover.TabIndex = 66;
-            this.btnremover.Text = "Remover";
-            this.btnremover.UseVisualStyleBackColor = false;
+            this.lblCompras.AutoSize = true;
+            this.lblCompras.BackColor = System.Drawing.Color.Transparent;
+            this.lblCompras.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompras.ForeColor = System.Drawing.Color.Black;
+            this.lblCompras.Location = new System.Drawing.Point(270, 58);
+            this.lblCompras.Name = "lblCompras";
+            this.lblCompras.Size = new System.Drawing.Size(60, 20);
+            this.lblCompras.TabIndex = 33;
+            this.lblCompras.Text = "R$ 0,00";
             // 
-            // btnnovo
+            // label13
             // 
-            this.btnnovo.BackColor = System.Drawing.Color.Red;
-            this.btnnovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnnovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnnovo.ForeColor = System.Drawing.Color.White;
-            this.btnnovo.Location = new System.Drawing.Point(719, 484);
-            this.btnnovo.Name = "btnnovo";
-            this.btnnovo.Size = new System.Drawing.Size(75, 36);
-            this.btnnovo.TabIndex = 67;
-            this.btnnovo.Text = "Novo";
-            this.btnnovo.UseVisualStyleBackColor = false;
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(179, 228);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(68, 20);
+            this.label13.TabIndex = 33;
+            this.label13.Text = "SubTotal:";
             // 
-            // btnBuscar
+            // lblVendas
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Red;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(538, 250);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(88, 39);
-            this.btnBuscar.TabIndex = 36;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.lblVendas.AutoSize = true;
+            this.lblVendas.BackColor = System.Drawing.Color.Transparent;
+            this.lblVendas.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVendas.ForeColor = System.Drawing.Color.Black;
+            this.lblVendas.Location = new System.Drawing.Point(270, 26);
+            this.lblVendas.Name = "lblVendas";
+            this.lblVendas.Size = new System.Drawing.Size(60, 20);
+            this.lblVendas.TabIndex = 33;
+            this.lblVendas.Text = "R$ 0,00";
             // 
-            // txtNome
+            // label9
             // 
-            this.txtNome.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
-            this.txtNome.Location = new System.Drawing.Point(255, 259);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(262, 21);
-            this.txtNome.TabIndex = 70;
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(55, 127);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(104, 20);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Gastos Gerais:";
             // 
-            // label1
+            // label6
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(200, 259);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 20);
-            this.label1.TabIndex = 69;
-            this.label1.Text = "Nome:";
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(55, 93);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(205, 20);
+            this.label6.TabIndex = 33;
+            this.label6.Text = "Gasto em Folha de Pagamento:";
             // 
-            // panel3
+            // label4
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Location = new System.Drawing.Point(315, 12);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(225, 129);
-            this.panel3.TabIndex = 72;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(55, 58);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(135, 20);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Gasto em Compras:";
             // 
-            // label10
+            // label2
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(77, 123);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 34);
-            this.label10.TabIndex = 61;
-            this.label10.Text = "Alterar";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(55, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(142, 20);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "Ganhos com Vendas:";
+            // 
+            // dtpDia
+            // 
+            this.dtpDia.Location = new System.Drawing.Point(309, 196);
+            this.dtpDia.Name = "dtpDia";
+            this.dtpDia.Size = new System.Drawing.Size(224, 20);
+            this.dtpDia.TabIndex = 47;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(339, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(175, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 46;
+            this.pictureBox1.TabStop = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Red;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(286, 169);
+            this.label7.Location = new System.Drawing.Point(284, 133);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(280, 34);
-            this.label7.TabIndex = 71;
-            this.label7.Text = "Consultar fluxo de caixa";
+            this.label7.Size = new System.Drawing.Size(285, 34);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "Consultar Fluxo de Caixa";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.White;
+            this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(552, 189);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 34);
+            this.btnBuscar.TabIndex = 44;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(203, 196);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 20);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Consultar Dia:";
             // 
             // frmConsultar
             // 
@@ -190,22 +244,19 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dtpDia);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnalterar);
-            this.Controls.Add(this.btnremover);
-            this.Controls.Add(this.btnnovo);
-            this.Controls.Add(this.dgvViagem);
             this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsultar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvViagem)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,17 +264,21 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvViagem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.Button btnalterar;
-        private System.Windows.Forms.Button btnremover;
-        private System.Windows.Forms.Button btnnovo;
-        private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblSub;
+        private System.Windows.Forms.Label lblGerais;
+        private System.Windows.Forms.Label lblFolha;
+        private System.Windows.Forms.Label lblCompras;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblVendas;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dtpDia;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label label1;
     }
 }

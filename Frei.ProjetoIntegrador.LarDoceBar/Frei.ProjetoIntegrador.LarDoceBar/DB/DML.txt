@@ -1,4 +1,0 @@
-﻿USE `lardocebarDB`;
-
-INSERT `tb_Filial` VALUES(1, 'Matriz', '04545-040', 'Rua Santa Justina', 'Vila Olímpia', 'SP', 'Nº 564');
-INSERT `tb_usuario` VALUES (1, 'Admin', '1234', '10000', '1', 1);
