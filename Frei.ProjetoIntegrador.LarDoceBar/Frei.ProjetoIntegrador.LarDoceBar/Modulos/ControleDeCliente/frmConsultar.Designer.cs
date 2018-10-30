@@ -52,7 +52,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(259, -8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 140);
+            this.pictureBox1.Size = new System.Drawing.Size(306, 177);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 67;
             this.pictureBox1.TabStop = false;
@@ -61,18 +61,18 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(281, 135);
+            this.label7.Location = new System.Drawing.Point(305, 172);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(221, 34);
+            this.label7.Size = new System.Drawing.Size(175, 19);
             this.label7.TabIndex = 66;
             this.label7.Text = "Consultar Clientes";
             // 
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
-            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(550, 487);
             this.btnRemover.Name = "btnRemover";
@@ -85,7 +85,7 @@
             // btnAlterar
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
-            this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(663, 487);
             this.btnAlterar.Name = "btnAlterar";
@@ -98,7 +98,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
-            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(438, 487);
             this.btnNovo.Name = "btnNovo";
@@ -121,7 +121,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvClientes.Location = new System.Drawing.Point(69, 175);
+            this.dgvClientes.Location = new System.Drawing.Point(69, 223);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;
             this.dgvClientes.RowHeadersVisible = false;
@@ -129,7 +129,7 @@
             this.dgvClientes.RowTemplate.Height = 30;
             this.dgvClientes.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvClientes.Size = new System.Drawing.Size(682, 288);
+            this.dgvClientes.Size = new System.Drawing.Size(682, 240);
             this.dgvClientes.TabIndex = 62;
             // 
             // Column1

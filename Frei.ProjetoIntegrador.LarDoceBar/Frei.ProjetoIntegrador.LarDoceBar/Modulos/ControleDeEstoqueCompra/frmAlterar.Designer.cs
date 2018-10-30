@@ -55,11 +55,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.pnDadosPessoais.SuspendLayout();
             this.pnUsuario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEstMin
@@ -72,24 +71,24 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.BackColor = System.Drawing.Color.Red;
+            this.label10.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(53, 42);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 20);
+            this.label10.Size = new System.Drawing.Size(121, 19);
             this.label10.TabIndex = 0;
             this.label10.Text = "Estoque Min.:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.BackColor = System.Drawing.Color.Red;
+            this.label12.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(51, 16);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(95, 20);
+            this.label12.Size = new System.Drawing.Size(124, 19);
             this.label12.TabIndex = 0;
             this.label12.Text = "Estoque Max.:";
             // 
@@ -116,20 +115,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.BackColor = System.Drawing.Color.Red;
+            this.label5.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(47, 264);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 29);
+            this.label5.Size = new System.Drawing.Size(77, 19);
             this.label5.TabIndex = 77;
             this.label5.Text = "Estoque";
             // 
             // btnSalvar
             // 
-            this.btnSalvar.BackColor = System.Drawing.Color.Transparent;
-            this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.btnSalvar.ForeColor = System.Drawing.Color.Black;
+            this.btnSalvar.BackColor = System.Drawing.Color.Red;
+            this.btnSalvar.Font = new System.Drawing.Font("Stencil", 12F);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
             this.btnSalvar.Location = new System.Drawing.Point(674, 249);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(145, 28);
@@ -170,12 +169,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.BackColor = System.Drawing.Color.Red;
+            this.label6.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(233, 123);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 20);
+            this.label6.Size = new System.Drawing.Size(192, 19);
             this.label6.TabIndex = 0;
             this.label6.Text = "Quantidade Retirada:";
             // 
@@ -191,12 +190,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.BackColor = System.Drawing.Color.Red;
+            this.label4.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(24, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 20);
+            this.label4.Size = new System.Drawing.Size(165, 19);
             this.label4.TabIndex = 0;
             this.label4.Text = "Quantidade Atual:";
             // 
@@ -212,12 +211,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.BackColor = System.Drawing.Color.Red;
+            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(27, 94);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 20);
+            this.label3.Size = new System.Drawing.Size(154, 19);
             this.label3.TabIndex = 0;
             this.label3.Text = "Valor de Compra:";
             // 
@@ -233,12 +232,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.BackColor = System.Drawing.Color.Red;
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(59, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 20);
+            this.label2.Size = new System.Drawing.Size(113, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "Fornecedor:";
             // 
@@ -254,36 +253,36 @@
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.BackColor = System.Drawing.Color.Transparent;
-            this.lblId.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.lblId.ForeColor = System.Drawing.Color.Black;
+            this.lblId.BackColor = System.Drawing.Color.Red;
+            this.lblId.Font = new System.Drawing.Font("Stencil", 12F);
+            this.lblId.ForeColor = System.Drawing.Color.White;
             this.lblId.Location = new System.Drawing.Point(433, 45);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(18, 20);
+            this.lblId.Size = new System.Drawing.Size(18, 19);
             this.lblId.TabIndex = 0;
             this.lblId.Text = "0";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.BackColor = System.Drawing.Color.Red;
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(402, 45);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 20);
+            this.label7.Size = new System.Drawing.Size(30, 19);
             this.label7.TabIndex = 0;
             this.label7.Text = "Id:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(82, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.Size = new System.Drawing.Size(86, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Produto:";
             // 
@@ -311,12 +310,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.BackColor = System.Drawing.Color.Red;
+            this.label9.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(93, 39);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 20);
+            this.label9.Size = new System.Drawing.Size(65, 19);
             this.label9.TabIndex = 0;
             this.label9.Text = "Senha:";
             // 
@@ -331,48 +330,49 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.BackColor = System.Drawing.Color.Red;
+            this.label8.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(24, 13);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(122, 20);
+            this.label8.Size = new System.Drawing.Size(152, 19);
             this.label8.TabIndex = 0;
             this.label8.Text = "Nome de Usuario:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.BackColor = System.Drawing.Color.Red;
+            this.label11.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(329, 172);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(205, 34);
+            this.label11.Size = new System.Drawing.Size(166, 19);
             this.label11.TabIndex = 82;
             this.label11.Text = "Atualizar Estoque";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
-            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.BackColor = System.Drawing.Color.Red;
+            this.label25.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.Location = new System.Drawing.Point(543, 373);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(131, 29);
+            this.label25.Size = new System.Drawing.Size(108, 19);
             this.label25.TabIndex = 76;
             this.label25.Text = "Credenciais";
             // 
-            // pictureBox1
+            // panel2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(345, 65);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 83;
-            this.pictureBox1.TabStop = false;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar8;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.panel2.Location = new System.Drawing.Point(250, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(335, 157);
+            this.panel2.TabIndex = 83;
             // 
             // frmAlterar
             // 
@@ -381,6 +381,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnSalvar);
@@ -388,7 +389,6 @@
             this.Controls.Add(this.pnUsuario);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -399,7 +399,6 @@
             this.pnDadosPessoais.PerformLayout();
             this.pnUsuario.ResumeLayout(false);
             this.pnUsuario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,6 +433,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

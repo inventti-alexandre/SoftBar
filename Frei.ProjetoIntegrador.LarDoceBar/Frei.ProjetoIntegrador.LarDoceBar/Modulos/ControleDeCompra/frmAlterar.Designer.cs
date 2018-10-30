@@ -55,11 +55,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Red;
-            this.label11.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(369, 206);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 34);
+            this.label11.Size = new System.Drawing.Size(79, 19);
             this.label11.TabIndex = 67;
             this.label11.Text = "Alterar";
             // 
@@ -67,7 +67,7 @@
             // 
             this.btnsalbar.BackColor = System.Drawing.Color.Red;
             this.btnsalbar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalbar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnsalbar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnsalbar.ForeColor = System.Drawing.Color.White;
             this.btnsalbar.Location = new System.Drawing.Point(656, 459);
             this.btnsalbar.Name = "btnsalbar";
@@ -88,11 +88,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(89, 126);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 20);
+            this.label3.Size = new System.Drawing.Size(161, 19);
             this.label3.TabIndex = 58;
             this.label3.Text = "Senha do Usuário:";
             // 
@@ -108,11 +108,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(92, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 20);
+            this.label2.Size = new System.Drawing.Size(153, 19);
             this.label2.TabIndex = 59;
             this.label2.Text = "Nome do Usuário:";
             // 
@@ -128,11 +128,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(38, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 20);
+            this.label1.Size = new System.Drawing.Size(222, 19);
             this.label1.TabIndex = 60;
             this.label1.Text = "Data do Pedido de compra";
             // 

@@ -43,11 +43,11 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button1.Font = new System.Drawing.Font("Stencil", 12F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(652, 469);
+            this.button1.Location = new System.Drawing.Point(642, 470);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 40);
+            this.button1.Size = new System.Drawing.Size(116, 40);
             this.button1.TabIndex = 57;
             this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -58,20 +58,20 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(289, 2);
+            this.panel3.Location = new System.Drawing.Point(267, 10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(252, 168);
+            this.panel3.Size = new System.Drawing.Size(307, 187);
             this.panel3.TabIndex = 65;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(259, 173);
+            this.label7.Location = new System.Drawing.Point(302, 200);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(300, 34);
+            this.label7.Size = new System.Drawing.Size(228, 19);
             this.label7.TabIndex = 64;
             this.label7.Text = "Cadastrar  Novo Cárdapio";
             // 
@@ -79,11 +79,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Red;
-            this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(186, 270);
+            this.label4.Location = new System.Drawing.Point(162, 269);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 20);
+            this.label4.Size = new System.Drawing.Size(157, 19);
             this.label4.TabIndex = 67;
             this.label4.Text = "Nome do Produto:";
             // 
@@ -91,11 +91,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label5.Font = new System.Drawing.Font("Stencil", 12F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(260, 314);
+            this.label5.Location = new System.Drawing.Point(263, 316);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 20);
+            this.label5.Size = new System.Drawing.Size(56, 19);
             this.label5.TabIndex = 68;
             this.label5.Text = "Tema:";
             // 
@@ -110,11 +110,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Red;
-            this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(186, 357);
+            this.label6.Location = new System.Drawing.Point(155, 358);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 20);
+            this.label6.Size = new System.Drawing.Size(164, 19);
             this.label6.TabIndex = 66;
             this.label6.Text = "Valor do Produto:";
             // 
