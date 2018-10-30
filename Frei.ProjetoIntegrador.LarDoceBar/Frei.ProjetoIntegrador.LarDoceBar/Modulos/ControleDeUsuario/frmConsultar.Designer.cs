@@ -44,9 +44,11 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtFilial
@@ -60,11 +62,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(286, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 20);
+            this.label3.Size = new System.Drawing.Size(63, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "Filial:";
             // 
@@ -91,11 +93,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 20);
+            this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nome:";
             // 
@@ -103,7 +105,7 @@
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(617, 28);
             this.btnBuscar.Name = "btnBuscar";
@@ -129,11 +131,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(265, 120);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(229, 34);
+            this.label7.Size = new System.Drawing.Size(180, 19);
             this.label7.TabIndex = 50;
             this.label7.Text = "Consultar Usuários";
             // 
@@ -141,7 +143,7 @@
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(717, 292);
             this.btnRemover.Name = "btnRemover";
@@ -155,7 +157,7 @@
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(717, 258);
             this.btnAlterar.Name = "btnAlterar";
@@ -168,7 +170,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
-            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(717, 517);
             this.btnNovo.Name = "btnNovo";
@@ -233,6 +235,17 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(19, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 74;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,7 +253,8 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 532);
+            this.ClientSize = new System.Drawing.Size(848, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
@@ -256,6 +270,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,5 +294,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

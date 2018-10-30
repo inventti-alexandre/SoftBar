@@ -45,7 +45,7 @@
             // 
             this.btnLogar.BackColor = System.Drawing.Color.Red;
             this.btnLogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnLogar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnLogar.ForeColor = System.Drawing.Color.White;
             this.btnLogar.Location = new System.Drawing.Point(544, 468);
             this.btnLogar.Name = "btnLogar";
@@ -67,11 +67,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Red;
-            this.label10.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label10.Font = new System.Drawing.Font("Stencil", 12F);
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(202, 298);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 20);
+            this.label10.Size = new System.Drawing.Size(60, 19);
             this.label10.TabIndex = 67;
             this.label10.Text = "Login:";
             // 
@@ -79,11 +79,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(202, 342);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 20);
+            this.label1.Size = new System.Drawing.Size(65, 19);
             this.label1.TabIndex = 67;
             this.label1.Text = "Senha:";
             // 
@@ -100,11 +100,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(300, 228);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 34);
+            this.label2.Size = new System.Drawing.Size(154, 19);
             this.label2.TabIndex = 79;
             this.label2.Text = "Logar no Sistema";
             // 

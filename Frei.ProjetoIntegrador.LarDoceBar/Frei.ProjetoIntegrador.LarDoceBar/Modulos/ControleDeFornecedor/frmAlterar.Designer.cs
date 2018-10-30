@@ -58,9 +58,11 @@
             this.txtCEP = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pnContato.SuspendLayout();
             this.pnDadosPessoais.SuspendLayout();
             this.pnEndereco.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pnContato
@@ -404,6 +406,17 @@
             this.panel3.Size = new System.Drawing.Size(226, 130);
             this.panel3.TabIndex = 70;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 73;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -412,6 +425,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label20);
@@ -431,6 +445,7 @@
             this.pnDadosPessoais.PerformLayout();
             this.pnEndereco.ResumeLayout(false);
             this.pnEndereco.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -468,5 +483,6 @@
         private System.Windows.Forms.MaskedTextBox txtCEP;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

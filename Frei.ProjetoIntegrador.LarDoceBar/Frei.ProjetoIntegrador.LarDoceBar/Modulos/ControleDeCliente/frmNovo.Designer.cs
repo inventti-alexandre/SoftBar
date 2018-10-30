@@ -60,12 +60,14 @@
             this.label10 = new System.Windows.Forms.Label();
             this.pnDadosPessoais = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnEndereco.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnContato.SuspendLayout();
             this.pnDadosPessoais.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -164,7 +166,7 @@
             this.label12.BackColor = System.Drawing.Color.Red;
             this.label12.Font = new System.Drawing.Font("Stencil", 12F);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(94, 71);
+            this.label12.Location = new System.Drawing.Point(73, 75);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 19);
             this.label12.TabIndex = 0;
@@ -176,7 +178,7 @@
             this.label14.BackColor = System.Drawing.Color.Red;
             this.label14.Font = new System.Drawing.Font("Stencil", 12F);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(45, 97);
+            this.label14.Location = new System.Drawing.Point(19, 101);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(127, 19);
             this.label14.TabIndex = 0;
@@ -197,7 +199,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(60, 45);
+            this.label6.Location = new System.Drawing.Point(30, 47);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(116, 19);
             this.label6.TabIndex = 0;
@@ -209,7 +211,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(111, 21);
+            this.label7.Location = new System.Drawing.Point(104, 20);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 19);
             this.label7.TabIndex = 0;
@@ -430,6 +432,17 @@
             this.pictureBox3.TabIndex = 72;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(-1, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox4.TabIndex = 73;
+            this.pictureBox4.TabStop = false;
+            // 
             // frmNovo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -438,6 +451,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pnEndereco);
@@ -462,6 +476,7 @@
             this.pnDadosPessoais.ResumeLayout(false);
             this.pnDadosPessoais.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -501,5 +516,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel pnDadosPessoais;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

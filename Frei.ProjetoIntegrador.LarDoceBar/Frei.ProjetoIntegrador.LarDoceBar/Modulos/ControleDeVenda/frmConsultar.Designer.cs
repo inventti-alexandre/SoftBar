@@ -37,8 +37,10 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -57,18 +59,18 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(286, 162);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(327, 34);
+            this.label7.Size = new System.Drawing.Size(244, 19);
             this.label7.TabIndex = 75;
             this.label7.Text = "Consultar Pedidos de Venda";
             // 
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
-            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(172, 515);
             this.btnRemover.Name = "btnRemover";
@@ -81,7 +83,7 @@
             // btnVisualizar
             // 
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
-            this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisualizar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
             this.btnVisualizar.Location = new System.Drawing.Point(78, 514);
             this.btnVisualizar.Name = "btnVisualizar";
@@ -94,7 +96,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
-            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(699, 514);
             this.btnNovo.Name = "btnNovo";
@@ -150,6 +152,17 @@
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 22);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 77;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,7 +170,8 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 532);
+            this.ClientSize = new System.Drawing.Size(848, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnRemover);
@@ -170,6 +184,7 @@
             this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +201,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

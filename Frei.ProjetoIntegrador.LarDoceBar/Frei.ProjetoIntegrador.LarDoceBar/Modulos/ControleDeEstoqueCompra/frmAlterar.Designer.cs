@@ -56,9 +56,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.pnDadosPessoais.SuspendLayout();
             this.pnUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEstMin
@@ -374,6 +376,17 @@
             this.panel2.Size = new System.Drawing.Size(335, 157);
             this.panel2.TabIndex = 83;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(-3, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 84;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -381,6 +394,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label5);
@@ -399,6 +413,7 @@
             this.pnDadosPessoais.PerformLayout();
             this.pnUsuario.ResumeLayout(false);
             this.pnUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,5 +449,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

@@ -584,6 +584,8 @@
     <None Include="Resources\3b407e0fa32ec004492aec8bbd0e29c3.png" />
     <None Include="Resources\juniper-1.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\voltar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

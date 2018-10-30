@@ -118,208 +118,211 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lar doce bar6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="79x1yl_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\79x1yl_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Barney_Gumble" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barney_Gumble.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2062398_orig-(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2062398_orig-(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="234137398050212" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\234137398050212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="213302291000300162301082016114934" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\213302291000300162301082016114934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="afterpartyicon+(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\afterpartyicon+(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3b407e0fa32ec004492aec8bbd0e29c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3b407e0fa32ec004492aec8bbd0e29c3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="depositphotos_43984931-stock-photo-background-from-a-bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\depositphotos_43984931-stock-photo-background-from-a-bar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shakes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shakes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papel-de-parede-beer-label-300-x-59cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Z.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Barney_Gumble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barney_Gumble1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NELSON_MUNTZ_LOS_SIMPSONS_-logo-4724AE8BDD-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NELSON_MUNTZ_LOS_SIMPSONS_-logo-4724AE8BDD-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Veinte-aniversario-de-los-Simpson" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Veinte-aniversario-de-los-Simpson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2062398_orig-(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2062398_orig-(1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1_W8cj-FRc58UozzcMWqVPZw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_W8cj-FRc58UozzcMWqVPZw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="the-background-321154_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\the-background-321154_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lar doce bar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="os-simpsons-o-filme-wallpaper-14748" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\os-simpsons-o-filme-wallpaper-14748.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="beer-150071_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beer-150071_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="venom-clipart-simpsons-813162-8979470" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\venom-clipart-simpsons-813162-8979470.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drawn-dougnut-simpsons-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drawn-dougnut-simpsons-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Moe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Moe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1_W8cj-FRc58UozzcMWqVPZw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1_W8cj-FRc58UozzcMWqVPZw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CoolClips_peop0043" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CoolClips_peop0043.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1557cbcc5711d60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1557cbcc5711d60.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Moe_Szyslak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moe_Szyslak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="festas-e-eventos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\festas-e-eventos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="juniper-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\juniper-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Barney_Gumble2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barney_Gumble2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lar doce bar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="depositphotos_43984931-stock-photo-background-from-a-bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_43984931-stock-photo-background-from-a-bar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="swsb_character_fact_doris_550x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\swsb_character_fact_doris_550x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="swsb_character_fact_duffman_550x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\swsb_character_fact_duffman_550x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="simpsons_PNG68" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\simpsons_PNG68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home_maluca_lanche-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_maluca_lanche-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fat_Smithers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fat_Smithers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="topo_drinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topo_drinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="depositphotos_27932415-stock-photo-red-gingham-tablecoth-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\depositphotos_27932415-stock-photo-red-gingham-tablecoth-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="swsb_character_fact_doris_550x9601" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\swsb_character_fact_doris_550x9601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eventos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eventos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papel-de-parede-beer-label-300-x-59cm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lar doce bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lar doce bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14646669581" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14646669581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="simpsons-duff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\simpsons-duff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mindy_Simmons_updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mindy_Simmons_updated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1288412340-carregando-e-o-1-gif-d-pedrohdlm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1288412340-carregando-e-o-1-gif-d-pedrohdlm.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loader.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="76a6c6e3f132017ac29cda47bb2ad82a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\76a6c6e3f132017ac29cda47bb2ad82a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lar doce bar8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Astronaut_Barney_Unlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Astronaut_Barney_Unlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Barney_Gumble (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barney_Gumble (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="venom-clipart-simpsons-813162-8979470" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\venom-clipart-simpsons-813162-8979470.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Barney_Gumble2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barney_Gumble2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loader.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lar doce bar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swsb_character_fact_duffman_550x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swsb_character_fact_duffman_550x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tapped_Out_Unlock_Moe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tapped_Out_Unlock_Moe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shakes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shakes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swsb_character_fact_doris_550x9601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swsb_character_fact_doris_550x9601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpsons-duff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\simpsons-duff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1288412340-carregando-e-o-1-gif-d-pedrohdlm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1288412340-carregando-e-o-1-gif-d-pedrohdlm.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eventos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eventos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpsons_PNG68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\simpsons_PNG68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swsb_character_fact_doris_550x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swsb_character_fact_doris_550x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NELSON_MUNTZ_LOS_SIMPSONS_-logo-4724AE8BDD-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NELSON_MUNTZ_LOS_SIMPSONS_-logo-4724AE8BDD-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="topo_drinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\topo_drinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoolClips_peop0043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CoolClips_peop0043.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="2062398_orig-(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2062398_orig-(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76a6c6e3f132017ac29cda47bb2ad82a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\76a6c6e3f132017ac29cda47bb2ad82a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mindy_Simmons_updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mindy_Simmons_updated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_maluca_lanche-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_maluca_lanche-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawn-dougnut-simpsons-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drawn-dougnut-simpsons-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fat_Smithers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fat_Smithers1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kisspng-homer-simpson-beer-bart-simpson-marge-simpson-moe-simpsons-5ab77298137224.7523664615219718640797" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-homer-simpson-beer-bart-simpson-marge-simpson-moe-simpsons-5ab77298137224.7523664615219718640797.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lady_Duff_Character_Set" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lady_Duff_Character_Set.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Moe_Szyslak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Moe_Szyslak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fat_Smithers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fat_Smithers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Moe_Szyslak_avat0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Moe_Szyslak_avat0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lar doce bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os-simpsons-o-filme-wallpaper-14748" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os-simpsons-o-filme-wallpaper-14748.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barney_Gumble (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barney_Gumble (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="swsb_character_fact_moe_550x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\swsb_character_fact_moe_550x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tapped_Out_Unlock_Moe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tapped_Out_Unlock_Moe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lar doce bar7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14646669581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14646669581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="79x1yl_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\79x1yl_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="234137398050212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\234137398050212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beer-150071_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beer-150071_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barney_Gumble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barney_Gumble1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3b407e0fa32ec004492aec8bbd0e29c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3b407e0fa32ec004492aec8bbd0e29c3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="213302291000300162301082016114934" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\213302291000300162301082016114934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_27932415-stock-photo-red-gingham-tablecoth-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_27932415-stock-photo-red-gingham-tablecoth-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papel-de-parede-beer-label-300-x-59cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Veinte-aniversario-de-los-Simpson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Veinte-aniversario-de-los-Simpson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-homer-simpson-beer-bart-simpson-marge-simpson-moe-simpsons-5ab77298137224.7523664615219718640797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-homer-simpson-beer-bart-simpson-marge-simpson-moe-simpsons-5ab77298137224.7523664615219718640797.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barney_Gumble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barney_Gumble.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2062398_orig-(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2062398_orig-(1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juniper-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juniper-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papel-de-parede-beer-label-300-x-59cm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papel-de-parede-beer-label-300-x-59cm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lar doce bar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lar doce bar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1557cbcc5711d60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1557cbcc5711d60.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moe_Szyslak_avat0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moe_Szyslak_avat0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afterpartyicon+(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afterpartyicon+(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

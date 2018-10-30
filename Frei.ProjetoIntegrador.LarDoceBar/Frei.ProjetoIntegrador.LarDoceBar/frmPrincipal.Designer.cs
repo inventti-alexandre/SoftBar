@@ -72,7 +72,9 @@
             this.consultarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.constularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,8 +84,6 @@
             this.folhaDePagamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultarToolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.constularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -122,7 +122,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button5.Font = new System.Drawing.Font("Stencil", 12F);
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(0, 0);
             this.button5.Name = "button5";
@@ -148,7 +148,7 @@
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Enabled = false;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button1.Font = new System.Drawing.Font("Stencil", 12F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.Location = new System.Drawing.Point(72, 102);
@@ -174,7 +174,7 @@
             this.btnEventos.BackColor = System.Drawing.Color.Red;
             this.btnEventos.Enabled = false;
             this.btnEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEventos.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnEventos.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnEventos.ForeColor = System.Drawing.Color.White;
             this.btnEventos.Location = new System.Drawing.Point(-1, 0);
             this.btnEventos.Name = "btnEventos";
@@ -200,7 +200,7 @@
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.Enabled = false;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button4.Font = new System.Drawing.Font("Stencil", 12F);
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(460, 102);
             this.button4.Name = "button4";
@@ -227,7 +227,7 @@
             this.button7.BackColor = System.Drawing.Color.Red;
             this.button7.Enabled = false;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button7.Font = new System.Drawing.Font("Stencil", 12F);
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(375, 0);
             this.button7.Name = "button7";
@@ -241,7 +241,7 @@
             this.button6.BackColor = System.Drawing.Color.Red;
             this.button6.Enabled = false;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button6.Font = new System.Drawing.Font("Stencil", 12F);
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button6.Location = new System.Drawing.Point(0, 0);
@@ -278,7 +278,7 @@
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Enabled = false;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button3.Font = new System.Drawing.Font("Stencil", 12F);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(669, 102);
             this.button3.Name = "button3";
@@ -291,7 +291,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.button2.Font = new System.Drawing.Font("Stencil", 12F);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(265, 102);
             this.button2.Name = "button2";
@@ -452,7 +452,7 @@
             this.cadastrarToolStripMenuItem,
             this.consultarToolStripMenuItem});
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
-            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.produtoToolStripMenuItem.Text = "Produto";
             // 
             // cadastrarToolStripMenuItem
@@ -475,7 +475,7 @@
             this.cadastrarToolStripMenuItem1,
             this.consultarToolStripMenuItem1});
             this.compraToolStripMenuItem.Name = "compraToolStripMenuItem";
-            this.compraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.compraToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.compraToolStripMenuItem.Text = "Compra";
             // 
             // cadastrarToolStripMenuItem1
@@ -498,7 +498,7 @@
             this.cadastrarToolStripMenuItem2,
             this.consultarToolStripMenuItem2});
             this.vendaToolStripMenuItem.Name = "vendaToolStripMenuItem";
-            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.vendaToolStripMenuItem.Text = "Venda";
             // 
             // cadastrarToolStripMenuItem2
@@ -511,7 +511,7 @@
             // consultarToolStripMenuItem2
             // 
             this.consultarToolStripMenuItem2.Name = "consultarToolStripMenuItem2";
-            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(125, 22);
             this.consultarToolStripMenuItem2.Text = "Consultar";
             this.consultarToolStripMenuItem2.Click += new System.EventHandler(this.consultarToolStripMenuItem2_Click);
             // 
@@ -521,7 +521,7 @@
             this.cadastrarToolStripMenuItem3,
             this.consultarToolStripMenuItem3});
             this.estoqueToolStripMenuItem.Name = "estoqueToolStripMenuItem";
-            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.estoqueToolStripMenuItem.Text = "Estoque";
             // 
             // cadastrarToolStripMenuItem3
@@ -529,16 +529,30 @@
             this.cadastrarToolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem10});
             this.cadastrarToolStripMenuItem3.Name = "cadastrarToolStripMenuItem3";
-            this.cadastrarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem3.Size = new System.Drawing.Size(178, 22);
             this.cadastrarToolStripMenuItem3.Text = "Estoque de Compra";
+            // 
+            // consultarToolStripMenuItem10
+            // 
+            this.consultarToolStripMenuItem10.Name = "consultarToolStripMenuItem10";
+            this.consultarToolStripMenuItem10.Size = new System.Drawing.Size(125, 22);
+            this.consultarToolStripMenuItem10.Text = "Consultar";
+            this.consultarToolStripMenuItem10.Click += new System.EventHandler(this.consultarToolStripMenuItem10_Click);
             // 
             // consultarToolStripMenuItem3
             // 
             this.consultarToolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.constularToolStripMenuItem});
             this.consultarToolStripMenuItem3.Name = "consultarToolStripMenuItem3";
-            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(178, 22);
             this.consultarToolStripMenuItem3.Text = "Estoqiue de Venda";
+            // 
+            // constularToolStripMenuItem
+            // 
+            this.constularToolStripMenuItem.Name = "constularToolStripMenuItem";
+            this.constularToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.constularToolStripMenuItem.Text = "Consultar";
+            this.constularToolStripMenuItem.Click += new System.EventHandler(this.constularToolStripMenuItem_Click);
             // 
             // fornecedorToolStripMenuItem
             // 
@@ -546,7 +560,7 @@
             this.cadastrarToolStripMenuItem5,
             this.consultarToolStripMenuItem7});
             this.fornecedorToolStripMenuItem.Name = "fornecedorToolStripMenuItem";
-            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.fornecedorToolStripMenuItem.Text = "Fornecedor";
             // 
             // cadastrarToolStripMenuItem5
@@ -583,7 +597,7 @@
             // consultarToolStripMenuItem4
             // 
             this.consultarToolStripMenuItem4.Name = "consultarToolStripMenuItem4";
-            this.consultarToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem4.Size = new System.Drawing.Size(125, 22);
             this.consultarToolStripMenuItem4.Text = "Consultar";
             this.consultarToolStripMenuItem4.Click += new System.EventHandler(this.consultarToolStripMenuItem4_Click);
             // 
@@ -609,20 +623,6 @@
             this.consultarToolStripMenuItem5.Size = new System.Drawing.Size(125, 22);
             this.consultarToolStripMenuItem5.Text = "Consultar";
             this.consultarToolStripMenuItem5.Click += new System.EventHandler(this.consultarToolStripMenuItem5_Click);
-            // 
-            // consultarToolStripMenuItem10
-            // 
-            this.consultarToolStripMenuItem10.Name = "consultarToolStripMenuItem10";
-            this.consultarToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
-            this.consultarToolStripMenuItem10.Text = "Consultar";
-            this.consultarToolStripMenuItem10.Click += new System.EventHandler(this.consultarToolStripMenuItem10_Click);
-            // 
-            // constularToolStripMenuItem
-            // 
-            this.constularToolStripMenuItem.Name = "constularToolStripMenuItem";
-            this.constularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.constularToolStripMenuItem.Text = "Consultar";
-            this.constularToolStripMenuItem.Click += new System.EventHandler(this.constularToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 

@@ -36,8 +36,10 @@
             this.btnRemover = new System.Windows.Forms.Button();
             this.btnVisualisar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvProdutos
@@ -72,18 +74,18 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(270, 145);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(329, 34);
+            this.label7.Size = new System.Drawing.Size(256, 19);
             this.label7.TabIndex = 68;
             this.label7.Text = "Consultar  produto de venda";
             // 
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
-            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(582, 472);
             this.btnNovo.Name = "btnNovo";
@@ -96,7 +98,7 @@
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
-            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(276, 472);
             this.btnRemover.Name = "btnRemover";
@@ -109,7 +111,7 @@
             // btnVisualisar
             // 
             this.btnVisualisar.BackColor = System.Drawing.Color.Red;
-            this.btnVisualisar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisualisar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVisualisar.ForeColor = System.Drawing.Color.White;
             this.btnVisualisar.Location = new System.Drawing.Point(167, 472);
             this.btnVisualisar.Name = "btnVisualisar";
@@ -131,6 +133,17 @@
             this.pictureBox1.TabIndex = 67;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 73;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,6 +151,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 528);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.dgvProdutos);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
@@ -148,6 +162,7 @@
             this.Text = "frmConsultar";
             ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +178,6 @@
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnRemover;
         private System.Windows.Forms.Button btnVisualisar;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

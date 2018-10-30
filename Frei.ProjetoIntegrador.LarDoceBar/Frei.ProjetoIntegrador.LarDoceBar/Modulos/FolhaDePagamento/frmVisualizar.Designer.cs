@@ -119,6 +119,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -142,6 +143,7 @@
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNome
@@ -1079,13 +1081,24 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Red;
-            this.label6.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic);
+            this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(287, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(240, 34);
+            this.label6.Size = new System.Drawing.Size(179, 19);
             this.label6.TabIndex = 74;
             this.label6.Text = "Folha de Pagamento";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(9, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 96;
+            this.pictureBox3.TabStop = false;
             // 
             // frmVisualizar
             // 
@@ -1095,7 +1108,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(848, 528);
+            this.ClientSize = new System.Drawing.Size(865, 528);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panel23);
             this.Controls.Add(this.panel25);
@@ -1151,6 +1165,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1249,5 +1264,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

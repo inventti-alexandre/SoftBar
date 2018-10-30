@@ -44,20 +44,22 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnVisualizar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFolha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(229, 119);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(367, 34);
+            this.label7.Size = new System.Drawing.Size(282, 19);
             this.label7.TabIndex = 46;
             this.label7.Text = "Consultar Folhas de Pagamento";
             // 
@@ -66,11 +68,11 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(249, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 20);
+            this.label2.Size = new System.Drawing.Size(42, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "CPF:";
             // 
@@ -95,7 +97,7 @@
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(611, 28);
             this.btnBuscar.Name = "btnBuscar";
@@ -109,7 +111,7 @@
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemover.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(574, 570);
             this.btnRemover.Name = "btnRemover";
@@ -123,7 +125,7 @@
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(481, 570);
             this.btnAlterar.Name = "btnAlterar";
@@ -137,7 +139,7 @@
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
             this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNovo.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(55, 570);
             this.btnNovo.Name = "btnNovo";
@@ -216,7 +218,7 @@
             // 
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
             this.btnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVisualizar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnVisualizar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
             this.btnVisualizar.Location = new System.Drawing.Point(667, 570);
             this.btnVisualizar.Name = "btnVisualizar";
@@ -238,6 +240,17 @@
             this.pictureBox1.TabIndex = 54;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 21);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 74;
+            this.pictureBox3.TabStop = false;
+            // 
             // frmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,7 +258,8 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(865, 532);
+            this.ClientSize = new System.Drawing.Size(882, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
@@ -262,6 +276,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFolha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,5 +299,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btnVisualizar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

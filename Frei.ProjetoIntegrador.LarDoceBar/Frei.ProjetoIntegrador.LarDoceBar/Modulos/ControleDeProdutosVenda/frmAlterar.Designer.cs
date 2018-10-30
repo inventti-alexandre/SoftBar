@@ -44,7 +44,9 @@
             this.dtpValidade = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtFilial
@@ -59,11 +61,11 @@
             // 
             this.lblId.AutoSize = true;
             this.lblId.BackColor = System.Drawing.Color.Red;
-            this.lblId.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.lblId.Font = new System.Drawing.Font("Stencil", 12F);
             this.lblId.ForeColor = System.Drawing.Color.White;
             this.lblId.Location = new System.Drawing.Point(576, 227);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(18, 20);
+            this.lblId.Size = new System.Drawing.Size(18, 19);
             this.lblId.TabIndex = 71;
             this.lblId.Text = "0";
             // 
@@ -71,11 +73,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Red;
-            this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(212, 435);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 20);
+            this.label6.Size = new System.Drawing.Size(63, 19);
             this.label6.TabIndex = 70;
             this.label6.Text = "Filial:";
             // 
@@ -83,18 +85,18 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label5.Font = new System.Drawing.Font("Stencil", 12F);
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(545, 227);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 20);
+            this.label5.Size = new System.Drawing.Size(30, 19);
             this.label5.TabIndex = 69;
             this.label5.Text = "Id:";
             // 
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.Red;
-            this.btnSalvar.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.btnSalvar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
             this.btnSalvar.Location = new System.Drawing.Point(658, 456);
             this.btnSalvar.Name = "btnSalvar";
@@ -120,11 +122,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(212, 247);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 20);
+            this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 72;
             this.label1.Text = "Nome:";
             // 
@@ -139,11 +141,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(182, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 20);
+            this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 68;
             this.label2.Text = "Descrição:";
             // 
@@ -158,11 +160,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(216, 348);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 20);
+            this.label3.Size = new System.Drawing.Size(64, 19);
             this.label3.TabIndex = 67;
             this.label3.Text = "Valor:";
             // 
@@ -170,11 +172,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Red;
-            this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(142, 386);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 20);
+            this.label4.Size = new System.Drawing.Size(155, 19);
             this.label4.TabIndex = 66;
             this.label4.Text = "Data de Validade:";
             // 
@@ -203,13 +205,24 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(261, 178);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(297, 34);
+            this.label7.Size = new System.Drawing.Size(236, 19);
             this.label7.TabIndex = 80;
             this.label7.Text = "Alterar  produto de venda";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 81;
+            this.pictureBox3.TabStop = false;
             // 
             // frmAlterar
             // 
@@ -219,6 +232,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 528);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateTimePicker1);
@@ -239,6 +253,7 @@
             this.Name = "frmAlterar";
             this.Text = "frmAlterar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,5 +276,6 @@
         private System.Windows.Forms.DateTimePicker dtpValidade;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
