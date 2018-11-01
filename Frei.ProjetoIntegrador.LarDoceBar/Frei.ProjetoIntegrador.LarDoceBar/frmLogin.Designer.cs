@@ -69,7 +69,7 @@
             this.label10.BackColor = System.Drawing.Color.Red;
             this.label10.Font = new System.Drawing.Font("Stencil", 12F);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(202, 298);
+            this.label10.Location = new System.Drawing.Point(188, 299);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 19);
             this.label10.TabIndex = 67;
@@ -81,7 +81,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(202, 342);
+            this.label1.Location = new System.Drawing.Point(188, 344);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 19);
             this.label1.TabIndex = 67;
@@ -102,7 +102,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(300, 228);
+            this.label2.Location = new System.Drawing.Point(346, 238);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 19);
             this.label2.TabIndex = 79;
@@ -114,9 +114,9 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar1;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(260, 47);
+            this.panel3.Location = new System.Drawing.Point(254, 1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(297, 178);
+            this.panel3.Size = new System.Drawing.Size(328, 234);
             this.panel3.TabIndex = 80;
             // 
             // pictureBox3

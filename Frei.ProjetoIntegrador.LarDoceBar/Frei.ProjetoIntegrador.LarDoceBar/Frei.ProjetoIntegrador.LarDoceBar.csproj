@@ -133,6 +133,12 @@
     <Compile Include="frmSplash.Designer.cs">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\Cardapio\Bebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\Bebidas.Designer.cs">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\Cardapio\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -357,6 +363,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cardapio\Bebidas.resx">
+      <DependentUpon>Bebidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Cardapio\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
@@ -586,6 +595,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moe_Szyslak_avat01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12002_CAIPIROSCA_d41a372ca50a4c2a931bb12cf9e5a89b.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1b583975393acb1a52ee86d286b91a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\il_fullxfull.322976552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8ad1ce0325e2cdf936b95797b03b83eb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-russian-720x720-article.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tequila_Sunrise_square.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\long-island-720x720-recipe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moscow-Mule-6-630.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gimlet-720x720-article.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cranberry-mimosas-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinks1-extendida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classic-bloody-mary-720x720-recipe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delícia-de-manga-cozinharoman-pt-683x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt2-450x594.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negroni1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12002_CAIPIROSCA_d41a372ca50a4c2a931bb12cf9e5a89b1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1b583975393acb1a52ee86d286b91a11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\il_fullxfull.3229765521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\long-island-720x720-recipe1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tequila_Sunrise_square1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-russian-720x720-article1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8ad1ce0325e2cdf936b95797b03b83eb1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

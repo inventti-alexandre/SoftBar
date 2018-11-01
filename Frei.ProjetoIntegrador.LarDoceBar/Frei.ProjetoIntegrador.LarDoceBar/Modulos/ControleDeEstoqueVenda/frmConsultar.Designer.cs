@@ -54,7 +54,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(324, 140);
+            this.label7.Location = new System.Drawing.Point(315, 140);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(171, 19);
             this.label7.TabIndex = 65;
@@ -63,11 +63,12 @@
             // btnAlterar
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
-            this.btnAlterar.Location = new System.Drawing.Point(676, 530);
+            this.btnAlterar.Location = new System.Drawing.Point(696, 530);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(144, 34);
+            this.btnAlterar.Size = new System.Drawing.Size(110, 34);
             this.btnAlterar.TabIndex = 63;
             this.btnAlterar.Text = "Registrar Entrada";
             this.btnAlterar.UseVisualStyleBackColor = false;
@@ -75,11 +76,12 @@
             // btnVender
             // 
             this.btnVender.BackColor = System.Drawing.Color.Red;
+            this.btnVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVender.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVender.ForeColor = System.Drawing.Color.White;
             this.btnVender.Location = new System.Drawing.Point(13, 530);
             this.btnVender.Name = "btnVender";
-            this.btnVender.Size = new System.Drawing.Size(148, 34);
+            this.btnVender.Size = new System.Drawing.Size(115, 34);
             this.btnVender.TabIndex = 64;
             this.btnVender.Text = "Vender Produtos";
             this.btnVender.UseVisualStyleBackColor = false;
@@ -96,7 +98,7 @@
             this.Column2,
             this.Column3,
             this.Column1});
-            this.dgvEstoque.Location = new System.Drawing.Point(1, 259);
+            this.dgvEstoque.Location = new System.Drawing.Point(23, 259);
             this.dgvEstoque.Name = "dgvEstoque";
             this.dgvEstoque.ReadOnly = true;
             this.dgvEstoque.RowHeadersVisible = false;
@@ -104,7 +106,7 @@
             this.dgvEstoque.RowTemplate.Height = 30;
             this.dgvEstoque.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvEstoque.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEstoque.Size = new System.Drawing.Size(832, 265);
+            this.dgvEstoque.Size = new System.Drawing.Size(783, 265);
             this.dgvEstoque.TabIndex = 62;
             // 
             // Column2
@@ -162,6 +164,7 @@
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(481, 27);
@@ -187,9 +190,9 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar8;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(212, 10);
+            this.panel3.Location = new System.Drawing.Point(252, 10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(421, 127);
+            this.panel3.Size = new System.Drawing.Size(283, 127);
             this.panel3.TabIndex = 97;
             // 
             // pictureBox3

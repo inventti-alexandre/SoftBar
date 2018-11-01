@@ -81,11 +81,12 @@
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(553, 25);
+            this.btnBuscar.Location = new System.Drawing.Point(499, 26);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 26);
+            this.btnBuscar.Size = new System.Drawing.Size(91, 26);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -96,7 +97,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(250, 167);
+            this.label7.Location = new System.Drawing.Point(296, 167);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(257, 19);
             this.label7.TabIndex = 50;
@@ -105,11 +106,12 @@
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(166, 489);
+            this.btnRemover.Location = new System.Drawing.Point(205, 488);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(78, 28);
+            this.btnRemover.Size = new System.Drawing.Size(104, 28);
             this.btnRemover.TabIndex = 47;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = false;
@@ -118,11 +120,12 @@
             // btnVisualizar
             // 
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
+            this.btnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVisualizar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
             this.btnVisualizar.Location = new System.Drawing.Point(72, 488);
             this.btnVisualizar.Name = "btnVisualizar";
-            this.btnVisualizar.Size = new System.Drawing.Size(88, 28);
+            this.btnVisualizar.Size = new System.Drawing.Size(112, 28);
             this.btnVisualizar.TabIndex = 48;
             this.btnVisualizar.Text = "Visualizar";
             this.btnVisualizar.UseVisualStyleBackColor = false;
@@ -131,6 +134,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(693, 488);

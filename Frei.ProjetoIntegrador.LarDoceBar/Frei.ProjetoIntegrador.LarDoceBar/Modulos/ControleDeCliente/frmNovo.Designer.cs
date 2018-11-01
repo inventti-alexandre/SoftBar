@@ -74,7 +74,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(648, 312);
+            this.pictureBox2.Location = new System.Drawing.Point(648, 288);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(138, 208);
             this.pictureBox2.TabIndex = 71;
@@ -426,9 +426,9 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Tapped_Out_Unlock_Moe;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(648, 124);
+            this.pictureBox3.Location = new System.Drawing.Point(676, 86);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(169, 367);
+            this.pictureBox3.Size = new System.Drawing.Size(110, 249);
             this.pictureBox3.TabIndex = 72;
             this.pictureBox3.TabStop = false;
             // 

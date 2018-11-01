@@ -58,28 +58,34 @@
             // rbnInativo
             // 
             this.rbnInativo.AutoSize = true;
-            this.rbnInativo.Location = new System.Drawing.Point(394, 32);
+            this.rbnInativo.BackColor = System.Drawing.Color.Red;
+            this.rbnInativo.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbnInativo.ForeColor = System.Drawing.Color.White;
+            this.rbnInativo.Location = new System.Drawing.Point(403, 31);
             this.rbnInativo.Name = "rbnInativo";
-            this.rbnInativo.Size = new System.Drawing.Size(57, 17);
+            this.rbnInativo.Size = new System.Drawing.Size(72, 18);
             this.rbnInativo.TabIndex = 7;
             this.rbnInativo.TabStop = true;
             this.rbnInativo.Text = "Inativo";
-            this.rbnInativo.UseVisualStyleBackColor = true;
+            this.rbnInativo.UseVisualStyleBackColor = false;
             // 
             // rbnAtivo
             // 
             this.rbnAtivo.AutoSize = true;
-            this.rbnAtivo.Location = new System.Drawing.Point(327, 32);
+            this.rbnAtivo.BackColor = System.Drawing.Color.Red;
+            this.rbnAtivo.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbnAtivo.ForeColor = System.Drawing.Color.White;
+            this.rbnAtivo.Location = new System.Drawing.Point(338, 29);
             this.rbnAtivo.Name = "rbnAtivo";
-            this.rbnAtivo.Size = new System.Drawing.Size(49, 17);
+            this.rbnAtivo.Size = new System.Drawing.Size(59, 18);
             this.rbnAtivo.TabIndex = 7;
             this.rbnAtivo.TabStop = true;
             this.rbnAtivo.Text = "Ativo";
-            this.rbnAtivo.UseVisualStyleBackColor = true;
+            this.rbnAtivo.UseVisualStyleBackColor = false;
             // 
             // txtFilial
             // 
-            this.txtFilial.Location = new System.Drawing.Point(504, 31);
+            this.txtFilial.Location = new System.Drawing.Point(550, 32);
             this.txtFilial.Name = "txtFilial";
             this.txtFilial.Size = new System.Drawing.Size(81, 20);
             this.txtFilial.TabIndex = 5;
@@ -90,7 +96,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(456, 28);
+            this.label3.Location = new System.Drawing.Point(481, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 19);
             this.label3.TabIndex = 4;
@@ -118,9 +124,10 @@
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(604, 28);
+            this.btnBuscar.Location = new System.Drawing.Point(637, 32);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 26);
             this.btnBuscar.TabIndex = 6;
@@ -139,9 +146,9 @@
             this.panel1.Controls.Add(this.txtNome);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnBuscar);
-            this.panel1.Location = new System.Drawing.Point(81, 174);
+            this.panel1.Location = new System.Drawing.Point(48, 174);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(699, 76);
+            this.panel1.Size = new System.Drawing.Size(732, 76);
             this.panel1.TabIndex = 54;
             // 
             // label1
@@ -210,6 +217,7 @@
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(187, 493);
@@ -223,6 +231,7 @@
             // btnVisualizar
             // 
             this.btnVisualizar.BackColor = System.Drawing.Color.Red;
+            this.btnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVisualizar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnVisualizar.ForeColor = System.Drawing.Color.White;
             this.btnVisualizar.Location = new System.Drawing.Point(81, 493);
@@ -236,6 +245,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(661, 493);

@@ -61,6 +61,7 @@
             // btnAlterar
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(718, 512);
@@ -74,6 +75,7 @@
             // btnComprar
             // 
             this.btnComprar.BackColor = System.Drawing.Color.Red;
+            this.btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComprar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnComprar.ForeColor = System.Drawing.Color.White;
             this.btnComprar.Location = new System.Drawing.Point(11, 512);
@@ -152,7 +154,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(131, 30);
+            this.label1.Location = new System.Drawing.Point(96, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(157, 19);
             this.label1.TabIndex = 4;
@@ -161,11 +163,12 @@
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Red;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(481, 27);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 26);
+            this.btnBuscar.Size = new System.Drawing.Size(87, 26);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -176,9 +179,9 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar8;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(193, 12);
+            this.panel3.Location = new System.Drawing.Point(301, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(421, 100);
+            this.panel3.Size = new System.Drawing.Size(232, 107);
             this.panel3.TabIndex = 71;
             // 
             // pictureBox3

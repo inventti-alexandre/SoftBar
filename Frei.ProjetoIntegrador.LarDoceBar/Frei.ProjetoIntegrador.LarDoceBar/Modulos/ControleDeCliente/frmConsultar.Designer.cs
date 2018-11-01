@@ -65,7 +65,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(305, 172);
+            this.label7.Location = new System.Drawing.Point(327, 172);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(175, 19);
             this.label7.TabIndex = 66;
@@ -74,11 +74,12 @@
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(550, 487);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(88, 35);
+            this.btnRemover.Size = new System.Drawing.Size(96, 35);
             this.btnRemover.TabIndex = 63;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = false;
@@ -87,11 +88,12 @@
             // btnAlterar
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.Red;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(663, 487);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(88, 35);
+            this.btnAlterar.Size = new System.Drawing.Size(112, 35);
             this.btnAlterar.TabIndex = 64;
             this.btnAlterar.Text = "Visualizar";
             this.btnAlterar.UseVisualStyleBackColor = false;
@@ -100,6 +102,7 @@
             // btnNovo
             // 
             this.btnNovo.BackColor = System.Drawing.Color.Red;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
             this.btnNovo.Location = new System.Drawing.Point(438, 487);

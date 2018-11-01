@@ -85,11 +85,12 @@
             // btnAdicionar
             // 
             this.btnAdicionar.BackColor = System.Drawing.Color.Red;
+            this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAdicionar.ForeColor = System.Drawing.Color.White;
-            this.btnAdicionar.Location = new System.Drawing.Point(267, 81);
+            this.btnAdicionar.Location = new System.Drawing.Point(220, 81);
             this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(165, 28);
+            this.btnAdicionar.Size = new System.Drawing.Size(212, 28);
             this.btnAdicionar.TabIndex = 3;
             this.btnAdicionar.Text = "Adicionar ao Carrinho";
             this.btnAdicionar.UseVisualStyleBackColor = false;
@@ -210,6 +211,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.Red;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
             this.btnRegistrar.Location = new System.Drawing.Point(171, 157);
@@ -280,6 +282,7 @@
             // btnRemover
             // 
             this.btnRemover.BackColor = System.Drawing.Color.Red;
+            this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
             this.btnRemover.Location = new System.Drawing.Point(516, 504);
@@ -293,11 +296,12 @@
             // btnLimpar
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.Red;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnLimpar.ForeColor = System.Drawing.Color.White;
             this.btnLimpar.Location = new System.Drawing.Point(739, 504);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(104, 28);
+            this.btnLimpar.Size = new System.Drawing.Size(80, 28);
             this.btnLimpar.TabIndex = 43;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = false;

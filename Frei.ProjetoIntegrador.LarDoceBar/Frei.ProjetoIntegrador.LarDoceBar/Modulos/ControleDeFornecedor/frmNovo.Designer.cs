@@ -275,7 +275,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(279, 128);
+            this.label11.Location = new System.Drawing.Point(385, 134);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(148, 19);
             this.label11.TabIndex = 58;
@@ -381,7 +381,7 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(260, 12);
+            this.panel3.Location = new System.Drawing.Point(631, 209);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(226, 113);
             this.panel3.TabIndex = 70;

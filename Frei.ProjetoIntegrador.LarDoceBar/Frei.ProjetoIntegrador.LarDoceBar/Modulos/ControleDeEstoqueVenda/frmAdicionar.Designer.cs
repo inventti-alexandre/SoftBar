@@ -79,7 +79,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(229, 154);
+            this.label11.Location = new System.Drawing.Point(243, 152);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(285, 19);
             this.label11.TabIndex = 92;
@@ -99,7 +99,7 @@
             this.label9.BackColor = System.Drawing.Color.Red;
             this.label9.Font = new System.Drawing.Font("Stencil", 12F);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(93, 39);
+            this.label9.Location = new System.Drawing.Point(81, 41);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 19);
             this.label9.TabIndex = 0;
@@ -119,7 +119,7 @@
             this.label8.BackColor = System.Drawing.Color.Red;
             this.label8.Font = new System.Drawing.Font("Stencil", 12F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(24, 13);
+            this.label8.Location = new System.Drawing.Point(-6, 17);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(152, 19);
             this.label8.TabIndex = 0;
@@ -148,7 +148,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(59, 120);
+            this.label4.Location = new System.Drawing.Point(34, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 19);
             this.label4.TabIndex = 0;
@@ -182,7 +182,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(82, 42);
+            this.label1.Location = new System.Drawing.Point(63, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 19);
             this.label1.TabIndex = 0;
@@ -234,7 +234,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(39, 94);
+            this.label3.Location = new System.Drawing.Point(8, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(141, 19);
             this.label3.TabIndex = 0;
@@ -273,7 +273,7 @@
             this.label10.BackColor = System.Drawing.Color.Red;
             this.label10.Font = new System.Drawing.Font("Stencil", 12F);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(53, 42);
+            this.label10.Location = new System.Drawing.Point(25, 45);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(121, 19);
             this.label10.TabIndex = 0;
@@ -285,7 +285,7 @@
             this.label12.BackColor = System.Drawing.Color.Red;
             this.label12.Font = new System.Drawing.Font("Stencil", 12F);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(51, 16);
+            this.label12.Location = new System.Drawing.Point(22, 18);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(124, 19);
             this.label12.TabIndex = 0;
@@ -317,9 +317,9 @@
             this.panel3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar8;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.panel3.Location = new System.Drawing.Point(184, 14);
+            this.panel3.Location = new System.Drawing.Point(247, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(421, 127);
+            this.panel3.Size = new System.Drawing.Size(278, 137);
             this.panel3.TabIndex = 96;
             // 
             // pictureBox1

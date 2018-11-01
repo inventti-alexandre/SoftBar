@@ -72,7 +72,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Barney_Gumble1;
-            this.pictureBox1.Location = new System.Drawing.Point(592, 151);
+            this.pictureBox1.Location = new System.Drawing.Point(592, 152);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(227, 299);
             this.pictureBox1.TabIndex = 63;
@@ -82,9 +82,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Mindy_Simmons_updated;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 140);
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 140);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 396);
+            this.pictureBox2.Size = new System.Drawing.Size(227, 356);
             this.pictureBox2.TabIndex = 64;
             this.pictureBox2.TabStop = false;
             // 

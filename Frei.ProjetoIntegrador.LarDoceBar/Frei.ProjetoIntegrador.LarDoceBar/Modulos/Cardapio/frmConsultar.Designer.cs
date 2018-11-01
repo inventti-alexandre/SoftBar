@@ -93,9 +93,9 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(511, 211);
+            this.btnBuscar.Location = new System.Drawing.Point(479, 210);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(88, 39);
+            this.btnBuscar.Size = new System.Drawing.Size(85, 39);
             this.btnBuscar.TabIndex = 29;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(664, 454);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 32);
+            this.button2.Size = new System.Drawing.Size(89, 32);
             this.button2.TabIndex = 59;
             this.button2.Text = "Alterar";
             this.button2.UseVisualStyleBackColor = false;
@@ -185,9 +185,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.Mindy_Simmons_updated;
-            this.pictureBox2.Location = new System.Drawing.Point(585, 52);
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(582, 132);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 396);
+            this.pictureBox2.Size = new System.Drawing.Size(204, 316);
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
             // 

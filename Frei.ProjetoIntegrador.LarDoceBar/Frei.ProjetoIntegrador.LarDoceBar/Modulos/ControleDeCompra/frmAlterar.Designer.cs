@@ -31,15 +31,13 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.btnsalbar = new System.Windows.Forms.Button();
-            this.txtnmusu = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtssenhausu = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dtppedido = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtppedido = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtssenhausu = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtnmusu = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +57,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(369, 206);
+            this.label11.Location = new System.Drawing.Point(379, 216);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(79, 19);
             this.label11.TabIndex = 67;
@@ -78,80 +76,6 @@
             this.btnsalbar.Text = "salvar";
             this.btnsalbar.UseVisualStyleBackColor = false;
             // 
-            // txtnmusu
-            // 
-            this.txtnmusu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
-            this.txtnmusu.Location = new System.Drawing.Point(220, 73);
-            this.txtnmusu.Name = "txtnmusu";
-            this.txtnmusu.Size = new System.Drawing.Size(243, 21);
-            this.txtnmusu.TabIndex = 63;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(89, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 19);
-            this.label3.TabIndex = 58;
-            this.label3.Text = "Senha do Usuário:";
-            // 
-            // txtssenhausu
-            // 
-            this.txtssenhausu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
-            this.txtssenhausu.Location = new System.Drawing.Point(220, 126);
-            this.txtssenhausu.Name = "txtssenhausu";
-            this.txtssenhausu.Size = new System.Drawing.Size(243, 21);
-            this.txtssenhausu.TabIndex = 62;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(92, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 19);
-            this.label2.TabIndex = 59;
-            this.label2.Text = "Nome do Usuário:";
-            // 
-            // dtppedido
-            // 
-            this.dtppedido.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
-            this.dtppedido.Location = new System.Drawing.Point(220, 32);
-            this.dtppedido.Name = "dtppedido";
-            this.dtppedido.Size = new System.Drawing.Size(200, 21);
-            this.dtppedido.TabIndex = 61;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(38, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 19);
-            this.label1.TabIndex = 60;
-            this.label1.Text = "Data do Pedido de compra";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.dtppedido);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.txtssenhausu);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txtnmusu);
-            this.panel1.Location = new System.Drawing.Point(140, 243);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(506, 181);
-            this.panel1.TabIndex = 57;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -163,6 +87,66 @@
             this.pictureBox3.TabIndex = 73;
             this.pictureBox3.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(146, 271);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(222, 19);
+            this.label1.TabIndex = 76;
+            this.label1.Text = "Data do Pedido de compra";
+            // 
+            // dtppedido
+            // 
+            this.dtppedido.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.dtppedido.Location = new System.Drawing.Point(374, 268);
+            this.dtppedido.Name = "dtppedido";
+            this.dtppedido.Size = new System.Drawing.Size(243, 21);
+            this.dtppedido.TabIndex = 77;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Red;
+            this.label2.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(215, 311);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(153, 19);
+            this.label2.TabIndex = 75;
+            this.label2.Text = "Nome do Usuário:";
+            // 
+            // txtssenhausu
+            // 
+            this.txtssenhausu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.txtssenhausu.Location = new System.Drawing.Point(374, 362);
+            this.txtssenhausu.Name = "txtssenhausu";
+            this.txtssenhausu.Size = new System.Drawing.Size(243, 21);
+            this.txtssenhausu.TabIndex = 78;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Red;
+            this.label3.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(207, 364);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(161, 19);
+            this.label3.TabIndex = 74;
+            this.label3.Text = "Senha do Usuário:";
+            // 
+            // txtnmusu
+            // 
+            this.txtnmusu.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Italic);
+            this.txtnmusu.Location = new System.Drawing.Point(374, 309);
+            this.txtnmusu.Name = "txtnmusu";
+            this.txtnmusu.Size = new System.Drawing.Size(243, 21);
+            this.txtnmusu.TabIndex = 79;
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,17 +154,20 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 532);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dtppedido);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtssenhausu);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtnmusu);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnsalbar);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,13 +178,12 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnsalbar;
-        private System.Windows.Forms.TextBox txtnmusu;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtssenhausu;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dtppedido;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dtppedido;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtssenhausu;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtnmusu;
     }
 }
