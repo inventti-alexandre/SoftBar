@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
 {
-    public partial class Bebidas : Form
+    public partial class Drinks : Form
     {
-        public Bebidas()
+        public Drinks()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

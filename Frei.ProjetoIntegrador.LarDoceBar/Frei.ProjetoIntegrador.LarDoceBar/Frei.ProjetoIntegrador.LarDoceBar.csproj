@@ -139,6 +139,18 @@
     <Compile Include="Modulos\Cardapio\Bebidas.Designer.cs">
       <DependentUpon>Bebidas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\Cardapio\Comidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\Comidas.Designer.cs">
+      <DependentUpon>Comidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\Drinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\Drinks.Designer.cs">
+      <DependentUpon>Drinks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\Cardapio\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +168,12 @@
     </Compile>
     <Compile Include="Modulos\Cardapio\frmNovo.Designer.cs">
       <DependentUpon>frmNovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\sem alcool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cardapio\sem alcool.Designer.cs">
+      <DependentUpon>sem alcool.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\ControleDeCliente\frmAlterar.cs">
       <SubType>Form</SubType>
@@ -367,6 +385,12 @@
     <EmbeddedResource Include="Modulos\Cardapio\Bebidas.resx">
       <DependentUpon>Bebidas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cardapio\Comidas.resx">
+      <DependentUpon>Comidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cardapio\Drinks.resx">
+      <DependentUpon>Drinks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Cardapio\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
@@ -375,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Cardapio\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cardapio\sem alcool.resx">
+      <DependentUpon>sem alcool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\ControleDeCliente\frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
@@ -673,6 +700,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\8ad1ce0325e2cdf936b95797b03b83eb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moscow-Mule-6-6301.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gimlet-720x720-article1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1b583975393acb1a52ee86d286b91a12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negroni11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinks1-extendida1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delícia-de-manga-cozinharoman-pt-683x10241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gimlet-720x720-article2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt2-450x594 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negroni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park avenue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negroni tonic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gin fizz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deuses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\batidinha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\licor de acerola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diablo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serramalte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brahma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stella.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adriatica.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

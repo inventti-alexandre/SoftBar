@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
 {
-    public partial class Bebidas : Form
+    public partial class sem_alcool : Form
     {
-        public Bebidas()
+        public sem_alcool()
         {
             InitializeComponent();
         }
