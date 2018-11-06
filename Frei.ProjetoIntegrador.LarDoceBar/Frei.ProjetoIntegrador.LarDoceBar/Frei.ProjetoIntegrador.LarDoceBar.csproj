@@ -151,6 +151,9 @@
     <Compile Include="Modulos\Cardapio\Drinks.Designer.cs">
       <DependentUpon>Drinks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\Cardapio\menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulos\Cardapio\frmAlterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -399,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Cardapio\frmNovo.resx">
       <DependentUpon>frmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cardapio\menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Cardapio\sem alcool.resx">
       <DependentUpon>sem alcool.cs</DependentUpon>
@@ -781,6 +787,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\adriatica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNGPIX-COM-Cocktail-Glass-PNG-Transparent-Image-500x492.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suco-detox-para-emagrecer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinks-com-gin-para-o-verao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cervejas-variadas-das.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calabresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-batata-frita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-BACON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xsalada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x tudo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Misto-quente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iscas_de_peixe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\427115-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61kFbWto+OL._SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Journey-brands-Product-FANTA-Orange-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suco-Del-Valle-Mais-Manga-335Ml-9436535.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refrigerante-Fanta-Laranja-350ml-15597-900x900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\496498.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\493276.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

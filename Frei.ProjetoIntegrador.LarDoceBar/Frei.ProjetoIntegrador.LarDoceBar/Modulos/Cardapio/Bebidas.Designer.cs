@@ -77,11 +77,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Red;
-            this.label17.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(165, 497);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(125, 19);
+            this.label17.Size = new System.Drawing.Size(94, 20);
             this.label17.TabIndex = 182;
             this.label17.Text = "Stella Artois";
             // 
@@ -89,11 +89,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Red;
-            this.label18.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(370, 497);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 19);
+            this.label18.Size = new System.Drawing.Size(72, 20);
             this.label18.TabIndex = 181;
             this.label18.Text = "Bohemia";
             // 
@@ -101,11 +101,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Red;
-            this.label19.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(557, 497);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(82, 19);
+            this.label19.Size = new System.Drawing.Size(62, 20);
             this.label19.TabIndex = 180;
             this.label19.Text = "Original";
             // 
@@ -113,11 +113,11 @@
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Red;
-            this.label20.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(747, 497);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(110, 19);
+            this.label20.Size = new System.Drawing.Size(87, 20);
             this.label20.TabIndex = 179;
             this.label20.Text = "Serramalte";
             // 
@@ -125,11 +125,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Red;
-            this.label16.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(388, 459);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(62, 19);
+            this.label16.Size = new System.Drawing.Size(57, 20);
             this.label16.TabIndex = 178;
             this.label16.Text = "600-ml";
             // 
@@ -137,11 +137,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Red;
-            this.label15.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(577, 459);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(62, 19);
+            this.label15.Size = new System.Drawing.Size(57, 20);
             this.label15.TabIndex = 177;
             this.label15.Text = "600-ml";
             // 
@@ -149,11 +149,11 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Red;
-            this.label14.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(769, 459);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(62, 19);
+            this.label14.Size = new System.Drawing.Size(57, 20);
             this.label14.TabIndex = 176;
             this.label14.Text = "600-ml";
             // 
@@ -161,11 +161,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Red;
-            this.label13.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(176, 459);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 19);
+            this.label13.Size = new System.Drawing.Size(57, 20);
             this.label13.TabIndex = 175;
             this.label13.Text = "600-ml";
             // 
@@ -173,11 +173,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Red;
-            this.label8.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(158, 771);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(125, 19);
+            this.label8.Size = new System.Drawing.Size(94, 20);
             this.label8.TabIndex = 174;
             this.label8.Text = "Stella Artois";
             // 
@@ -185,11 +185,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Red;
-            this.label9.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(384, 771);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 19);
+            this.label9.Size = new System.Drawing.Size(76, 20);
             this.label9.TabIndex = 173;
             this.label9.Text = "Bohemia ";
             // 
@@ -197,11 +197,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Red;
-            this.label11.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(559, 771);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 19);
+            this.label11.Size = new System.Drawing.Size(47, 20);
             this.label11.TabIndex = 172;
             this.label11.Text = "Aura ";
             // 
@@ -209,11 +209,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Red;
-            this.label12.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(750, 771);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(95, 19);
+            this.label12.Size = new System.Drawing.Size(76, 20);
             this.label12.TabIndex = 171;
             this.label12.Text = "Batidinha";
             // 
@@ -221,11 +221,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Red;
-            this.label4.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(129, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 19);
+            this.label4.Size = new System.Drawing.Size(128, 20);
             this.label4.TabIndex = 166;
             this.label4.Text = "Cerveja - Original";
             // 
@@ -233,11 +233,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(352, 218);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 19);
+            this.label5.Size = new System.Drawing.Size(87, 20);
             this.label5.TabIndex = 165;
             this.label5.Text = "Serramalte";
             // 
@@ -245,11 +245,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Red;
-            this.label6.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(548, 218);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 19);
+            this.label6.Size = new System.Drawing.Size(71, 20);
             this.label6.TabIndex = 164;
             this.label6.Text = "Adriática";
             // 
@@ -257,11 +257,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(727, 218);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 19);
+            this.label7.Size = new System.Drawing.Size(106, 20);
             this.label7.TabIndex = 163;
             this.label7.Text = "Brahma Extra";
             // 
@@ -389,11 +389,11 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.Red;
-            this.label29.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
             this.label29.Location = new System.Drawing.Point(456, 170);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(112, 25);
+            this.label29.Size = new System.Drawing.Size(97, 25);
             this.label29.TabIndex = 183;
             this.label29.Text = "Cervejas";
             // 
@@ -415,7 +415,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1001, 528);
+            this.ClientSize = new System.Drawing.Size(1018, 528);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label17);
@@ -447,7 +447,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Bebidas";
-            this.Text = "Bebidas";
+            this.Text = "Lar Doce Bar LTDA";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();

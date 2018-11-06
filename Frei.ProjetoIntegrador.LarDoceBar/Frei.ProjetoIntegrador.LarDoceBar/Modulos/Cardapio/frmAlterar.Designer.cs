@@ -59,7 +59,7 @@
             // 
             this.btnsalvar.BackColor = System.Drawing.Color.Red;
             this.btnsalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalvar.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsalvar.ForeColor = System.Drawing.Color.White;
             this.btnsalvar.Location = new System.Drawing.Point(610, 457);
             this.btnsalvar.Name = "btnsalvar";
@@ -93,23 +93,24 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Red;
-            this.label4.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(340, 239);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(209, 25);
+            this.label4.Size = new System.Drawing.Size(168, 25);
             this.label4.TabIndex = 70;
             this.label4.Text = "Alterar Cardapio";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(189, 290);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 19);
+            this.label5.Size = new System.Drawing.Size(137, 20);
             this.label5.TabIndex = 65;
             this.label5.Text = "Nome do Produto:";
             // 
@@ -117,11 +118,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Red;
-            this.label6.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(290, 335);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 19);
+            this.label6.Size = new System.Drawing.Size(53, 20);
             this.label6.TabIndex = 66;
             this.label6.Text = "Tema:";
             // 
@@ -136,11 +137,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Red;
-            this.label7.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(182, 376);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(164, 19);
+            this.label7.Size = new System.Drawing.Size(132, 20);
             this.label7.TabIndex = 64;
             this.label7.Text = "Valor do Produto:";
             // 
