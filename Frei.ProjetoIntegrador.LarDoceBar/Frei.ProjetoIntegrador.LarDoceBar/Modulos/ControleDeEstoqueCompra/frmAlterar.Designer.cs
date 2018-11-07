@@ -55,6 +55,7 @@
             this.txtProduto = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblId = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -351,6 +352,18 @@
             this.label1.TabIndex = 95;
             this.label1.Text = "Produto:";
             // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.BackColor = System.Drawing.Color.Red;
+            this.lblId.Font = new System.Drawing.Font("Stencil", 12F);
+            this.lblId.ForeColor = System.Drawing.Color.White;
+            this.lblId.Location = new System.Drawing.Point(483, 314);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 19);
+            this.lblId.TabIndex = 94;
+            this.lblId.Text = "0";
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -367,6 +380,7 @@
             this.Controls.Add(this.txtFornecedor);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtProduto);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
@@ -380,7 +394,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAlterar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lar Doce Bar LTDA";
+            this.Text = "7";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnUsuario.ResumeLayout(false);
@@ -420,5 +434,6 @@
         private System.Windows.Forms.TextBox txtProduto;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblId;
     }
 }

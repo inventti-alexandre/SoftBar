@@ -19,6 +19,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
         private Button button3;
         private PictureBox pictureBox9;
         private Label label29;
+        private PictureBox pictureBox4;
         private PictureBox pictureBox2;
 
         public menu()
@@ -41,10 +42,12 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox3
@@ -89,6 +92,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             this.button1.TabIndex = 103;
             this.button1.Text = "Sem Alcool";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -102,6 +106,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             this.button2.TabIndex = 104;
             this.button2.Text = "Drinks";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -115,6 +120,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             this.button3.TabIndex = 105;
             this.button3.Text = "Cervejas";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox9
             // 
@@ -139,11 +145,23 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             this.label29.TabIndex = 188;
             this.label29.Text = "Bebidas";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox4.TabIndex = 189;
+            this.pictureBox4.TabStop = false;
+            // 
             // menu
             // 
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(902, 468);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.button3);
@@ -159,6 +177,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,6 +186,30 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.Cardapio
         private void menu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Modulos.Cardapio.sem_alcool frm = new Modulos.Cardapio.sem_alcool();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Modulos.Cardapio.Drinks frm = new Modulos.Cardapio.Drinks();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Modulos.Cardapio.Bebidas frm = new Modulos.Cardapio.Bebidas();
+            Hide();
+            frm.ShowDialog();
+            Show();
         }
     }
 }

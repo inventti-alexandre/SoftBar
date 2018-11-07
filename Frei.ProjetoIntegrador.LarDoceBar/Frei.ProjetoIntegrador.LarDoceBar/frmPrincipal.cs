@@ -330,5 +330,22 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
             frm.ShowDialog();
             Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Modulos.Cardapio.Comidas frm = new Modulos.Cardapio.Comidas();
+            Hide();
+            frm.ShowDialog();
+            Show();
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Modulos.Cardapio.menu frm = new Modulos.Cardapio.menu();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
     }
 }
