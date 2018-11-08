@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Fornecedor
+namespace Frei.ProjetoIntegrador.Academia.DB.Fornecedor
 {
     class FornecedorBusiness
     {
@@ -29,7 +29,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.DB.Fornecedor
             FornecedorDatabase db = new FornecedorDatabase();
             return db.Consultar();
         }
-
+    
         public List<FornecedorDTO> ConsultarPorNome(string nome)
         {
             FornecedorDatabase db = new FornecedorDatabase();

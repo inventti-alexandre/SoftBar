@@ -1,4 +1,5 @@
-﻿using Frei.ProjetoIntegrador.Academia.DB.Usuario;
+﻿using Blibioteca.Developers.APIs.Clima;
+using Frei.ProjetoIntegrador.Academia.DB.Usuario;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,7 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
         public frmPrincipal()
         {
             InitializeComponent();
+            Clima();
             Permissoes();
         }
 
@@ -171,7 +173,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
 
         private void btnEventos_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Não há eventos disponiveis.", "Lar Doce Bar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Modulos.FluxoDeCaixa.frmConsultar frm = new Modulos.FluxoDeCaixa.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
         }
 
         private void cadastrarToolStripMenuItem7_Click(object sender, EventArgs e)
@@ -343,6 +348,63 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
         private void button7_Click(object sender, EventArgs e)
         {
             Modulos.Cardapio.menu frm = new Modulos.Cardapio.menu();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeProdutos.frmConsultar frm = new Modulos.ControleDeProdutos.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeVenda.frmConsultar frm = new Modulos.ControleDeVenda.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeEstoque.frmConsultar frm = new Modulos.ControleDeEstoque.frmConsultar();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void hora_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("hh:mm:ss");
+        }
+
+        private void tempo_Tick(object sender, EventArgs e)
+        {
+            Clima();
+        }
+
+        private void Clima()
+        {
+            ClimaModel clima = new ClimaModel();
+            TempoResponse tempo = clima.AdivisorTempo("São Paulo");
+            lblClima.Text = $"{tempo.name},  {tempo.state}     Umidade: {tempo.data.humidity}    {tempo.data.temperature.ToString()}°";
+        }
+
+        private void cadastrarToolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeCliente.frmNovo frm = new Modulos.ControleDeCliente.frmNovo();
+            Hide();
+            frm.ShowDialog();
+            Show();
+        }
+
+        private void novoToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Modulos.ControleDeCliente.frmConsultar frm = new Modulos.ControleDeCliente.frmConsultar();
             Hide();
             frm.ShowDialog();
             Show();

@@ -1,4 +1,7 @@
-﻿using Frei.ProjetoIntegrador.Academia.Validacoes;
+﻿using Blibioteca.Developers.Validacao.ER;
+using Frei.ProjetoIntegrador.Academia.Criptografia;
+using Frei.ProjetoIntegrador.Academia.Validacoes;
+using Frei.ProjetoIntegrador.LarDoceBar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,17 +26,30 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
             if (dto.ds_CEP == string.Empty)
                 throw new ArgumentException("CEP não pode estar vazio.");
 
-            exReg regex = new exReg();
-            regex.ValidarNome(dto.nm_Nome);
-            regex.ValidarEmail(dto.ds_Email);
-            regex.ValidarTelefoneCelular(dto.num_Celular);
-            regex.ValidarTelefoneFixo(dto.num_Telefone);
+            ValidarNumero regexNum = new ValidarNumero();
+            ValidarTexto regexTxt = new ValidarTexto();
+            regexTxt.ValidarEmail(dto.ds_Email);
+            regexTxt.ValidarNome(dto.nm_Nome);
+            regexNum.ValidarTelefoneFixo(dto.num_Telefone);
+            regexNum.ValidarTelefoneCelular(dto.num_Celular);
 
             CPF validar = new CPF();
             validar.ValidarCPF(dto.ds_CPF);
 
+            DESCripto cripto = new DESCripto();
+            dto.nm_Nome = cripto.Criptografar(Program.chave, dto.nm_Nome);
+            dto.ds_CPF = cripto.Criptografar(Program.chave, dto.ds_CPF);
+            dto.num_Celular = cripto.Criptografar(Program.chave, dto.num_Celular);
+            dto.num_Telefone = cripto.Criptografar(Program.chave, dto.num_Telefone);
+            dto.ds_Email = cripto.Criptografar(Program.chave, dto.ds_Email);
+
             ClientesDatabase db = new ClientesDatabase();
-            return db.CadastrarCliente(dto);
+            int idCliente = db.CadastrarCliente(dto);
+
+            if (idCliente == 0)
+                throw new ArgumentException("O cliente não foi cadastrado com sucesso!");
+
+            return idCliente;
         }
 
         public int AlterarCliente(ClientesDTO dto)
@@ -50,17 +66,22 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
             if (dto.ds_CEP == string.Empty)
                 throw new ArgumentException("CEP não pode estar vazio.");
 
-            if (dto.ds_Complemento == string.Empty)
-                throw new ArgumentException("Complemento não pode estar vazio.");
-
-            exReg regex = new exReg();
-            regex.ValidarNome(dto.nm_Nome);
-            regex.ValidarEmail(dto.ds_Email);
-            regex.ValidarTelefoneCelular(dto.num_Celular);
-            regex.ValidarTelefoneFixo(dto.num_Telefone);
+            ValidarNumero regexNum = new ValidarNumero();
+            ValidarTexto regexTxt = new ValidarTexto();
+            regexTxt.ValidarEmail(dto.ds_Email);
+            regexTxt.ValidarNome(dto.nm_Nome);
+            regexNum.ValidarTelefoneFixo(dto.num_Telefone);
+            regexNum.ValidarTelefoneCelular(dto.num_Celular);
 
             CPF validar = new CPF();
             validar.ValidarCPF(dto.ds_CPF);
+
+            DESCripto cripto = new DESCripto();
+            dto.nm_Nome = cripto.Criptografar(Program.chave, dto.nm_Nome);
+            dto.ds_CPF = cripto.Criptografar(Program.chave, dto.ds_CPF);
+            dto.num_Celular = cripto.Criptografar(Program.chave, dto.num_Celular);
+            dto.num_Telefone = cripto.Criptografar(Program.chave, dto.num_Telefone);
+            dto.ds_Email = cripto.Criptografar(Program.chave, dto.ds_Email);
 
             ClientesDatabase db = new ClientesDatabase();
             return db.AlterarCliente(dto);
@@ -75,13 +96,47 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
         public List<ClientesDTO> Consultar()
         {
             ClientesDatabase db = new ClientesDatabase();
-            return db.Consultar();
+            List<ClientesDTO> cliente = db.Consultar();
+
+            if (cliente.Count != 0)
+            {
+                List<ClientesDTO> cliDescripto = new List<ClientesDTO>();
+                DESCripto cripto = new DESCripto();
+                foreach (ClientesDTO cli in cliente)
+                {
+                    cli.nm_Nome = cripto.Descriptografar(Program.chave, cli.nm_Nome);
+                    cli.ds_CPF = cripto.Descriptografar(Program.chave, cli.ds_CPF);
+                    cli.num_Celular = cripto.Descriptografar(Program.chave, cli.num_Celular);
+                    cli.num_Telefone = cripto.Descriptografar(Program.chave, cli.num_Telefone);
+                    cli.ds_Email = cripto.Descriptografar(Program.chave, cli.ds_Email);
+
+                    cliDescripto.Add(cli);
+                }
+
+                return cliDescripto;
+            }
+            else
+                return cliente;
         }
 
         public ClientesDTO ConsultarPorId(int idCliente)
         {
             ClientesDatabase db = new ClientesDatabase();
-            return db.ConsultarPorId(idCliente);
+            ClientesDTO cliente = db.ConsultarPorId(idCliente);
+
+            if (cliente.id_Cliente != 0)
+            {
+                DESCripto cripto = new DESCripto();
+                cliente.nm_Nome = cripto.Descriptografar(Program.chave, cliente.nm_Nome);
+                cliente.ds_CPF = cripto.Descriptografar(Program.chave, cliente.ds_CPF);
+                cliente.num_Celular = cripto.Descriptografar(Program.chave, cliente.num_Celular);
+                cliente.num_Telefone = cripto.Descriptografar(Program.chave, cliente.num_Telefone);
+                cliente.ds_Email = cripto.Descriptografar(Program.chave, cliente.ds_Email);
+
+                return cliente;
+            }
+            else
+                return cliente;
         }
     }
 }

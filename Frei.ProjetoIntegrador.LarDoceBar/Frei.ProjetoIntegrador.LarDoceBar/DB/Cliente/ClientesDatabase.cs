@@ -1,10 +1,7 @@
-﻿using Frei.ProjetoIntegrador.LarDoceBar.DB.Base;
+﻿using Frei.ProjetoIntegrador.LarDoceBar;
+using Frei.ProjetoIntegrador.LarDoceBar.DB.Base;
 using MySql.Data.MySqlClient;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
 {
@@ -28,7 +25,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
             parms.Add(new MySqlParameter("num_Celular", dto.num_Celular));
             parms.Add(new MySqlParameter("ds_Email", dto.ds_Email));
             parms.Add(new MySqlParameter("dt_Cadastro", dto.dt_Cadastro));
-            parms.Add(new MySqlParameter("fk_Cliente_Filial", dto.fk_Cliente_Filial));
+            parms.Add(new MySqlParameter("fk_Cliente_Filial", Program.id_Filial));
 
             Database db = new Database();
             return db.ExecuteInsertScriptWithPk(script, parms);
@@ -47,8 +44,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
                                                 num_Telefone = @num_Telefone, 
                                                  num_Celular = @num_Celular, 
                                                     ds_Email = @ds_Email, 
-                                                 dt_Cadastro = @dt_Cadastro, 
-                                           fk_Cliente_Filial = @fk_Cliente_Filial
+                                                 dt_Cadastro = @dt_Cadastro
 
                                             WHERE id_Cliente = @id_Cliente";
 
@@ -66,7 +62,6 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
             parms.Add(new MySqlParameter("num_Celular", dto.num_Celular));
             parms.Add(new MySqlParameter("ds_Email", dto.ds_Email));
             parms.Add(new MySqlParameter("dt_Cadastro", dto.dt_Cadastro));
-            parms.Add(new MySqlParameter("fk_Cliente_Filial", dto.fk_Cliente_Filial));
 
             Database db = new Database();
             return db.ExecuteInsertScriptWithPk(script, parms);
@@ -102,7 +97,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
                 cliente.ds_Bairro = reader.GetString("ds_Bairro");
                 cliente.ds_UF = reader.GetString("ds_UF");
                 cliente.ds_Complemento = reader.GetString("ds_Complemento");
-                cliente.ds_Situacao = reader.GetString("ds_Situacao");
+                cliente.ds_Situacao = reader.GetBoolean("ds_Situacao");
                 cliente.num_Telefone = reader.GetString("num_Telefone");
                 cliente.num_Celular = reader.GetString("num_Celular");
                 cliente.ds_Email = reader.GetString("ds_Email");
@@ -135,7 +130,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
                 cliente.ds_Bairro = reader.GetString("ds_Bairro");
                 cliente.ds_UF = reader.GetString("ds_UF");
                 cliente.ds_Complemento = reader.GetString("ds_Complemento");
-                cliente.ds_Situacao = reader.GetString("ds_Situacao");
+                cliente.ds_Situacao = reader.GetBoolean("ds_Situacao");
                 cliente.num_Telefone = reader.GetString("num_Telefone");
                 cliente.num_Celular = reader.GetString("num_Celular");
                 cliente.ds_Email = reader.GetString("ds_Email");

@@ -16,7 +16,7 @@ namespace Frei.ProjetoIntegrador.Academia.DB.Clientes
         public string ds_Bairro { get; set; }
         public string ds_UF { get; set; }
         public string ds_Complemento { get; set; }
-        public string ds_Situacao { get; set; }
+        public bool ds_Situacao { get; set; }
         public string num_Telefone { get; set; }
         public string num_Celular { get; set; }
         public string ds_Email { get; set; }

@@ -20,6 +20,11 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
 
         private void btnLogar_Click(object sender, EventArgs e)
         {
+            Novo();
+        }
+               
+        public void Novo()
+        {
             try
             {
                 LoginBusiness business = new LoginBusiness();
@@ -46,6 +51,14 @@ namespace Frei.ProjetoIntegrador.LarDoceBar
             catch (Exception)
             {
                 MessageBox.Show("Ocorreu um erro não identificado.", "Black Fit LTDA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txtSenha_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                Novo();
             }
         }
     }

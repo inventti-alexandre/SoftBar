@@ -1,4 +1,5 @@
 ﻿using Frei.ProjetoIntegrador.Academia.DB.FolhaPgmt;
+using MySqlX.XDevAPI.Relational;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace Frei.ProjetoIntegrador.Academia.DB
             FolhaPgmtDatabase business = new FolhaPgmtDatabase();
             view_func_folha folha = business.ConsultarPorIdCalc(id);
 
-            decimal mes_valor = Mes_Valor(folha.vl_SalarioBruto, 31, folha.ds_DiasTrabalhados);
+            int dM = DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month);
+
+            decimal mes_valor = Mes_Valor(folha.vl_SalarioBruto, dM, folha.ds_DiasTrabalhados);
             decimal valor_trab_50 = Valor_Trab_50(folha.ds_HoraE50, Valor_Hora_50(Convert.ToDouble(Valor_Hora(folha.vl_SalarioBruto))));
             decimal valor_trab_100 = Valor_Trab_100(folha.ds_HoraE100, Valor_Hora_100(Convert.ToDouble(Valor_Hora(folha.vl_SalarioBruto))));
             decimal deducao_ir = Deducao_IR(folha.vl_SalarioBruto);
@@ -50,6 +53,11 @@ namespace Frei.ProjetoIntegrador.Academia.DB
             dto.vl_Proventos = totalDeProventos;
             dto.vl_VR = ValorVR(folha.vl_SalarioBruto);
             dto.vl_VT = ValorVT(folha.vl_SalarioBruto);
+            dto.vl_mesSalario = mes_valor;
+            dto.vl_DedIR = deducao_ir;
+            dto.vl_IR = ValorIR(folha.vl_SalarioBruto);
+            dto.vl_ValorIR = ValorFinar_IR(ValorIR(folha.vl_SalarioBruto), Deducao_IR(folha.vl_SalarioBruto));
+            dto.vl_ValorFGTS = ValorFGTS(folha.vl_SalarioBruto);
 
             return dto;
         }
