@@ -129,7 +129,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button5.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(0, 0);
             this.button5.Name = "button5";
@@ -154,7 +154,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.Location = new System.Drawing.Point(73, 143);
@@ -180,7 +180,7 @@
             // 
             this.btnEventos.BackColor = System.Drawing.Color.Red;
             this.btnEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEventos.Font = new System.Drawing.Font("Stencil", 12F);
+            this.btnEventos.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEventos.ForeColor = System.Drawing.Color.White;
             this.btnEventos.Location = new System.Drawing.Point(-1, 0);
             this.btnEventos.Name = "btnEventos";
@@ -205,7 +205,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button4.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(461, 143);
             this.button4.Name = "button4";
@@ -232,7 +232,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Red;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button7.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(375, 0);
             this.button7.Name = "button7";
@@ -246,7 +246,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Red;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button6.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button6.Location = new System.Drawing.Point(0, 0);
@@ -283,7 +283,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button3.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(670, 143);
             this.button3.Name = "button3";
@@ -297,7 +297,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Stencil", 12F);
+            this.button2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(266, 143);
             this.button2.Name = "button2";
@@ -338,7 +338,7 @@
             this.cadastrarToolStripMenuItem6,
             this.novoToolStripMenuItem2});
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
             // 
             // cadastrarToolStripMenuItem6
@@ -361,7 +361,7 @@
             this.cadastrarToolStripMenuItem7,
             this.consultarToolStripMenuItem8});
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             // 
             // cadastrarToolStripMenuItem7
@@ -384,7 +384,7 @@
             this.cadastarToolStripMenuItem,
             this.consultarToolStripMenuItem9});
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             // 
             // cadastarToolStripMenuItem
@@ -624,7 +624,7 @@
             // 
             // panelSub
             // 
-            this.panelSub.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelSub.BackColor = System.Drawing.Color.Red;
             this.panelSub.Controls.Add(this.lblClima);
             this.panelSub.Controls.Add(this.lblHora);
             this.panelSub.Controls.Add(this.lblBV);
@@ -636,30 +636,30 @@
             // lblClima
             // 
             this.lblClima.AutoSize = true;
-            this.lblClima.Font = new System.Drawing.Font("Oswald", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClima.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClima.Location = new System.Drawing.Point(679, 4);
             this.lblClima.Name = "lblClima";
-            this.lblClima.Size = new System.Drawing.Size(38, 20);
+            this.lblClima.Size = new System.Drawing.Size(42, 16);
             this.lblClima.TabIndex = 36;
             this.lblClima.Text = "Clima";
             // 
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Oswald", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.Location = new System.Drawing.Point(426, 4);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(57, 20);
+            this.lblHora.Size = new System.Drawing.Size(56, 16);
             this.lblHora.TabIndex = 36;
             this.lblHora.Text = "00:00:00";
             // 
             // lblBV
             // 
             this.lblBV.AutoSize = true;
-            this.lblBV.Font = new System.Drawing.Font("Oswald", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBV.Location = new System.Drawing.Point(9, 4);
             this.lblBV.Name = "lblBV";
-            this.lblBV.Size = new System.Drawing.Size(66, 20);
+            this.lblBV.Size = new System.Drawing.Size(75, 16);
             this.lblBV.TabIndex = 36;
             this.lblBV.Text = "Bem vindo,";
             // 

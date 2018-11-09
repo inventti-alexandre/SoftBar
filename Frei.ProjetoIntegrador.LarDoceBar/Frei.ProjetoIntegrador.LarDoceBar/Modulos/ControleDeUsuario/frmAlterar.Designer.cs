@@ -33,6 +33,7 @@
             this.rbnAtivo = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.pnPermissoes = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -120,11 +121,10 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.pnPermissoes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -181,7 +181,6 @@
             // 
             this.pnPermissoes.BackColor = System.Drawing.Color.Transparent;
             this.pnPermissoes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnPermissoes.Controls.Add(this.pictureBox3);
             this.pnPermissoes.Controls.Add(this.label16);
             this.pnPermissoes.Controls.Add(this.label21);
             this.pnPermissoes.Controls.Add(this.label14);
@@ -258,6 +257,17 @@
             this.pnPermissoes.Name = "pnPermissoes";
             this.pnPermissoes.Size = new System.Drawing.Size(692, 439);
             this.pnPermissoes.TabIndex = 88;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(16, 26);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
+            this.pictureBox3.TabIndex = 74;
+            this.pictureBox3.TabStop = false;
             // 
             // label16
             // 
@@ -1074,7 +1084,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(198, 190);
+            this.label1.Location = new System.Drawing.Point(184, 190);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 19);
             this.label1.TabIndex = 79;
@@ -1112,7 +1122,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(209, 227);
+            this.label2.Location = new System.Drawing.Point(201, 228);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 19);
             this.label2.TabIndex = 85;
@@ -1124,22 +1134,11 @@
             this.label22.BackColor = System.Drawing.Color.Red;
             this.label22.Font = new System.Drawing.Font("Stencil", 12F);
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(169, 262);
+            this.label22.Location = new System.Drawing.Point(156, 271);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(110, 19);
             this.label22.TabIndex = 84;
             this.label22.Text = "Nova Senha:";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.voltar;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(282, 201);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(127, 35);
-            this.pictureBox3.TabIndex = 74;
-            this.pictureBox3.TabStop = false;
             // 
             // frmAlterar
             // 
@@ -1149,6 +1148,7 @@
             this.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.juniper_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(848, 532);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pnPermissoes);
@@ -1176,8 +1176,8 @@
             this.panel1.PerformLayout();
             this.pnPermissoes.ResumeLayout(false);
             this.pnPermissoes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

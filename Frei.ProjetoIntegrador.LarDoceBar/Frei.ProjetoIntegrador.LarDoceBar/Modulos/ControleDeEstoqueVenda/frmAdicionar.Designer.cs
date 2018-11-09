@@ -234,7 +234,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(8, 96);
+            this.label3.Location = new System.Drawing.Point(4, 98);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(141, 19);
             this.label3.TabIndex = 0;
@@ -275,9 +275,9 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(25, 45);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(121, 19);
+            this.label10.Size = new System.Drawing.Size(116, 19);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Estoque Min.:";
+            this.label10.Text = "Estoque Min:";
             // 
             // label12
             // 
@@ -287,9 +287,9 @@
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(22, 18);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(124, 19);
+            this.label12.Size = new System.Drawing.Size(119, 19);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Estoque Max.:";
+            this.label12.Text = "Estoque Max:";
             // 
             // pictureBox2
             // 

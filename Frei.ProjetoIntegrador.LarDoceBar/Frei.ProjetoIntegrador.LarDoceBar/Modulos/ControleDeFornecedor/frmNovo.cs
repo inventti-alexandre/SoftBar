@@ -105,5 +105,10 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFornecedor
         {
 
         }
+
+        private void frmNovo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

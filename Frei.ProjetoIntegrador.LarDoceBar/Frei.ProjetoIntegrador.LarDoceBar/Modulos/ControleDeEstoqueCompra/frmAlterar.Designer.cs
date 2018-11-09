@@ -238,10 +238,10 @@
             // 
             // txtQntRetirada
             // 
-            this.txtQntRetirada.Location = new System.Drawing.Point(203, 430);
+            this.txtQntRetirada.Location = new System.Drawing.Point(196, 419);
             this.txtQntRetirada.MaxLength = 150;
             this.txtQntRetirada.Name = "txtQntRetirada";
-            this.txtQntRetirada.Size = new System.Drawing.Size(299, 20);
+            this.txtQntRetirada.Size = new System.Drawing.Size(303, 20);
             this.txtQntRetirada.TabIndex = 85;
             // 
             // label6
@@ -250,7 +250,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(5, 431);
+            this.label6.Location = new System.Drawing.Point(2, 420);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(192, 19);
             this.label6.TabIndex = 86;
@@ -271,7 +271,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(29, 397);
+            this.label4.Location = new System.Drawing.Point(29, 394);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(165, 19);
             this.label4.TabIndex = 88;
@@ -292,7 +292,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(40, 367);
+            this.label3.Location = new System.Drawing.Point(40, 368);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(154, 19);
             this.label3.TabIndex = 90;
@@ -313,7 +313,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(79, 338);
+            this.label2.Location = new System.Drawing.Point(81, 342);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 19);
             this.label2.TabIndex = 92;
@@ -346,7 +346,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(104, 314);
+            this.label1.Location = new System.Drawing.Point(108, 314);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 19);
             this.label1.TabIndex = 95;

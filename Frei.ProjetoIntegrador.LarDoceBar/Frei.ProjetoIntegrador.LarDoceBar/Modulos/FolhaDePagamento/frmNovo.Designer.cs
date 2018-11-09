@@ -112,7 +112,7 @@
             // 
             // txtSalarioBruto
             // 
-            this.txtSalarioBruto.Location = new System.Drawing.Point(115, 23);
+            this.txtSalarioBruto.Location = new System.Drawing.Point(154, 19);
             this.txtSalarioBruto.Name = "txtSalarioBruto";
             this.txtSalarioBruto.Size = new System.Drawing.Size(120, 20);
             this.txtSalarioBruto.TabIndex = 0;
@@ -190,11 +190,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Red;
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label8.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
+            this.label8.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(155, 145);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(186, 20);
+            this.label8.Size = new System.Drawing.Size(243, 19);
             this.label8.TabIndex = 0;
             this.label8.Text = "Horas Trabalhadas (100%) :";
             // 
@@ -226,7 +226,7 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(182, 27);
+            this.label6.Location = new System.Drawing.Point(155, 28);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 19);
             this.label6.TabIndex = 0;
@@ -248,7 +248,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(87, 73);
+            this.label1.Location = new System.Drawing.Point(72, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 19);
             this.label1.TabIndex = 0;
@@ -268,7 +268,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(87, 47);
+            this.label3.Location = new System.Drawing.Point(79, 49);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 19);
             this.label3.TabIndex = 0;
@@ -332,7 +332,7 @@
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(101, 23);
+            this.label4.Location = new System.Drawing.Point(94, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 19);
             this.label4.TabIndex = 0;

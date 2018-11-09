@@ -121,5 +121,11 @@ namespace Frei.ProjetoIntegrador.LarDoceBar.Modulos.ControleDeFuncionario
             else
                 e.Handled = true;
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

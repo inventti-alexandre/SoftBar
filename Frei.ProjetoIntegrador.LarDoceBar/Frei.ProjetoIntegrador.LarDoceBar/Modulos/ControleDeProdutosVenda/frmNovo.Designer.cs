@@ -64,7 +64,7 @@
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Location = new System.Drawing.Point(661, 476);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(88, 40);
+            this.btnCadastrar.Size = new System.Drawing.Size(113, 40);
             this.btnCadastrar.TabIndex = 64;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
@@ -97,7 +97,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(184, 390);
+            this.label4.Location = new System.Drawing.Point(148, 390);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 19);
             this.label4.TabIndex = 79;
@@ -109,7 +109,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(258, 352);
+            this.label3.Location = new System.Drawing.Point(239, 347);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 19);
             this.label3.TabIndex = 80;
@@ -128,7 +128,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(224, 301);
+            this.label2.Location = new System.Drawing.Point(206, 302);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 81;
@@ -147,7 +147,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(254, 251);
+            this.label1.Location = new System.Drawing.Point(246, 255);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 82;
@@ -159,7 +159,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(303, 192);
+            this.label7.Location = new System.Drawing.Point(332, 179);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(203, 19);
             this.label7.TabIndex = 88;

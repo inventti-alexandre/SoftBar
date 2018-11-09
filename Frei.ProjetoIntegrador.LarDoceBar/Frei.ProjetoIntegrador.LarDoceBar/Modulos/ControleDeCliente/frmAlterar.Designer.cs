@@ -94,7 +94,7 @@
             this.txtNome.Location = new System.Drawing.Point(152, 22);
             this.txtNome.MaxLength = 150;
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(307, 20);
+            this.txtNome.Size = new System.Drawing.Size(314, 20);
             this.txtNome.TabIndex = 0;
             // 
             // label1
@@ -103,7 +103,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(97, 19);
+            this.label1.Location = new System.Drawing.Point(89, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 0;
@@ -115,7 +115,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(111, 47);
+            this.label2.Location = new System.Drawing.Point(104, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 19);
             this.label2.TabIndex = 0;
@@ -132,7 +132,7 @@
             // 
             // txtNTelefone
             // 
-            this.txtNTelefone.Location = new System.Drawing.Point(350, 44);
+            this.txtNTelefone.Location = new System.Drawing.Point(350, 45);
             this.txtNTelefone.Mask = "(99) 9999-9999";
             this.txtNTelefone.Name = "txtNTelefone";
             this.txtNTelefone.Size = new System.Drawing.Size(109, 20);
@@ -145,7 +145,7 @@
             this.label21.BackColor = System.Drawing.Color.Red;
             this.label21.Font = new System.Drawing.Font("Stencil", 12F);
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(260, 41);
+            this.label21.Location = new System.Drawing.Point(229, 46);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(111, 19);
             this.label21.TabIndex = 0;
@@ -153,7 +153,7 @@
             // 
             // txtNCelular
             // 
-            this.txtNCelular.Location = new System.Drawing.Point(152, 44);
+            this.txtNCelular.Location = new System.Drawing.Point(121, 46);
             this.txtNCelular.Mask = "(99) 99999-9999";
             this.txtNCelular.Name = "txtNCelular";
             this.txtNCelular.Size = new System.Drawing.Size(102, 20);
@@ -162,7 +162,7 @@
             // 
             // txtUF
             // 
-            this.txtUF.Location = new System.Drawing.Point(370, 74);
+            this.txtUF.Location = new System.Drawing.Point(377, 74);
             this.txtUF.MaxLength = 2;
             this.txtUF.Name = "txtUF";
             this.txtUF.Size = new System.Drawing.Size(89, 20);
@@ -174,7 +174,7 @@
             this.label5.BackColor = System.Drawing.Color.Red;
             this.label5.Font = new System.Drawing.Font("Stencil", 12F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(204, 199);
+            this.label5.Location = new System.Drawing.Point(173, 205);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(134, 19);
             this.label5.TabIndex = 66;
@@ -208,9 +208,9 @@
             this.btnSearchCEP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchCEP.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnSearchCEP.ForeColor = System.Drawing.Color.White;
-            this.btnSearchCEP.Location = new System.Drawing.Point(258, 17);
+            this.btnSearchCEP.Location = new System.Drawing.Point(264, 22);
             this.btnSearchCEP.Name = "btnSearchCEP";
-            this.btnSearchCEP.Size = new System.Drawing.Size(73, 24);
+            this.btnSearchCEP.Size = new System.Drawing.Size(89, 24);
             this.btnSearchCEP.TabIndex = 6;
             this.btnSearchCEP.Text = "Buscar";
             this.btnSearchCEP.UseVisualStyleBackColor = false;
@@ -229,7 +229,7 @@
             this.txtComplemento.Location = new System.Drawing.Point(152, 100);
             this.txtComplemento.MaxLength = 150;
             this.txtComplemento.Name = "txtComplemento";
-            this.txtComplemento.Size = new System.Drawing.Size(307, 20);
+            this.txtComplemento.Size = new System.Drawing.Size(314, 20);
             this.txtComplemento.TabIndex = 10;
             // 
             // txtLogradouro
@@ -237,7 +237,7 @@
             this.txtLogradouro.Location = new System.Drawing.Point(152, 48);
             this.txtLogradouro.MaxLength = 200;
             this.txtLogradouro.Name = "txtLogradouro";
-            this.txtLogradouro.Size = new System.Drawing.Size(307, 20);
+            this.txtLogradouro.Size = new System.Drawing.Size(314, 20);
             this.txtLogradouro.TabIndex = 7;
             // 
             // label13
@@ -246,7 +246,7 @@
             this.label13.BackColor = System.Drawing.Color.Red;
             this.label13.Font = new System.Drawing.Font("Stencil", 12F);
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(337, 71);
+            this.label13.Location = new System.Drawing.Point(337, 74);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(34, 19);
             this.label13.TabIndex = 0;
@@ -258,7 +258,7 @@
             this.label12.BackColor = System.Drawing.Color.Red;
             this.label12.Font = new System.Drawing.Font("Stencil", 12F);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(94, 71);
+            this.label12.Location = new System.Drawing.Point(64, 74);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 19);
             this.label12.TabIndex = 0;
@@ -270,7 +270,7 @@
             this.label14.BackColor = System.Drawing.Color.Red;
             this.label14.Font = new System.Drawing.Font("Stencil", 12F);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(45, 97);
+            this.label14.Location = new System.Drawing.Point(10, 101);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(127, 19);
             this.label14.TabIndex = 0;
@@ -291,7 +291,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(60, 45);
+            this.label6.Location = new System.Drawing.Point(21, 47);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(116, 19);
             this.label6.TabIndex = 0;
@@ -303,7 +303,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(111, 21);
+            this.label7.Location = new System.Drawing.Point(95, 21);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 19);
             this.label7.TabIndex = 0;
@@ -387,7 +387,7 @@
             this.label19.BackColor = System.Drawing.Color.Red;
             this.label19.Font = new System.Drawing.Font("Stencil", 12F);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(69, 41);
+            this.label19.Location = new System.Drawing.Point(3, 45);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(103, 19);
             this.label19.TabIndex = 0;
@@ -420,9 +420,9 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(152, 18);
+            this.txtEmail.Location = new System.Drawing.Point(121, 15);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(307, 20);
+            this.txtEmail.Size = new System.Drawing.Size(338, 20);
             this.txtEmail.TabIndex = 12;
             // 
             // label18
@@ -431,7 +431,7 @@
             this.label18.BackColor = System.Drawing.Color.Red;
             this.label18.Font = new System.Drawing.Font("Stencil", 12F);
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(95, 15);
+            this.label18.Location = new System.Drawing.Point(41, 16);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(65, 19);
             this.label18.TabIndex = 0;
@@ -455,7 +455,7 @@
             this.label10.BackColor = System.Drawing.Color.Red;
             this.label10.Font = new System.Drawing.Font("Stencil", 12F);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(204, 306);
+            this.label10.Location = new System.Drawing.Point(196, 303);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(87, 19);
             this.label10.TabIndex = 64;

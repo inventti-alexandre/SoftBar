@@ -103,7 +103,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(61, 22);
+            this.label2.Location = new System.Drawing.Point(42, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 19);
             this.label2.TabIndex = 40;
@@ -150,7 +150,7 @@
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(70, 24);
+            this.label4.Location = new System.Drawing.Point(62, 26);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 19);
             this.label4.TabIndex = 40;
@@ -164,7 +164,7 @@
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Stencil", 12F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(33, 51);
+            this.label8.Location = new System.Drawing.Point(8, 55);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 19);
             this.label8.TabIndex = 40;
@@ -176,9 +176,9 @@
             this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAdicionar.ForeColor = System.Drawing.Color.White;
-            this.btnAdicionar.Location = new System.Drawing.Point(267, 54);
+            this.btnAdicionar.Location = new System.Drawing.Point(207, 50);
             this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(165, 28);
+            this.btnAdicionar.Size = new System.Drawing.Size(272, 28);
             this.btnAdicionar.TabIndex = 3;
             this.btnAdicionar.Text = "Adicionar ao Carrinho";
             this.btnAdicionar.UseVisualStyleBackColor = false;
@@ -261,7 +261,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(74, 51);
+            this.label3.Location = new System.Drawing.Point(29, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 19);
             this.label3.TabIndex = 43;
@@ -275,7 +275,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(132, 25);
+            this.label1.Location = new System.Drawing.Point(106, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 19);
             this.label1.TabIndex = 44;

@@ -241,7 +241,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(104, 47);
+            this.label2.Location = new System.Drawing.Point(79, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 19);
             this.label2.TabIndex = 0;
@@ -419,6 +419,7 @@
             this.Name = "frmNovo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lar Doce Bar LTDA";
+            this.Load += new System.EventHandler(this.frmNovo_Load);
             this.pnEndereco.ResumeLayout(false);
             this.pnEndereco.PerformLayout();
             this.pnDadosPessoais.ResumeLayout(false);

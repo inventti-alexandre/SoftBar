@@ -51,13 +51,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtSalarioBruto = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtMensagem = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnDadosPessoais.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -122,7 +122,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(101, 23);
+            this.label4.Location = new System.Drawing.Point(94, 25);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 19);
             this.label4.TabIndex = 0;
@@ -184,7 +184,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(87, 73);
+            this.label1.Location = new System.Drawing.Point(72, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 19);
             this.label1.TabIndex = 0;
@@ -203,7 +203,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(87, 47);
+            this.label3.Location = new System.Drawing.Point(79, 49);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 19);
             this.label3.TabIndex = 0;
@@ -272,7 +272,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(182, 27);
+            this.label6.Location = new System.Drawing.Point(155, 28);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 19);
             this.label6.TabIndex = 0;
@@ -315,22 +315,10 @@
             // 
             // txtSalarioBruto
             // 
-            this.txtSalarioBruto.Location = new System.Drawing.Point(115, 23);
+            this.txtSalarioBruto.Location = new System.Drawing.Point(145, 27);
             this.txtSalarioBruto.Name = "txtSalarioBruto";
             this.txtSalarioBruto.Size = new System.Drawing.Size(120, 20);
             this.txtSalarioBruto.TabIndex = 0;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Red;
-            this.label10.Font = new System.Drawing.Font("Stencil", 12F);
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(12, 20);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(136, 19);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Salário Bruto:";
             // 
             // panel1
             // 
@@ -402,6 +390,18 @@
             this.pictureBox3.TabIndex = 74;
             this.pictureBox3.TabStop = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Red;
+            this.label10.Font = new System.Drawing.Font("Stencil", 12F);
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(3, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(136, 19);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Salário Bruto:";
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -467,12 +467,12 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtSalarioBruto;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtMensagem;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label10;
     }
 }

@@ -126,6 +126,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
+            this.dgvClientes.GridColor = System.Drawing.Color.Black;
             this.dgvClientes.Location = new System.Drawing.Point(69, 223);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;

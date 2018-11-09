@@ -54,7 +54,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(315, 140);
+            this.label7.Location = new System.Drawing.Point(305, 140);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(171, 19);
             this.label7.TabIndex = 65;
@@ -155,7 +155,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(131, 30);
+            this.label1.Location = new System.Drawing.Point(96, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(157, 19);
             this.label1.TabIndex = 4;
@@ -169,7 +169,7 @@
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(481, 27);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 26);
+            this.btnBuscar.Size = new System.Drawing.Size(81, 26);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;

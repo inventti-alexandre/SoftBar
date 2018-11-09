@@ -70,7 +70,7 @@
             // 
             // txtFilial
             // 
-            this.txtFilial.Location = new System.Drawing.Point(530, 31);
+            this.txtFilial.Location = new System.Drawing.Point(551, 32);
             this.txtFilial.Name = "txtFilial";
             this.txtFilial.Size = new System.Drawing.Size(81, 20);
             this.txtFilial.TabIndex = 5;
@@ -82,7 +82,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(482, 28);
+            this.label3.Location = new System.Drawing.Point(482, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 19);
             this.label3.TabIndex = 4;
@@ -95,7 +95,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(280, 28);
+            this.label2.Location = new System.Drawing.Point(273, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 19);
             this.label2.TabIndex = 4;
@@ -112,7 +112,7 @@
             this.panel1.Controls.Add(this.btnBuscar);
             this.panel1.Location = new System.Drawing.Point(12, 172);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(699, 76);
+            this.panel1.Size = new System.Drawing.Size(787, 76);
             this.panel1.TabIndex = 45;
             // 
             // txtCPF
@@ -136,7 +136,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 28);
+            this.label1.Location = new System.Drawing.Point(-4, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 4;
@@ -148,9 +148,9 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(617, 28);
+            this.btnBuscar.Location = new System.Drawing.Point(673, 28);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 26);
+            this.btnBuscar.Size = new System.Drawing.Size(84, 26);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -174,7 +174,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(250, 122);
+            this.label7.Location = new System.Drawing.Point(292, 131);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(216, 19);
             this.label7.TabIndex = 43;
@@ -186,9 +186,9 @@
             this.btnRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(717, 294);
+            this.btnRemover.Location = new System.Drawing.Point(151, 564);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(78, 28);
+            this.btnRemover.Size = new System.Drawing.Size(99, 28);
             this.btnRemover.TabIndex = 40;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = false;
@@ -200,9 +200,9 @@
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
-            this.btnAlterar.Location = new System.Drawing.Point(717, 260);
+            this.btnAlterar.Location = new System.Drawing.Point(37, 564);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(78, 28);
+            this.btnAlterar.Size = new System.Drawing.Size(94, 28);
             this.btnAlterar.TabIndex = 41;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = false;
@@ -214,7 +214,7 @@
             this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.Location = new System.Drawing.Point(717, 519);
+            this.btnNovo.Location = new System.Drawing.Point(269, 564);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(78, 28);
             this.btnNovo.TabIndex = 42;
@@ -382,7 +382,7 @@
             this.Column17,
             this.Column18,
             this.Column19});
-            this.dgvFuncionario.Location = new System.Drawing.Point(12, 260);
+            this.dgvFuncionario.Location = new System.Drawing.Point(12, 254);
             this.dgvFuncionario.Name = "dgvFuncionario";
             this.dgvFuncionario.ReadOnly = true;
             this.dgvFuncionario.RowHeadersVisible = false;
@@ -390,7 +390,7 @@
             this.dgvFuncionario.RowTemplate.Height = 30;
             this.dgvFuncionario.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvFuncionario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFuncionario.Size = new System.Drawing.Size(699, 288);
+            this.dgvFuncionario.Size = new System.Drawing.Size(787, 288);
             this.dgvFuncionario.TabIndex = 39;
             // 
             // pictureBox3

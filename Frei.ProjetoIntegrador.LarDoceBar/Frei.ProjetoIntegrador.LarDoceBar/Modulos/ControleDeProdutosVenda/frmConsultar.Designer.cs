@@ -100,7 +100,7 @@
             this.btnRemover.BackColor = System.Drawing.Color.Red;
             this.btnRemover.Font = new System.Drawing.Font("Stencil", 12F);
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(276, 472);
+            this.btnRemover.Location = new System.Drawing.Point(285, 472);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(92, 35);
             this.btnRemover.TabIndex = 65;
@@ -115,9 +115,9 @@
             this.btnVisualisar.ForeColor = System.Drawing.Color.White;
             this.btnVisualisar.Location = new System.Drawing.Point(167, 472);
             this.btnVisualisar.Name = "btnVisualisar";
-            this.btnVisualisar.Size = new System.Drawing.Size(92, 35);
+            this.btnVisualisar.Size = new System.Drawing.Size(112, 35);
             this.btnVisualisar.TabIndex = 66;
-            this.btnVisualisar.Text = "Visualisar";
+            this.btnVisualisar.Text = "Visualizar";
             this.btnVisualisar.UseVisualStyleBackColor = false;
             this.btnVisualisar.Click += new System.EventHandler(this.btnVisualisar_Click);
             // 

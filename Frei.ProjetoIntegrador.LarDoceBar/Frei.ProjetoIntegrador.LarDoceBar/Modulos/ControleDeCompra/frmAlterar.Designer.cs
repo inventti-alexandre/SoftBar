@@ -57,7 +57,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(379, 216);
+            this.label11.Location = new System.Drawing.Point(388, 216);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(79, 19);
             this.label11.TabIndex = 67;
@@ -93,11 +93,11 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(146, 271);
+            this.label1.Location = new System.Drawing.Point(141, 268);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 19);
+            this.label1.Size = new System.Drawing.Size(227, 19);
             this.label1.TabIndex = 76;
-            this.label1.Text = "Data do Pedido de compra";
+            this.label1.Text = "Data do Pedido de compra:";
             // 
             // dtppedido
             // 

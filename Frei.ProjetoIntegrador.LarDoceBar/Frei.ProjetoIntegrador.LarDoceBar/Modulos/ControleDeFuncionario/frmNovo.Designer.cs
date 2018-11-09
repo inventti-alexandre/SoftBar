@@ -53,7 +53,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtNomeUsuario = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.pnContato = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -100,7 +99,7 @@
             // 
             // txtNTelefone
             // 
-            this.txtNTelefone.Location = new System.Drawing.Point(350, 44);
+            this.txtNTelefone.Location = new System.Drawing.Point(350, 48);
             this.txtNTelefone.Mask = "(99) 99999-9999";
             this.txtNTelefone.Name = "txtNTelefone";
             this.txtNTelefone.Size = new System.Drawing.Size(109, 20);
@@ -125,14 +124,14 @@
             // 
             // txtNRes
             // 
-            this.txtNRes.Location = new System.Drawing.Point(370, 100);
+            this.txtNRes.Location = new System.Drawing.Point(385, 97);
             this.txtNRes.Name = "txtNRes";
             this.txtNRes.Size = new System.Drawing.Size(89, 20);
             this.txtNRes.TabIndex = 11;
             // 
             // txtUF
             // 
-            this.txtUF.Location = new System.Drawing.Point(370, 74);
+            this.txtUF.Location = new System.Drawing.Point(385, 70);
             this.txtUF.Name = "txtUF";
             this.txtUF.Size = new System.Drawing.Size(89, 20);
             this.txtUF.TabIndex = 9;
@@ -159,9 +158,9 @@
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(307, 97);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(69, 19);
+            this.label15.Size = new System.Drawing.Size(64, 19);
             this.label15.TabIndex = 0;
-            this.label15.Text = "Nº Res.:";
+            this.label15.Text = "Nº Res:";
             // 
             // txtLogradouro
             // 
@@ -188,7 +187,7 @@
             this.label21.BackColor = System.Drawing.Color.Red;
             this.label21.Font = new System.Drawing.Font("Stencil", 12F);
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(260, 41);
+            this.label21.Location = new System.Drawing.Point(236, 47);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(111, 19);
             this.label21.TabIndex = 0;
@@ -196,7 +195,7 @@
             // 
             // txtNCelular
             // 
-            this.txtNCelular.Location = new System.Drawing.Point(152, 44);
+            this.txtNCelular.Location = new System.Drawing.Point(128, 46);
             this.txtNCelular.Mask = "(99) 99999-9999";
             this.txtNCelular.Name = "txtNCelular";
             this.txtNCelular.Size = new System.Drawing.Size(102, 20);
@@ -209,7 +208,7 @@
             this.label19.BackColor = System.Drawing.Color.Red;
             this.label19.Font = new System.Drawing.Font("Stencil", 12F);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(69, 41);
+            this.label19.Location = new System.Drawing.Point(3, 45);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(103, 19);
             this.label19.TabIndex = 0;
@@ -217,9 +216,9 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(152, 18);
+            this.txtEmail.Location = new System.Drawing.Point(128, 18);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(307, 20);
+            this.txtEmail.Size = new System.Drawing.Size(331, 20);
             this.txtEmail.TabIndex = 12;
             // 
             // label18
@@ -228,7 +227,7 @@
             this.label18.BackColor = System.Drawing.Color.Red;
             this.label18.Font = new System.Drawing.Font("Stencil", 12F);
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(95, 15);
+            this.label18.Location = new System.Drawing.Point(41, 19);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(65, 19);
             this.label18.TabIndex = 0;
@@ -270,7 +269,7 @@
             this.label23.BackColor = System.Drawing.Color.Red;
             this.label23.Font = new System.Drawing.Font("Stencil", 12F);
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(20, 19);
+            this.label23.Location = new System.Drawing.Point(-18, 19);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(158, 19);
             this.label23.TabIndex = 0;
@@ -315,11 +314,12 @@
             this.label9.BackColor = System.Drawing.Color.Red;
             this.label9.Font = new System.Drawing.Font("Stencil", 12F);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(93, 39);
+            this.label9.Location = new System.Drawing.Point(82, 43);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 19);
             this.label9.TabIndex = 0;
             this.label9.Text = "Senha:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // txtNomeUsuario
             // 
@@ -334,23 +334,11 @@
             this.label8.BackColor = System.Drawing.Color.Red;
             this.label8.Font = new System.Drawing.Font("Stencil", 12F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(24, 13);
+            this.label8.Location = new System.Drawing.Point(-5, 17);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(152, 19);
             this.label8.TabIndex = 0;
             this.label8.Text = "Nome de Usuario:";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic);
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(171, 703);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(89, 29);
-            this.label25.TabIndex = 41;
-            this.label25.Text = "Usuario";
             // 
             // pnContato
             // 
@@ -373,7 +361,7 @@
             this.label12.BackColor = System.Drawing.Color.Red;
             this.label12.Font = new System.Drawing.Font("Stencil", 12F);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(94, 71);
+            this.label12.Location = new System.Drawing.Point(67, 75);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 19);
             this.label12.TabIndex = 0;
@@ -392,7 +380,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(97, 19);
+            this.label1.Location = new System.Drawing.Point(78, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 0;
@@ -403,7 +391,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Frei.ProjetoIntegrador.LarDoceBar.Properties.Resources.lar_doce_bar10;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(293, -8);
+            this.pictureBox1.Location = new System.Drawing.Point(338, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -416,7 +404,7 @@
             this.label11.BackColor = System.Drawing.Color.Red;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(285, 99);
+            this.label11.Location = new System.Drawing.Point(351, 108);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(148, 19);
             this.label11.TabIndex = 49;
@@ -430,14 +418,14 @@
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Location = new System.Drawing.Point(366, 798);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(102, 32);
+            this.btnCadastrar.Size = new System.Drawing.Size(126, 32);
             this.btnCadastrar.TabIndex = 48;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // dtpNasc
             // 
-            this.dtpNasc.Location = new System.Drawing.Point(152, 74);
+            this.dtpNasc.Location = new System.Drawing.Point(143, 76);
             this.dtpNasc.Name = "dtpNasc";
             this.dtpNasc.Size = new System.Drawing.Size(307, 20);
             this.dtpNasc.TabIndex = 4;
@@ -448,7 +436,7 @@
             this.rbnF.BackColor = System.Drawing.Color.Red;
             this.rbnF.Font = new System.Drawing.Font("Stencil", 12F);
             this.rbnF.ForeColor = System.Drawing.Color.White;
-            this.rbnF.Location = new System.Drawing.Point(392, 51);
+            this.rbnF.Location = new System.Drawing.Point(463, 45);
             this.rbnF.Name = "rbnF";
             this.rbnF.Size = new System.Drawing.Size(102, 23);
             this.rbnF.TabIndex = 3;
@@ -461,7 +449,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(111, 47);
+            this.label2.Location = new System.Drawing.Point(95, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 19);
             this.label2.TabIndex = 0;
@@ -474,7 +462,7 @@
             this.rbnM.Checked = true;
             this.rbnM.Font = new System.Drawing.Font("Stencil", 12F);
             this.rbnM.ForeColor = System.Drawing.Color.White;
-            this.rbnM.Location = new System.Drawing.Point(313, 51);
+            this.rbnM.Location = new System.Drawing.Point(335, 45);
             this.rbnM.Name = "rbnM";
             this.rbnM.Size = new System.Drawing.Size(115, 23);
             this.rbnM.TabIndex = 2;
@@ -488,7 +476,7 @@
             this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(4, 74);
+            this.label4.Location = new System.Drawing.Point(-42, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(179, 19);
             this.label4.TabIndex = 0;
@@ -555,7 +543,7 @@
             this.label14.BackColor = System.Drawing.Color.Red;
             this.label14.Font = new System.Drawing.Font("Stencil", 12F);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(45, 97);
+            this.label14.Location = new System.Drawing.Point(13, 101);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(127, 19);
             this.label14.TabIndex = 0;
@@ -576,7 +564,7 @@
             this.label6.BackColor = System.Drawing.Color.Red;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(60, 45);
+            this.label6.Location = new System.Drawing.Point(24, 48);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(116, 19);
             this.label6.TabIndex = 0;
@@ -588,7 +576,7 @@
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(111, 21);
+            this.label7.Location = new System.Drawing.Point(98, 21);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 19);
             this.label7.TabIndex = 0;
@@ -609,7 +597,7 @@
             this.pnDadosPessoais.Controls.Add(this.label3);
             this.pnDadosPessoais.Location = new System.Drawing.Point(136, 180);
             this.pnDadosPessoais.Name = "pnDadosPessoais";
-            this.pnDadosPessoais.Size = new System.Drawing.Size(479, 118);
+            this.pnDadosPessoais.Size = new System.Drawing.Size(570, 118);
             this.pnDadosPessoais.TabIndex = 43;
             // 
             // label16
@@ -650,7 +638,6 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.pnUsuario);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label25);
             this.Controls.Add(this.pnContato);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
@@ -706,7 +693,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtNomeUsuario;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Panel pnContato;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtNome;
